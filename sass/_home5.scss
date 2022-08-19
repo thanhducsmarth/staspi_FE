@@ -1,0 +1,98 @@
+.home5 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: $font-back;
+    mix-blend-mode: normal;
+}
+
+.home5 .all-home5 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.home5 .all-home5 .left-home5 {
+    flex: 2;
+}
+
+.home5 .all-home5 .right-home5 {
+    flex: 1;
+}
+
+.home5 .left-home5 h3 {
+    font-family: $font-home5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 125%;
+    color: $white-contact;
+}
+
+.home5 .left-home5 p {
+    padding-top: 50px;
+    font-family: $font-text3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: $white-contact;
+    text-align: justify;
+}
+
+.home5 .right-home5 {
+    display: flex;
+    align-items: center;
+}
+
+.home5 .square-item {
+    width: 200px;
+    height: 160px;
+    border: 2px solid $white-contact;
+    border-radius: 20px;
+}
+
+.home5 .right-home5 .left-item .square-item {
+    margin: 20px 0;
+}
+
+.home5 .right-home5 .right-item .square-item {
+    margin: 20px 50px;
+}
+
+.home5 .right-home5 {
+    padding-left: 100px;
+}
+
+.home5 .square-item>p {
+    font-family: $font-text3;
+    font-style: normal;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    color: $white-contact;
+    opacity: 0.99;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.home5 .square-item>span {
+    font-family: $font-text3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: $white-contact;
+    margin-left: 40px;
+    opacity: 0.99;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

@@ -1,0 +1,72 @@
+.home7 {
+    width: 100%;
+    // height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/font-chibi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home7 .all-home7 {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.home7 .button-home7 .btn-home7 {
+    width: 216px;
+    height: 53px;
+    background: $font-home4;
+    border-radius: 10px;
+    border: none;
+}
+
+.home7 .button-home7 p{
+    font-family: $font-text2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $white-contact;
+}
+
+.home7 .all-home7 .title-home7 {
+    font-family: $font-text2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 96px;
+    color: $font-home5;
+}
+
+.home7 .all-home7 .back-home7{
+    width: 1140px;
+    height: 300px;
+    background: $white-contact;
+    box-shadow: 0px 4px 25px 3px rgba(201, 195, 195, 0.25);
+    border-radius: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align:left;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.home7 .back-home7 .content-home7 {
+    flex: 3;
+    background-color: antiquewhite;
+}
+
+.home7 .back-home7 .right-home7 {
+    flex: 1;
+}
+
+.home7 .right-home7 .oval {
+    width: 260px;
+    height: 224px;
+    background: #FC8833;
+    border-radius: 50%;
+}

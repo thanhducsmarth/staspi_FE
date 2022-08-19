@@ -1,0 +1,98 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: $primary;
+    position: relative;
+}
+.banner .banner-top {
+    background-color: $primary;
+    width: 100%;
+    height: 85%;
+}
+
+.banner .banner-bottom {
+    background-color: $font-bottom;
+    height: 15%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: inherit;
+    z-index: 99;
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    top: 35%;
+    z-index: 99;
+    padding-left: calc(calc(100% - 1200px)/2);
+}
+
+.banner .square {
+    position: absolute;
+    width: 47vh;
+    height: 47vh;
+    left: -140px;
+    top: 13.5%;
+    background: $square;
+    border-radius: 50%;
+    // border-top-right-radius: 50%;
+    // border-bottom-right-radius: 50%;
+}
+
+.banner .banner-content h1{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    color: $white-contact;
+}
+
+.banner .banner-content .button-banner{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background: $white-contact;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.banner .button-banner p{
+    margin-left: -50px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: $third;
+}
+
+.banner .button-banner .alo{
+    position: absolute;
+    font-size: 15px;
+    color: $third;
+    margin-left: 30px;
+    margin-top: -18px;
+}
+
+.banner .square-right{
+    position: absolute;
+    width: 125vh;
+    height: 85vh;
+    bottom: 0;
+    right: 0;
+    background: $square;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 50%;
+}
+
+.banner .img_banner{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    z-index: 999;
+}
+
+.banner .img_banner img{
+    width: 90%;
+}

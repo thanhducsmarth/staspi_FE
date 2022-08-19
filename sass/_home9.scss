@@ -1,0 +1,63 @@
+.home9 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: $primary;
+}
+
+.home9 .all-home9 {
+    width: 100%;
+    text-align: center;
+    padding-left: calc(calc(100% - 1000px)/2);
+    padding-right: calc(calc(100% - 1000px)/2);
+}
+
+.home9  .all-home9 .title-home9{
+    font-family: $font-text2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 120px;
+    color: $white-contact;
+}
+
+.home9 .center-input input {
+    margin-top: 30px;
+    width: 100%;
+    height: 65px;
+    padding: 10px;
+    background: $white-contact;
+    border: 1px solid $white-contact;
+    border-radius: 12px;
+}
+
+.home9 .center-input ::placeholder {
+    padding: 10px;
+    display: block;
+    font-family: $font-text4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: $font-input;
+}
+
+.home9 .button-home9 .btn-home9 {
+    width: 250px;
+    height: 60px;
+    margin-top: 50px;
+    background: $primary;
+    border: 3px solid $white-contact;
+    border-radius: 10px;
+}
+
+.home9 .button-home9 p{
+    font-family: $font-text5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: -0.065em;
+    color: $white-contact;
+}
+
