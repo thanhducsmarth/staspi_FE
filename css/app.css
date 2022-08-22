@@ -23,6 +23,11 @@
   left: 0;
   z-index: 99999;
 }
+@media (min-width: 20em) and (max-width: 48.0525em) {
+  .navbar .nav {
+    display: none;
+  }
+}
 
 .nav .nav-items li {
   display: inline-block;
@@ -58,6 +63,11 @@
   font-family: "Barlow Semi Condensed", sans-serif;
   cursor: pointer;
 }
+@media (max-width: 75.0625em) {
+  .navbar .btn-button {
+    display: none;
+  }
+}
 
 .navbar .btn-button p {
   font-style: normal;
@@ -71,6 +81,26 @@
 .navbar .btn-button p:hover {
   color: #151A3C;
   transition: 1s;
+}
+
+.navbar .nav-mobile {
+  display: none;
+}
+@media (max-width: 48.0625em) {
+  .navbar .nav-mobile {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    height: 100px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+  }
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 

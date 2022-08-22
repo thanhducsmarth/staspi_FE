@@ -1,3 +1,4 @@
+@import "./breakpoins";
 .logo {
     width: 15%;
     cursor: pointer;
@@ -16,6 +17,9 @@
     right: 0;
     left: 0;
     z-index: 99999;
+    @include media(">=mobile","<laptop"){
+        display: none;
+    }
 }
 
 .nav .nav-items li {
@@ -51,6 +55,9 @@
     border-radius: 20px;
     font-family: $font-text;
     cursor: pointer;
+    @include media("<=LGdesktop") { 
+        display: none;
+    }
 }
 
 .navbar .btn-button p{
@@ -66,6 +73,23 @@
     color: $second-primary;
     transition: 1s;
     
+}
+.navbar .nav-mobile {
+    display: none;
+    @include media("<=laptop"){
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        padding-left: calc(calc(100% - 1200px)/2);
+        padding-right: calc(calc(100% - 1200px)/2);
+        height: 100px;
+        align-items: center;
+        background-color:$navbar;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99999;
+    }
 }
 
 
