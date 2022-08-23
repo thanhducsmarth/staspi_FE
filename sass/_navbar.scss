@@ -1,6 +1,7 @@
 .logo {
     width: 15%;
     cursor: pointer;
+    transform: translateX(-10%);
 }
 
 .navbar .nav {
@@ -30,7 +31,7 @@
 .nav .nav-items li a {
     text-decoration: none;
     margin-left: 39px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 30px;
     color: $second-primary;
@@ -56,20 +57,15 @@
 .navbar .btn-button p{
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     color: $white-contact;
     font-family: $font-text;
-    margin-top: -4px;
 }
 
 .navbar .btn-button p:hover{
     color: $second-primary;
     transition: 1s;
-    
 }
-
-
-
 
 // @media  (max-width: 1200px) {
 //     .navbar .nav{

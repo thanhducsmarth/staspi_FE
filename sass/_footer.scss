@@ -1,0 +1,82 @@
+.footer {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer .all_footer{
+    width: 100%;
+    height: 100%;
+}
+
+.footer .all_footer .top {
+    width: 100%;
+    height: 80%;
+    background-color: $white-contact;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.footer .all_footer .bottom {
+    width: 100%;
+    height: 20%;
+    background-color: $font-home5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-img{
+    width: 70%;
+    transform: translateX(-10%);
+}
+
+.footer .first .content-img h5{
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.005em;
+    color: $font-home5;
+    padding-top: 50px;
+}
+
+.footer .footer-item h5 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.065em;
+    color: $font-home5;
+    padding-bottom: 60px;
+}
+
+.footer .footer-item p{
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.065em;
+    color: $font-home5;
+}
+
+.build  {
+    margin-bottom: 40px;
+}
+
+.footer .all_footer .bottom span {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 0.005em;
+    color: #FA7716;
+}

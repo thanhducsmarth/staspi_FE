@@ -40,10 +40,10 @@
 }
 
 .banner .banner-content h1{
-    font-family: 'Poppins' sans-serif;
+    font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     color: $white-contact;
 }
 
@@ -60,7 +60,7 @@
 
 .banner .button-banner p{
     margin-left: -50px;
-    font-family: 'Poppins';
+    font-family: $font-text;
     font-weight: 400;
     font-size: 16px;
     color: $third;
@@ -71,7 +71,7 @@
     font-size: 15px;
     color: $third;
     margin-left: 30px;
-    margin-top: -18px;
+    margin-top: -16px;
 }
 
 .banner .square-right{
