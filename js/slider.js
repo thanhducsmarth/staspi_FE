@@ -1,19 +1,35 @@
 var showed_box = 0;
 
-      function fNext() {
-        showed_box += -20;
+nextPartner = () => {
+    showed_box += -20;
 
-        if (showed_box < -80) showed_box = 0;
+    if (showed_box < -80) showed_box = 0;
 
-        document.getElementById("sld").style.transform =
-          "translateX(" + showed_box + "%)";
-      }
+    document.getElementById("sld-partner").style.transform =
+        "translateX(" + showed_box + "%)";
+};
 
-      function fPrevious() {
-        showed_box += 20;
+previousPartner = () => {
+    showed_box += 20;
 
-        if (showed_box > 0) showed_box = -80;
+    if (showed_box > 0) showed_box = -80;
 
-        document.getElementById("sld").style.transform =
-          "translateX(" + showed_box + "%)";
-      }
+    document.getElementById("sld-partner").style.transform =
+        "translateX(" + showed_box + "%)";
+};
+nextFeedback = () => {
+    showed_box += -25;
+
+    if (showed_box < -75) showed_box = 0;
+
+    document.getElementById("sld-feedback").style.transform =
+        "translateX(" + showed_box + "%)";
+};
+previousFeedBack = () => {
+    showed_box += 20;
+
+    if (showed_box > 0) showed_box = -80;
+
+    document.getElementById("sld-feedback").style.transform =
+        "translateX(" + showed_box + "%)";
+};

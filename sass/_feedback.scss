@@ -1,77 +1,33 @@
-.home7 {
+.feedback{
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    background: url(../images/font-chibi.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    background: #fff;
 }
-
-.home7 .all-home7 {
+.feedback h2{
+    font-family: $font-text;
     width: 100%;
+    height: 50px;
+    margin: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    // line-height: 23px;
+    color: $second-primary;
     text-align: center;
-    padding: 50px;
-    height: 100%;
-    box-sizing: border-box;
 }
-
-.home7 .button-home7 .btn-home7 {
-    margin-top: 10px;
-    width: 216px;
-    height: 53px;
-    background: $font-home4;
-    border-radius: 10px;
-    border: none;
-}
-
-.home7 .button-home7 p{
-    font-family: $font-text;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: $white-contact;
-}
-
-.home7 .all-home7 .title-home7 {
-    font-family: $font-text;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 96px;
-    color: $font-home5;
-}
-
-.home7 .all-home7 .back-home7{
-    width: 1140px;
-    height: 300px;
-    background: $white-contact;
-    box-shadow: 0px 4px 25px 3px rgba(201, 195, 195, 0.25);
-    border-radius: 53px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    text-align:left;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.home7 .button-home7 {
-    transform: translateY(-100%);
-}
-
-.home7 .title-home7 {
-    transform: translateY(-50%);
-}
-// SLIDERS
-.home7 .slider {
+.feedback-container {
+    text-align: center;
     width: 100%;
-    height: 65%;
-    padding-left: calc(calc(100% - 1040px)/2);
-    padding-right: calc(calc(100% - 1040px)/2);
+    height: 100%;
+}
+.feedback .slider {
+    width: 100%;
+    height: 600px;
+    padding-left: calc(calc(100% - 1240px)/2);
+    padding-right: calc(calc(100% - 1240px)/2);
     // position: relative;
     margin: 50px auto;
     display: flex;
@@ -79,27 +35,27 @@
     align-items: center;
   }
 
-.home7 .container-slider {
+.feedback .container-slider {
     margin: 20px 150px 5px ;
     border-radius: 25px;
-    height: 700px;
+    height: 100%;
     box-shadow: 0px 20px 50px 2px rgba(4, 4, 21, 0.25);
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 30px auto;
     position: relative;
     overflow: hidden;
   }
-.home7 .container-slider .slide {
-    width: 500%;
+.feedback .container-slider .slide {
+    width: 300%;
     height: 100%;
     position: absolute;
     transition: all 1s ease-in-out;
   }
 
-.home7 .container-slider .slide .item-slider {
+.feedback .container-slider .slide .item-slider {
     float: left;
-    width: 20%;
+    width: calc(100% / 6);
     height: 100%;
     display: flex;
     align-items: center;
@@ -108,7 +64,7 @@
     // box-shadow: 0px 10px 10px 2px rgba(15, 13, 13, 0.25);
     
   }
-.home7 .slider .nav {
+.feedback .slider .nav {
     // position: absolute;
     // top: 40%;
     width: 80px;
@@ -119,28 +75,28 @@
     transition: all 0.1s ease-in-out;
   }
 
-.home7 .slider:hover .nav {
+.feedback .slider:hover .nav {
     opacity: 1;
   }
 
-.home7 .slider .nav:hover {
+.feedback .slider .nav:hover {
     color: orangered;
   }
 
-.home7 .nxt {
+.feedback .nxt {
     margin-left: 30px;
   }
-.home7 .pre {
+.feedback .pre {
     margin-right:30px ;
   }
-.home7 .img-item-slider {
+.feedback .img-item-slider {
         display: flex;
         justify-content: space-around;
         align-items: center;
         width:40%;
         height: 100%;
     }
-.home7 .img-item-slider img {
+.feedback .img-item-slider img {
         display: block;
         width: 90%;
         height: auto;
@@ -150,7 +106,7 @@
         border-radius: 50%;
         
     }
-.home7 .content-slider-item {
+.feedback .content-slider-item {
         display:flex;
         width: 60%;
         height:100%;
@@ -158,7 +114,7 @@
         flex-direction: column;
         justify-content: center;
     }
- .home7 .content-slider-item h2{
+ .feedback .content-slider-item h2{
         font-family: $font-text;
         font-style: normal;
         font-weight: 700;
@@ -168,7 +124,7 @@
         color: $second-primary;
         text-align: justify;
     }
-.home7 .content-slider-item p {
+.feedback .content-slider-item p {
         padding-top: 50px;
         font-family: $font-text;
         font-style: normal;
