@@ -13,7 +13,7 @@
     padding-right: calc(calc(100% - 800px)/2);
 }
 
-.home9  .all-home9 .title-home9{
+.home9 .all-home9 .title-home9 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
@@ -54,7 +54,7 @@
     transition: 0.25s ease;
 }
 
-.home9 .form-field .form-input:focus + .form-label {
+.home9 .form-field .form-input:focus+.form-label {
     top: -10px;
     left: 11px;
     padding: 0 10px;
@@ -74,11 +74,11 @@
     opacity: 0.9;
 }
 
-.home9 .button-home9 .btn-home9:hover{
+.home9 .button-home9 .btn-home9:hover {
     opacity: 1;
 }
 
-.home9 .button-home9 p{
+.home9 .button-home9 p {
     font-family: $font-text;
     font-style: normal;
     font-weight: 500;
@@ -87,4 +87,3 @@
     letter-spacing: -0.065em;
     color: $white-contact;
 }
-

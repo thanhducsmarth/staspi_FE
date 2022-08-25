@@ -12,7 +12,7 @@
     padding-right: calc(calc(100% - 1200px)/2);
     height: 100px;
     align-items: center;
-    background-color:$navbar;
+    background-color: $navbar;
     top: 0;
     right: 0;
     left: 0;
@@ -40,11 +40,11 @@
     font-weight: 400;
 }
 
-.nav-items .nav_home{
-    color: $primary !important;
+.nav-items .nav_home {
+    color: $primary  !important;
 }
 
-.navbar .btn-button{
+.navbar .btn-button {
     width: 120px;
     height: 40px;
     border: none;
@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 
-.navbar .btn-button p{
+.navbar .btn-button p {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -62,7 +62,7 @@
     font-family: $font-text;
 }
 
-.navbar .btn-button p:hover{
+.navbar .btn-button p:hover {
     color: $second-primary;
     transition: 1s;
 }
@@ -73,4 +73,3 @@
 //         padding-right: calc(calc(100% - 960px)/2);
 //     }
 // }
-    

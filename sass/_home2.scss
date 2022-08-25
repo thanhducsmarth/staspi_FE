@@ -1,7 +1,7 @@
-.home2{
+.home2 {
     width: 100%;
     height: 100vh;
-    background-color:$font-bottom;
+    background-color: $font-bottom;
     position: relative;
 }
 
@@ -12,13 +12,13 @@
     justify-content: center;
 }
 
-.home2-all{
+.home2-all {
     text-align: center;
 }
 
 .home2-all .home2-button .btn-top-home2 {
     width: 180px;
-    height: 45px;   
+    height: 45px;
     background: $btn-home;
     border-radius: 10px;
     border: none;
@@ -31,7 +31,7 @@
     transition: all 1s ease;
 }
 
-.home2-button .btn-top-home2 p{
+.home2-button .btn-top-home2 p {
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
@@ -40,7 +40,7 @@
     color: $white-contact;
 }
 
-.home2-all .home2-content h3{
+.home2-all .home2-content h3 {
     font-family: $font-text;
     font-weight: 600;
     font-style: normal;
@@ -61,7 +61,7 @@
     flex-wrap: wrap;
 }
 
-.home2 .flexbox-item .flex-content{
+.home2 .flexbox-item .flex-content {
     margin: 20px 0;
     font-family: $font-text;
     font-style: normal;
@@ -70,13 +70,13 @@
     color: $font-done;
 }
 
-.home2 .flexbox-item .flex-item{
+.home2 .flexbox-item .flex-item {
     font-family: $font-text;
     font-weight: 300;
     font-size: 16px;
 }
 
-.home2 .flexbox-service .flexbox-item{
+.home2 .flexbox-service .flexbox-item {
     padding: 20px;
     flex: 25%;
 }
@@ -87,9 +87,9 @@
 }
 
 .fix2 img {
-    transform:  translateY(-6%) !important;
+    transform: translateY(-6%) !important;
 }
 
 .fix3 h5 {
-    transform:  translateY(-45%) !important;
+    transform: translateY(-45%) !important;
 }
