@@ -25,37 +25,44 @@
 }
 .feedback .slider {
     width: 100%;
-    height: 650px;
+    height: 550px;
+    padding-left: calc(calc(100% - 1300px)/2);
+    padding-right: calc(calc(100% - 1300px)/2);
     // position: relative;
-    margin: 50px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
 .feedback .container-slider {
-    margin: 20px 150px 5px ;
+    // margin: 20px 150px 5px ;
     // border-radius: 25px;
-    border: red 1px solid;
+    // border: red 1px solid;
     height: 100%;
     // box-shadow: 0px 20px 50px 2px rgba(4, 4, 21, 0.25);
     width: 100%;
     height: 100%;
-    margin: 30px auto;
+    padding-left: calc(calc(100% - 1300px)/2);
+    padding-right: calc(calc(100% - 1300px)/2);
+    // margin: 30px auto;
     position: relative;
     overflow: hidden;
   }
 .feedback .container-slider .slide {
     width: calc(300%);
+    width: 3000px;
     height: 100%;
     position: absolute;
     transition: all 1s ease-in-out;
+    display:flex;
+    // padding-left: calc(calc(100% - 1040px)/2);
+    // padding-right: calc(calc(100% - 1040px)/2);
   }
 
 .feedback .container-slider .slide .item-slider {
-    float: left;
     width: calc(calc(100% / 6) - 40px);
-    height: 95%;
+    width: 600px;
+    height: 80%;
     border-radius:25px ;
     background-color: #f3f0f0;
     display: flex;
@@ -81,7 +88,7 @@
   }
 .feedback .block_customer {
   display: flex;
-  border: blue 1px solid;
+  // border: blue 1px solid;
   width: 100%;
   height: 50%;
 }
@@ -90,10 +97,10 @@
   }
 
 .feedback .nxt {
-    margin-left: 30px;
+    margin: 0 30px;
   }
 .feedback .pre {
-    margin-right:30px ;
+  margin: 0 30px;
   }
 .feedback .img-item-slider {
         display: flex;
@@ -101,7 +108,8 @@
         align-items: center;
         width:40%;
         height: 100%;
-        border: red 1px solid;
+        padding :15px;
+        // border: red 1px solid;
     }
 .feedback .img-item-slider img {
         display: block;
@@ -114,7 +122,7 @@
 .feedback .block_customer .infomation {
   width: 60%;
   height: 100%;
-  border: green solid 1px;
+  // border: green solid 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,7 +130,7 @@
 .feedback .item-slider .comment {
   width: 100%;
   height: 50%;
-  border: black 1px solid;
+  // border: black 1px solid;
 }
 .feedback .infomation h2 {
     font-family: $font-text;
@@ -136,11 +144,26 @@
     margin-left: 20px;
 }
 .feedback .infomation p {
+  padding-top: 20px;
   font-family: $font-text;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   margin: 0;
   color: $second-primary;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
+}
+.feedback .comment p {
+        padding-top: 50px;
+        margin: 0 20px ;
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.005em;
+        color: $second-primary;
+        text-align: justify;
+        overflow: hidden;
 }

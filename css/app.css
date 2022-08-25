@@ -845,35 +845,37 @@ table {
 
 .feedback .slider {
   width: 100%;
-  height: 650px;
-  margin: 50px auto;
+  height: 550px;
+  padding-left: calc((100% - 1300px) / 2);
+  padding-right: calc((100% - 1300px) / 2);
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .feedback .container-slider {
-  margin: 20px 150px 5px;
-  border: red 1px solid;
   height: 100%;
   width: 100%;
   height: 100%;
-  margin: 30px auto;
+  padding-left: calc((100% - 1300px) / 2);
+  padding-right: calc((100% - 1300px) / 2);
   position: relative;
   overflow: hidden;
 }
 
 .feedback .container-slider .slide {
   width: 300%;
+  width: 3000px;
   height: 100%;
   position: absolute;
   transition: all 1s ease-in-out;
+  display: flex;
 }
 
 .feedback .container-slider .slide .item-slider {
-  float: left;
   width: calc(16.6666666667% - 40px);
-  height: 95%;
+  width: 600px;
+  height: 80%;
   border-radius: 25px;
   background-color: #f3f0f0;
   display: flex;
@@ -896,7 +898,6 @@ table {
 
 .feedback .block_customer {
   display: flex;
-  border: blue 1px solid;
   width: 100%;
   height: 50%;
 }
@@ -906,11 +907,11 @@ table {
 }
 
 .feedback .nxt {
-  margin-left: 30px;
+  margin: 0 30px;
 }
 
 .feedback .pre {
-  margin-right: 30px;
+  margin: 0 30px;
 }
 
 .feedback .img-item-slider {
@@ -919,7 +920,7 @@ table {
   align-items: center;
   width: 40%;
   height: 100%;
-  border: red 1px solid;
+  padding: 15px;
 }
 
 .feedback .img-item-slider img {
@@ -934,7 +935,6 @@ table {
 .feedback .block_customer .infomation {
   width: 60%;
   height: 100%;
-  border: green solid 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -943,7 +943,6 @@ table {
 .feedback .item-slider .comment {
   width: 100%;
   height: 50%;
-  border: black 1px solid;
 }
 
 .feedback .infomation h2 {
@@ -958,13 +957,29 @@ table {
 }
 
 .feedback .infomation p {
+  padding-top: 20px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   margin: 0;
   color: #151A3C;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.feedback .comment p {
+  padding-top: 50px;
+  margin: 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  color: #151A3C;
+  text-align: justify;
+  overflow: hidden;
 }
 
 .home9 {
