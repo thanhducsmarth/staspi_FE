@@ -56,6 +56,12 @@
     border: none;
     cursor: pointer;
     margin-top: 50px;
+    opacity: 0.9;
+}
+
+.banner .banner-content .button-banner:hover {
+    opacity: 1;
+    transition:all 0.5s ease;
 }
 
 .banner .button-banner p{
@@ -95,4 +101,52 @@
 
 .banner .img_banner img{
     width: 90%;
+}
+
+// transition
+
+.banner .banner-content {
+    animation: slideLeft 1.5s ease;
+}
+
+.banner .button-banner {
+    animation: slideCenter 1.5s ease;
+}
+
+.banner .img_banner img {
+    animation: slideRight 1.5s ease;
+}
+
+
+@keyframes slideCenter {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

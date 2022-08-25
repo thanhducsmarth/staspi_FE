@@ -1,0 +1,21 @@
+.home8 {
+    background-color: $white-contact;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home8 .all-home8 {
+    width: 100%;
+}
+
+.home8 .all-home8 .content-home8 {
+    text-align: center;
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 96px;
+    color: $font-home5;
+}

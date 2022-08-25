@@ -3,12 +3,12 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background: $font-back;
-    mix-blend-mode: normal;
+    position: relative;
 }
 
 .home5 .all-home5 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-left: calc(calc(100% - 1200px)/2);
@@ -105,6 +105,8 @@
 
 .home5 .all-home5-item .all-home5 {
     height: 80%;
+    background: $font-back;
+    mix-blend-mode: normal;
 }
 
 .home5 .all-home5-item .footer-items {

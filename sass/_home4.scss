@@ -34,6 +34,12 @@
     margin-right: auto;
     transform: translateY(-100%);
     cursor: pointer;
+    opacity: 0.9;
+}
+
+.home4 .all-home4 .btn-home4:hover {
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 
 .home4 .btn-home4 p {
@@ -45,6 +51,11 @@
     color: $white-contact;
 }
 
+.home4 .btn-home4 p:hover {
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
 .home4 .title-home4 h3 {
     font-family: $font-text;
     font-style: normal;
@@ -54,12 +65,8 @@
     color: $second-primary;
 }
 
-.home4 .all-home4 .top-home4 {
-    // transform: translateY(-70%);
-}
-
 .home4 .title-home4 p {
-    font-family: font;
+    font-family: $font-text;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
