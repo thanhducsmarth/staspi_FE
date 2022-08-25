@@ -1196,6 +1196,10 @@ table {
   padding-right: calc((100% - 450px) / 2);
 }
 
+.aboutus_2 .footer-items-about {
+  padding-top: 50px;
+}
+
 .aboutus_2 {
   width: 100%;
   display: flex;
@@ -1338,6 +1342,10 @@ table {
 
 .aboutus_2 .content-item {
   padding-right: calc((100% - 450px) / 2);
+}
+
+.aboutus_2 .footer-items-about {
+  padding-top: 50px;
 }
 
 @keyframes scroll {
@@ -1798,6 +1806,21 @@ table {
   .home6 .flex-item .bottom-item {
     width: 230px;
     height: 80px;
+  }
+  .home9 .button-home9 .btn-home9 {
+    width: 200px;
+    height: 50px;
+  }
+  .home9 .all-home9 .title-home9 {
+    font-size: 45px;
+    line-height: 120px;
+  }
+  .home9 .all-home9 .form-input {
+    height: 40px;
+  }
+  .home9 .all-home9 {
+    padding-left: calc((100% - 700px) / 2);
+    padding-right: calc((100% - 700px) / 2);
   }
   .aboutus .all_aboutus {
     padding-left: calc((100% - 1000px) / 2);
