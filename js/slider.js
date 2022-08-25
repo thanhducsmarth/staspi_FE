@@ -18,17 +18,16 @@ previousPartner = () => {
         "translateX(" + showed_box + "%)";
 };
 nextFeedback = () => {
-    showed_box += -25;
-
-    if (showed_box < -75) showed_box = 0;
+    showed_box += -33.333;
+    if (showed_box < -66.666) showed_box = 0;
 
     document.getElementById("sld-feedback").style.transform =
         "translateX(" + showed_box + "%)";
 };
 previousFeedBack = () => {
-    showed_box += 20;
+    showed_box += 33.333;
 
-    if (showed_box > 0) showed_box = -80;
+    if (showed_box > 0) showed_box = -66.666;
 
     document.getElementById("sld-feedback").style.transform =
         "translateX(" + showed_box + "%)";
