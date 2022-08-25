@@ -4,6 +4,7 @@
     background-color: $primary;
     position: relative;
 }
+
 .banner .banner-top {
     background-color: $primary;
     width: 100%;
@@ -39,7 +40,7 @@
     // border-bottom-right-radius: 50%;
 }
 
-.banner .banner-content h1{
+.banner .banner-content h1 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
@@ -47,7 +48,7 @@
     color: $white-contact;
 }
 
-.banner .banner-content .button-banner{
+.banner .banner-content .button-banner {
     position: absolute;
     width: 200px;
     height: 40px;
@@ -58,7 +59,7 @@
     margin-top: 50px;
 }
 
-.banner .button-banner p{
+.banner .button-banner p {
     margin-left: -50px;
     font-family: $font-text;
     font-weight: 400;
@@ -66,7 +67,7 @@
     color: $third;
 }
 
-.banner .button-banner .alo{
+.banner .button-banner .alo {
     position: absolute;
     font-size: 15px;
     color: $third;
@@ -74,7 +75,7 @@
     margin-top: -16px;
 }
 
-.banner .square-right{
+.banner .square-right {
     position: absolute;
     width: 125vh;
     height: 85vh;
@@ -86,13 +87,13 @@
     border-bottom-left-radius: 50%;
 }
 
-.banner .img_banner{
+.banner .img_banner {
     position: absolute;
     top: 20%;
     left: 50%;
     z-index: 999;
 }
 
-.banner .img_banner img{
+.banner .img_banner img {
     width: 90%;
 }

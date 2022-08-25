@@ -1,124 +1,135 @@
-.feedback{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #fff;
+.feedback {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
 }
-.feedback h2{
-    font-family: $font-text;
-    width: 100%;
-    height: 50px;
-    margin: 100px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 47px;
-    // line-height: 23px;
-    color: $second-primary;
-    text-align: center;
+
+.feedback h2 {
+  font-family: $font-text;
+  width: 100%;
+  height: 50px;
+  margin: 100px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  // line-height: 23px;
+  color: $second-primary;
+  text-align: center;
 }
+
 .feedback-container {
-    text-align: center;
-    width: 100%;
-    height: 100%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
+
 .feedback .slider {
-    width: 100%;
-    height: 550px;
-    padding-left: calc(calc(100% - 1300px)/2);
-    padding-right: calc(calc(100% - 1300px)/2);
-    // position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+  width: 100%;
+  height: 550px;
+  padding-left: calc(calc(100% - 1300px)/2);
+  padding-right: calc(calc(100% - 1300px)/2);
+  // position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .feedback .container-slider {
-    // margin: 20px 150px 5px ;
-    // border-radius: 25px;
-    // border: red 1px solid;
-    height: 100%;
-    // box-shadow: 0px 20px 50px 2px rgba(4, 4, 21, 0.25);
-    width: 100%;
-    height: 100%;
-    padding-left: calc(calc(100% - 1300px)/2);
-    padding-right: calc(calc(100% - 1300px)/2);
-    // margin: 30px auto;
-    position: relative;
-    overflow: hidden;
-  }
+  // margin: 20px 150px 5px ;
+  // border-radius: 25px;
+  // border: red 1px solid;
+  height: 100%;
+  // box-shadow: 0px 20px 50px 2px rgba(4, 4, 21, 0.25);
+  width: 100%;
+  height: 100%;
+  padding-left: calc(calc(100% - 1300px)/2);
+  padding-right: calc(calc(100% - 1300px)/2);
+  // margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+}
+
 .feedback .container-slider .slide {
-    width: calc(300%);
-    width: 3000px;
-    height: 100%;
-    position: absolute;
-    transition: all 1s ease-in-out;
-    display:flex;
-    // padding-left: calc(calc(100% - 1040px)/2);
-    // padding-right: calc(calc(100% - 1040px)/2);
-  }
+  width: calc(300%);
+  width: 3000px;
+  height: 100%;
+  position: absolute;
+  transition: all 1s ease-in-out;
+  display: flex;
+  // padding-left: calc(calc(100% - 1040px)/2);
+  // padding-right: calc(calc(100% - 1040px)/2);
+}
 
 .feedback .container-slider .slide .item-slider {
-    width: calc(calc(100% / 6) - 40px);
-    width: 600px;
-    height: 80%;
-    border-radius:25px ;
-    background-color: #f3f0f0;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    box-sizing: border-box;
-    // box-shadow: 0px 10px 10px 2px rgba(15, 13, 13, 0.25);
-    
-  }
+  width: calc(calc(100% / 6) - 40px);
+  width: 600px;
+  height: 80%;
+  border-radius: 25px;
+  background-color: #f3f0f0;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-sizing: border-box;
+  // box-shadow: 0px 10px 10px 2px rgba(15, 13, 13, 0.25);
+
+}
+
 .feedback .slider .nav {
-    // position: absolute;
-    // top: 40%;
-    width: 80px;
-    height: 80px;
-    // line-height: 60px;
-    font-size: 80px;
-    cursor: pointer;
-    transition: all 0.1s ease-in-out;
-  }
+  // position: absolute;
+  // top: 40%;
+  width: 80px;
+  height: 80px;
+  // line-height: 60px;
+  font-size: 80px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
 
 .feedback .slider:hover .nav {
-    opacity: 1;
-  }
+  opacity: 1;
+}
+
 .feedback .block_customer {
   display: flex;
   // border: blue 1px solid;
   width: 100%;
   height: 50%;
 }
+
 .feedback .slider .nav:hover {
-    color: orangered;
-  }
+  color: orangered;
+}
 
 .feedback .nxt {
-    margin: 0 30px;
-  }
+  margin: 0 30px;
+}
+
 .feedback .pre {
   margin: 0 30px;
-  }
+}
+
 .feedback .img-item-slider {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width:40%;
-        height: 100%;
-        padding :15px;
-        // border: red 1px solid;
-    }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  padding: 15px;
+  // border: red 1px solid;
+}
+
 .feedback .img-item-slider img {
-        display: block;
-        width: 70%;
-        height: auto;
-        object-fit: cover;
-        object-position: top;
-        border-radius: 50%;
-    }
+  display: block;
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+
 .feedback .block_customer .infomation {
   width: 60%;
   height: 100%;
@@ -127,22 +138,25 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .feedback .item-slider .comment {
   width: 100%;
   height: 50%;
   // border: black 1px solid;
 }
+
 .feedback .infomation h2 {
-    font-family: $font-text;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 47px;
-    margin: 0;
-    // line-height: 23px;
-    color: $second-primary;
-    text-align: left;
-    margin-left: 20px;
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  margin: 0;
+  // line-height: 23px;
+  color: $second-primary;
+  text-align: left;
+  margin-left: 20px;
 }
+
 .feedback .infomation p {
   padding-top: 20px;
   font-family: $font-text;
@@ -154,16 +168,17 @@
   text-align: left;
   margin-left: 20px;
 }
+
 .feedback .comment p {
-        padding-top: 50px;
-        margin: 0 20px ;
-        font-family: $font-text;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 30px;
-        letter-spacing: -0.005em;
-        color: $second-primary;
-        text-align: justify;
-        overflow: hidden;
+  padding-top: 50px;
+  margin: 0 20px;
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  color: $second-primary;
+  text-align: justify;
+  overflow: hidden;
 }

@@ -1,10 +1,10 @@
-.home3{
+.home3 {
     width: 100%;
     height: 100vh;
     background-color: $white-contact;
 }
 
-.home3 .home3-all{
+.home3 .home3-all {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,16 +13,16 @@
     padding-right: calc(calc(100% - 1200px)/2);
 }
 
-.home3 .home3-all .home3-left{
+.home3 .home3-all .home3-left {
     width: 40%;
 }
 
-.home3 .home3-all .home3-right{
+.home3 .home3-all .home3-right {
     width: 60%;
-    padding-left:50px;
+    padding-left: 50px;
 }
 
-.home3-all .home3-right img{
+.home3-all .home3-right img {
     width: 100%;
 }
 
@@ -45,12 +45,12 @@
 }
 
 .home3 .btn-home3 p {
-    font-family:$font-text;
+    font-family: $font-text;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: $white-contact;
-} 
+}
 
 .home3-left .content-home3 {
     font-family: $font-text;
@@ -66,7 +66,7 @@
     margin-top: 40px;
 }
 
-.home3-all .bottom-span span{
+.home3-all .bottom-span span {
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
@@ -76,9 +76,8 @@
     cursor: pointer;
 }
 
-.home3-all .bottom-span .contact{
+.home3-all .bottom-span .contact {
     font-size: 14px;
     color: $primary;
     cursor: pointer;
 }
-
