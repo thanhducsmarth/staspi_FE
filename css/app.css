@@ -786,11 +786,12 @@ table {
 }
 
 .home6 .flex-item .bottom-item {
-  width: 300px;
+  width: 280px;
   height: 100px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background: #FFFFFF;
+  cursor: pointer;
 }
 
 .flexbox-home6 .bottom-item h5 {
@@ -878,28 +879,6 @@ table {
 
 .home7 .title-home7 {
   transform: translateY(-50%);
-}
-
-.home8 {
-  background-color: #FFFFFF;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.home8 .all-home8 {
-  width: 100%;
-}
-
-.home8 .all-home8 .content-home8 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 47px;
-  line-height: 96px;
-  color: #202857;
 }
 
 .home7 .slider {
@@ -1014,6 +993,28 @@ table {
   letter-spacing: -0.005em;
   color: #151A3C;
   text-align: justify;
+}
+
+.home8 {
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.home8 .all-home8 {
+  width: 100%;
+}
+
+.home8 .all-home8 .content-home8 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 96px;
+  color: #202857;
 }
 
 .feedback {
