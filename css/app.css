@@ -2483,4 +2483,40 @@ table {
   padding: 10px;
 }
 
+.slide-cooperation-branch {
+  width: 100vw;
+  height: 20vh;
+}
+
+.slide-cooperation-branch .footer-items {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.banner_blog {
+  width: 100%;
+  height: 90vh;
+  background-color: #1E57EA;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_blog h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 23px;
+  letter-spacing: -0.005em;
+  color: #fff;
+}
+
+.topics {
+  width: 100%;
+  height: auto;
+  background-color: red;
+}
+
 /*# sourceMappingURL=app.css.map */
