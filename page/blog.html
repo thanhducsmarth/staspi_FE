@@ -50,9 +50,10 @@
         
         <!-- TOPICS -->
         <section class="topics">
+        <div class="topic-container">
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -71,6 +72,75 @@
                     <p class="content-item">content</p>
                 </div>
             </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <!-- <li class="page-item pre-page disable">
+                <a href="#" class="page-link ti-arrow-circle-left"><span src="./"></span></a>
+            </li>
+            <li class="page-item cur-page active">
+                <a href="#" class="page-link">cur</a>
+            </li>
+            <li class="page-item cur-page">
+                <a href="#" class="page-link">cur</a>
+            </li>
+            <li class="page-item dots">
+                <a href="#" class="page-link">...</a>
+            </li>
+            <li class="page-item cur-page">
+                <a href="#" class="page-link">cur</a>
+            </li>
+            <li class="page-item nxt-page ">
+                <a href="#" class="page-link ti-arrow-circle-right"></a>
+            </li> -->
+        </div>
         </section>
         <!-- SLIDE BLOG -->
         <section class="slide-cooperation-branch">
@@ -168,6 +238,71 @@
                     <span>Staspi © 2022 ABC</span>
                 </div>
             </div>
+            <script type="text/javascript" src="../js/pagination.js"></script>
+            <script type="text/javascript">
+                $(function () {
+    var numberOfItems = $(".topic-container .item-topic").length;
+    var limitPerPage = 3;
+    var totalPages = Math.ceil(numberOfItems / limitPerPage);
+    var paginationSize = 7;
+    var currentPage;
+
+    function showPage(whichPage) {
+        if (whichPage < 1 || whichPage > totalPages) return false;
+
+        currentPage = whichPage;
+
+        $(".topic-container .item-topic")
+            .hide()
+            .slider(
+                (currentPage - 1) * limitPerPage,
+                currentPage * limitPerPage
+            )
+            .show();
+        $("pagination li").slice(1, -1).remove();
+
+        getPageList(totalPages, currentPage, paginationSize).forEach((item) => {
+            $("<li>")
+                .addClass("page-item")
+                .addClass(item ? "cur-page" : "dots")
+                .toggleClass("active", item === currentPage)
+                .append(
+                    $("<a>")
+                        .addClass("page-link")
+                        .attr({
+                            href: "javascript:void(0)",
+                        })
+                        .text(item || "...")
+                )
+                .insertBefore(".nxt-page");
+        });
+
+        $(".pre-page").toggleClass("disable", currentPage === 1);
+        $(".nxt-page").toggleClass("disable", currentPage === totalPages);
+        return true;
+    }
+    $("pagination").append(
+        $("<li>")
+            .addClass("page-item")
+            .addClass("pre-page")
+            .append(
+                $("<a>")
+                    .addClass("page-link")
+                    .attr({ href: "javascript:void(0)" })
+                    .text("Prev")
+            ),
+        $("<li>")
+            .addClass("page-item")
+            .addClass("nxt-page")
+            .append(
+                $("<a>")
+                    .addClass("page-link")
+                    .attr({ href: "javascript:void(0)" })
+                    .text("Next")
+            )
+    );
+});
+            </script>
         </section>
     </body>
 </html>
