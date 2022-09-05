@@ -11,22 +11,16 @@
     padding-left: calc(calc(100% - 1200px)/2);
     padding-right: calc(calc(100% - 1200px)/2);
     height: 100px;
-    background-color:$navbar;
+    align-items: center;
+    background-color: $navbar;
     top: 0;
     right: 0;
     left: 0;
-    line-height: 100px;
-    align-items: center;
     z-index: 99999;
 }
 
-.auto-nav {
-    box-shadow: 0px 0px 2px 0px rgb(57, 57, 57);
-}
-
-.nav .nav-items>li {
+.nav .nav-items li {
     display: inline-block;
-    position: relative;
 }
 
 .nav .nav-items a:hover {
@@ -36,21 +30,21 @@
 
 .nav .nav-items li a {
     text-decoration: none;
-    padding: 0 15px;
+    margin-left: 39px;
     font-size: 22px;
     font-weight: 500;
+    line-height: 30px;
     color: $second-primary;
     font-family: $font-text;
     font-style: normal;
-    display: inline-block;
     font-weight: 400;
 }
 
-.nav-items .nav_home{
-    color: $primary !important;
+.nav-items .nav_home {
+    color: $primary  !important;
 }
 
-.navbar .btn-button{
+.navbar .btn-button {
     width: 120px;
     height: 40px;
     border: none;
@@ -60,7 +54,7 @@
     cursor: pointer;
 }
 
-.navbar .btn-button p{
+.navbar .btn-button p {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -68,25 +62,14 @@
     font-family: $font-text;
 }
 
-.navbar .btn-button p:hover{
+.navbar .btn-button p:hover {
     color: $second-primary;
     transition: 1s;
 }
 
-.navbar .nav .subnav {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    display: none;
-    width: 136px;
-    transform: translateX(-5%);
-    box-shadow: 0px 8px 13px 4px rgba(155, 155, 155, 0.25);
-}
-
-.subnav li{
-    line-height: 50px;
-}
-
-.nav li:hover .subnav {
-    display: block;
-    transition: 3s ease;
-}    
+// @media (max-width: 992px) {
+//     .navbar.nav{   
+//         padding-left: calc(calc(100% - 960px)/2);
+//         padding-right: calc(calc(100% - 960px)/2);
+//     }
+// }
