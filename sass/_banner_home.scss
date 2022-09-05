@@ -22,7 +22,7 @@
 
 .banner .banner-content {
     position: absolute;
-    top: 35%;
+    top: 41%;
     z-index: 99;
     padding-left: calc(calc(100% - 1200px)/2);
 }
@@ -100,7 +100,7 @@
 }
 
 .banner .img_banner img{
-    width: 90%;
+    width: 95%;
 }
 
 // transition
@@ -115,6 +115,18 @@
 
 .banner .img_banner img {
     animation: slideRight 1.5s ease;
+}
+
+.hiring1 .left-hiring1 .content-hiring {
+    animation: slideLeft 1.5s ease;
+}
+
+.hiring1 .right-hiring1 img {
+    animation: slideRight 1.5s ease;
+}
+
+.hiring1 .left-hiring1 .square-hiring {
+    animation: slideRight 1.5s ease;    
 }
 
 

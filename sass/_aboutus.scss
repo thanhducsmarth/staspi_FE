@@ -53,8 +53,13 @@
 
 .aboutus .right .img-about {
     width: 100%;
+    // float: right;
 }
 
 .aboutus .right .image-aboutus {
     padding: 50px;
+}
+
+.aboutus .content-aboutus b {
+    font-weight: 600;
 }

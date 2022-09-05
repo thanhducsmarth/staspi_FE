@@ -1,0 +1,112 @@
+.Service5-Items {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: $back-ground-Service5;
+}
+
+.Service5-Items .all-Service5-Items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.Service5-Items .all-Service5-Items .left-Service5-Items {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.Service5-Items .all-Service5-Items .right-Service5-Items {
+    flex: 1;
+}
+
+.Service5-Items .left-Service5-Items .oval-Service5 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: $home-air;
+}
+
+.Service5-Items .content-Service5 h5 {
+    font-family: $font-text;
+    color: $white-contact;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.Service5-Items .content-Service5 p {
+    padding-top: 30px;
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $white-contact;
+}
+
+.Service5-Items .form-Service5 {
+    margin-top: 30px;
+}
+
+.Service5-Items .form-Service5 .input-second {
+    display: block;
+    padding: 10px;
+    width: 99%;
+    background-color: $white-contact;
+    font-family:$font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    line-height: 29px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: $font-home5;
+}
+
+.Service5-Items .input-Service5 input {
+    padding: 10px;
+    width: 49%;
+    background-color: $white-contact;
+    font-family:$font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    border: none;
+    border-radius: 10px;
+    color: $font-home5;
+}
+
+.Service5-Items .all-form textarea {
+    border-radius: 10px;
+    background-color: $white-contact;
+    margin-top: 10px;
+    padding: 10px;
+    font-family:$font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+
+.Service5-Items .all-form button {
+    background: $white-contact;
+    border: 3px solid $white-contact;  
+    border-radius: 10px;
+    width: 20%;
+    padding: 15px;
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.065em;
+    color: $font-home5;
+    margin-top: 10px;
+    cursor: pointer;
+}

@@ -14,14 +14,18 @@
     width: 100%;
     text-align: center;
     padding: 50px;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .home7 .button-home7 .btn-home7 {
+    margin-top: 10px;
     width: 216px;
     height: 53px;
     background: $font-home4;
     border-radius: 10px;
     border: none;
+    transform: translateY(100%);
 }
 
 .home7 .button-home7 p{
@@ -40,6 +44,7 @@
     font-size: 55px;
     line-height: 96px;
     color: $font-home5;
+    transform: translateY(10%);
 }
 
 .home7 .all-home7 .back-home7{
@@ -64,15 +69,127 @@
     transform: translateY(-50%);
 }
 // SLIDERS
+.home7 .slider {
+    width: 100%;
+    height: 65%;
+    padding-left: calc(calc(100% - 1140px)/2);
+    padding-right: calc(calc(100% - 1140px)/2);
+    // position: relative;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
+.home7 .container-slider {
+    margin: 20px 150px 5px ;
+    border-radius: 25px;
+    height: 700px;
+    box-shadow: 0px 20px 50px 2px rgba(4, 4, 21, 0.25);
+    width: 90%;
+    height: 90%;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+  }
+.home7 .container-slider .slide {
+    width: 500%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease-in-out;
+  }
 
+.home7 .container-slider .slide .item-slider {
+    float: left;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: $white-contact;
+    // box-shadow: 0px 10px 10px 2px rgba(15, 13, 13, 0.25);
+    
+  }
+.home7 .slider .nav {
+    // position: absolute;
+    // top: 40%;
+    width: 80px;
+    height: 80px;
+    // line-height: 60px;
+    font-size: 60px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
 
+.home7 .slider:hover .nav {
+    opacity: 1;
+  }
 
+.home7 .slider .nav:hover {
+    color: orangered;
+  }
 
+.home7 .nxt {
+    margin-left: 30px;
+  }
+.home7 .pre {
+    margin-right:30px ;
+  }
+.home7 .img-item-slider {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:40%;
+        height: 100%;
+    }
+.home7 .img-item-slider img {
+        display: block;
+        width: 90%;
+        height: auto;
+        min-height: 30%;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50%;
+        
+    }
+.home7 .content-slider-item {
+        display:flex;
+        width: 60%;
+        height:100%;
+        padding: 50px;
+        flex-direction: column;
+        justify-content: center;
+    }
+ .home7 .content-slider-item h2{
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 23px;
+        letter-spacing: -0.005em;
+        color: $second-primary;
+        text-align: justify;
+    }
+.home7 .content-slider-item p {
+        padding-top: 50px;
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.005em;
+        color: $second-primary;
+        text-align: justify;
+}
 
+// HOME 7 FIX IN ABOUT US
 
+.home7 .all-home7-item {
+  width: 100%;
+  height: 100%;
+}
 
-
-
-
-
+.footer-items-home7 {
+  transform: translateY(-20%);
+  height: 18vh;
+}
