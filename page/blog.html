@@ -50,7 +50,8 @@
         
         <!-- TOPICS -->
         <section class="topics">
-        <div class="topic-container">
+        <div class="topic-container" style="display: none;">
+            <!-- item1 -->
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
                 <div onclick="location.href = '/page/contact.html' " class="overlay-item">
@@ -58,16 +59,10 @@
                     <p class="content-item">content</p>
                 </div>
             </div>
+            <!-- item2 -->
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
-                    <div class="title-item">title</div>
-                    <p class="content-item">content</p>
-                </div>
-            </div>
-            <div class="item-topic">
-                <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -75,7 +70,7 @@
 
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -83,7 +78,7 @@
 
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -91,7 +86,7 @@
 
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -99,7 +94,7 @@
 
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -107,7 +102,7 @@
 
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -115,7 +110,31 @@
 
             <div class="item-topic">
                 <img src="../images/image-footer.png" alt="image" class="image-item">
-                <div class="overlay-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
+                    <div class="title-item">title</div>
+                    <p class="content-item">content</p>
+                </div>
+            </div>
+
+            <div class="item-topic">
+                <img src="../images/image-footer.png" alt="image" class="image-item">
+                <div onclick="location.href = '/page/contact.html' " class="overlay-item">
                     <div class="title-item">title</div>
                     <p class="content-item">content</p>
                 </div>
@@ -238,9 +257,45 @@
                     <span>Staspi © 2022 ABC</span>
                 </div>
             </div>
-            <script type="text/javascript" src="../js/pagination.js"></script>
-            <script type="text/javascript">
-                $(function () {
+    <script type="text/javascript">
+
+    getPageList = (totalPages, page, maxLength) => {
+    range = (start, end) => {
+        return Array.from(Array(end - start + 1, (_, i) => i + start));
+    };
+
+    var sideWidth = maxLength < 9 ? 1 : 2;
+    var leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+    var rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+
+    if (totalPages <= maxLength) {
+        return range(1, totalPages);
+    }
+    if (page <= maxLength - sideWidth - 1 - rightWidth) {
+        return range(1, maxLength - sideWidth - 1).concat(
+            0,
+            range(totalPages - sideWidth + 1,totalPages)
+        );
+    }
+
+    if (page >= totalPages - sideWidth - 1 - rightWidth) {
+        return range(1, sideWidth).concat(
+            0,
+            range(
+                totalPages - sideWidth - 1 - rightWidth - leftWidth,
+                totalPages
+            )
+        );
+    }
+
+    return range(1, sideWidth).concat(
+        0,
+        range(page - leftWidth, page + rightWidth),
+        0,
+        range(totalPages - sideWidth + 1, totalPages)
+    );
+};
+$(function () {
     var numberOfItems = $(".topic-container .item-topic").length;
     var limitPerPage = 3;
     var totalPages = Math.ceil(numberOfItems / limitPerPage);
@@ -252,14 +307,14 @@
 
         currentPage = whichPage;
 
-        $(".topic-container .item-topic")
+        $(".topics .topic-container .item-topic")
             .hide()
-            .slider(
+            .slice(
                 (currentPage - 1) * limitPerPage,
                 currentPage * limitPerPage
             )
             .show();
-        $("pagination li").slice(1, -1).remove();
+        $(".topics .pagination li").slice(1, -1).remove();
 
         getPageList(totalPages, currentPage, paginationSize).forEach((item) => {
             $("<li>")
@@ -281,15 +336,16 @@
         $(".nxt-page").toggleClass("disable", currentPage === totalPages);
         return true;
     }
-    $("pagination").append(
+
+    $(".topics .pagination").append(
         $("<li>")
             .addClass("page-item")
             .addClass("pre-page")
             .append(
                 $("<a>")
                     .addClass("page-link")
+                    .addClass("ti-arrow-circle-left")
                     .attr({ href: "javascript:void(0)" })
-                    .text("Prev")
             ),
         $("<li>")
             .addClass("page-item")
@@ -297,12 +353,15 @@
             .append(
                 $("<a>")
                     .addClass("page-link")
+                    .addClass("ti-arrow-circle-right")
                     .attr({ href: "javascript:void(0)" })
-                    .text("Next")
             )
     );
+    $(".topic-container").show();
+    showPage(2)
 });
-            </script>
+
+</script>
         </section>
     </body>
 </html>

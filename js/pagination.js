@@ -13,8 +13,7 @@ getPageList = (totalPages, page, maxLength) => {
     if (page <= maxLength - sideWidth - 1 - rightWidth) {
         return range(1, maxLength - sideWidth - 1).concat(
             0,
-            range(totalPages - sideWidth + 1),
-            totalPages
+            range(totalPages - sideWidth + 1,totalPages)
         );
     }
 
@@ -47,14 +46,14 @@ $(function () {
 
         currentPage = whichPage;
 
-        $(".topic-container .item-topic")
+        $(".topics .topic-container .item-topic")
             .hide()
-            .slider(
+            .slice(
                 (currentPage - 1) * limitPerPage,
                 currentPage * limitPerPage
             )
             .show();
-        $("pagination li").slice(1, -1).remove();
+        $(".topics .pagination li").slice(1, -1).remove();
 
         getPageList(totalPages, currentPage, paginationSize).forEach((item) => {
             $("<li>")
@@ -76,7 +75,7 @@ $(function () {
         $(".nxt-page").toggleClass("disable", currentPage === totalPages);
         return true;
     }
-    $("pagination").append(
+    $(".topics .pagination").append(
         $("<li>")
             .addClass("page-item")
             .addClass("pre-page")
@@ -85,7 +84,6 @@ $(function () {
                     .addClass("page-link")
                     .addClass("ti-arrow-circle-left")
                     .attr({ href: "javascript:void(0)" })
-                    .text("Prev")
             ),
         $("<li>")
             .addClass("page-item")
@@ -93,8 +91,10 @@ $(function () {
             .append(
                 $("<a>")
                     .addClass("page-link")
+                    .addClass("ti-arrow-circle-right")
                     .attr({ href: "javascript:void(0)" })
-                    .text("Next")
             )
     );
+    $(".topic-container").show();
+    showPage(3)
 });
