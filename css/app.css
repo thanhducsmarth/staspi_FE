@@ -1440,6 +1440,7 @@ table {
   height: 100vh;
   background-color: #FFFFFF;
   position: relative;
+  margin-top: 50px;
 }
 
 .aboutus .all_aboutus {
@@ -3312,7 +3313,7 @@ table {
   .footer .footer-item p {
     font-weight: 400;
     font-size: 20px;
-    line-height: 21px;
+    line-height: 30px;
   }
   .aboutus .all_aboutus {
     padding-left: calc((100% - 1700px) / 2);
