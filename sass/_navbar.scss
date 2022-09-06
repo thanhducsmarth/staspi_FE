@@ -1,7 +1,10 @@
 .logo {
-    width: 15%;
+    width: 161px;
+    height: 41.86px;
     cursor: pointer;
     transform: translateX(-10%);
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   .navbar .nav {
@@ -16,7 +19,6 @@
     right: 0;
     left: 0;
     line-height: 100px;
-    align-items: center;
     z-index: 99999;
   }
   

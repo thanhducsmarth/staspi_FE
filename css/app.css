@@ -13,9 +13,12 @@ html {
 }
 
 .logo {
-  width: 15%;
+  width: 161px;
+  height: 41.86px;
   cursor: pointer;
   transform: translateX(-10%);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .navbar .nav {
@@ -30,7 +33,6 @@ html {
   right: 0;
   left: 0;
   line-height: 100px;
-  align-items: center;
   z-index: 99999;
 }
 
@@ -3683,7 +3685,7 @@ table {
     width: 100%;
   }
 }
-@media (max-width: 1249px) {
+@media (min-width: 830px) and (max-width: 1249px) {
   .navbar .nav {
     height: 70px;
     padding-left: calc((100% - 940px) / 2);
@@ -4436,6 +4438,11 @@ table {
   }
   #slider-span7:target ~ .image-slider {
     left: -129%;
+  }
+}
+@media (max-width: 829px) {
+  .nav .nav-items > li {
+    display: block;
   }
 }
 

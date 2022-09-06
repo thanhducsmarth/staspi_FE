@@ -785,7 +785,7 @@
     }
 }
 
-@media (max-width: 1249px){
+@media (min-width: 830px) and (max-width: 1249px){
     // NAVBAR
     .navbar .nav{
         height: 70px;
