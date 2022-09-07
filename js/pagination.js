@@ -9,7 +9,7 @@ const items = [
         image: ".././images/image-footer.png",
         title: "title1",
         content: "content",
-        link: "'/page/Blog.html'",
+        link: "'/page/page/blog1.html'",
     },
     {
         id: 2,
