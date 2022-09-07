@@ -2642,7 +2642,7 @@ table {
   color: #fff;
 }
 
-.pagination .pre-page a, .pagination .nxt-page a {
+.pagination .pre-page, .pagination .nxt-page {
   font-size: 70px;
   background-color: #fff;
   box-shadow: none;

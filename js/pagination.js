@@ -7,63 +7,63 @@ const items = [
     {
         id: 1,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title1",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 2,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title2",
         content: "content",
         link: "'/page/Contact.html'",
     },
     {
         id: 3,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title3",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 4,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title4",
         content: "content",
         link: "/page/Blog.htm",
     },
     {
         id: 5,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title5",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 6,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title6",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 7,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title7",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 8,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title8",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 9,
         image: ".././images/image-footer.png",
-        title: "title",
+        title: "title9",
         content: "content",
         link: "'/page/Blog.html'",
     },
@@ -117,7 +117,7 @@ let totalPages = Math.ceil(items.length / perPage);
 
 function initRender(items, totalPage) {
     renderTopic(items);
-    // renderListPage(totalPage);
+    renderListPage(totalPage);
 }
 
 initRender(items, totalPages);
@@ -126,8 +126,6 @@ function getCurrentPage(indexPage) {
     start = (indexPage - 1) * perPage;
     end = indexPage * perPage;
     totalPages = Math.ceil(items.length / perPage);
-    // countTotalPage.innerHTML = `Total pages: ${totalPages}`;
-    // countTotalProduct.innerHTML = `Total Topic:  ${items.length}`;
 }
 
 getCurrentPage(1);
@@ -159,29 +157,27 @@ function renderTopic(topic) {
             html += '<p class = "content-item">' + item.content + "</p>";
             html += "</div>";
             html += "</div>";
-            console.log("check html:", html);
-            console.log("check link :", item.link);
             return html;
         }
     });
     document.getElementById("topic").innerHTML = html;
 }
 
-// function renderListPage(totalPages) {
-//     let html = "";
-//     html += `<li class=" page-item cur-page active"><a>${1}</a></li>`;
-//     for (let i = 2; i <= totalPages; i++) {
-//         html += `<li class=" page-item cur-page><a>${i}</a></li>`;
-//     }
-//     if (totalPages === 0) {
-//         html = "";
-//     }
-//     document.getElementById("page-number").innerHTML = html;
-// }
+function renderListPage(totalPages) {
+    let html = "";
+    html += `<li class=" page-item cur-page active"><a class = "page-link">${1}</a></li>`;
+    for (let i = 2; i <= totalPages; i++) {
+        html += `<li class=" page-item cur-page"><a class = "page-link">${i}</a></li>`;
+    }
+    if (totalPages === 0) {
+        html = "";
+    }
+    document.getElementById("page-number").innerHTML = html;
+}
 
 function changePage() {
-    const idPages = document.querySelectorAll(".number-page li");
-    const a = document.querySelectorAll(".number-page li a");
+    const idPages = document.querySelectorAll(".page-number li");
+    const a = document.querySelectorAll(".page-number li a");
     for (let i = 0; i < idPages.length; i++) {
         idPages[i].onclick = function () {
             let value = i + 1;
@@ -202,14 +198,14 @@ function changePage() {
             }
             idPage = value;
             getCurrentPage(idPage);
-            renderProduct(productArr);
+            renderTopic(items);
         };
     }
 }
 
 changePage();
 
-$(".page-item .nxt-page").on("click", () => {
+$(".nxt-page").on("click", () => {
     idPage++;
     if (idPage > totalPages) {
         idPage = totalPages;
@@ -225,7 +221,7 @@ $(".page-item .nxt-page").on("click", () => {
     $(".page-number li").removeClass("active");
     $(`.page-number li:eq(${idPage - 1})`).addClass("active");
     getCurrentPage(idPage);
-    renderProduct(productArr);
+    renderTopic(items);
 });
 
 $(".pre-page").on("click", () => {
@@ -234,14 +230,14 @@ $(".pre-page").on("click", () => {
         idPage = 1;
     }
     if (idPage == 1) {
-        $(".pre-page").addClass("active");
+        $(".pre-page").addClass("disable");
     } else {
-        $(".pre-page").removeClass("active");
+        $(".pre-page").removeClass("disable");
     }
     const btnNext = document.querySelector(".nxt-page");
     btnNext.classList.remove("disable");
     $(".page-number li").removeClass("active");
     $(`.page-number li:eq(${idPage - 1})`).addClass("active");
     getCurrentPage(idPage);
-    renderProduct(productArr);
+    renderTopic(items);
 });
