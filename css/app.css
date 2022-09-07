@@ -13,8 +13,7 @@ html {
 }
 
 .logo {
-  width: 161px;
-  height: 41.86px;
+  width: 15%;
   cursor: pointer;
   transform: translateX(-10%);
   margin-top: auto;
@@ -105,6 +104,10 @@ html {
 .nav li:hover .subnav {
   display: block;
   transition: 3s ease;
+}
+
+.nav .search-btn-banner, .nav .mobile-menu-btn {
+  display: none;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -504,7 +507,6 @@ table {
 .home3 .home3-all {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
   height: 100%;
   padding-left: calc((100% - 1200px) / 2);
@@ -522,6 +524,7 @@ table {
 
 .home3-all .home3-right img {
   width: 100%;
+  display: block;
 }
 
 .home3-all .home3-left .title-home3 {
@@ -4441,8 +4444,161 @@ table {
   }
 }
 @media (max-width: 829px) {
+  .navbar .nav {
+    padding: 0 20px;
+    background-color: rgb(243, 243, 243);
+  }
   .nav .nav-items > li {
+    width: 100%;
+  }
+  .nav .nav-items li {
+    width: 100%;
+    margin-top: 1px;
+    background-color: rgb(231, 231, 231);
+  }
+  .nav .nav-items li a {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .nav .auto {
+    display: flex;
+  }
+  .logo {
+    width: 35%;
+  }
+  .nav .nav-items {
+    display: none;
+  }
+  .nav .search-btn-banner, .nav .mobile-menu-btn {
     display: block;
+  }
+  .nav .mobile-menu-btn .menu-items {
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #202857;
+    line-height: 100px;
+  }
+  .nav .search-btn-banner .search-icon {
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #202857;
+    line-height: 100px;
+    margin-right: 20px;
+  }
+  .navbar .btn-button {
+    width: 0px;
+    height: 0px;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar .btn-button p {
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 700;
+    color: #151A3C;
+  }
+  .banner .square-right {
+    width: 50vh;
+    height: 54vh;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 77%;
+    border-bottom-left-radius: 97%;
+  }
+  .banner .square {
+    width: 50vh;
+    height: 50vh;
+    top: 0%;
+  }
+  .banner .img_banner {
+    top: 48%;
+    left: 10%;
+  }
+  .banner .banner-content {
+    top: 20%;
+    padding-left: 20px;
+  }
+  .banner .img_banner img {
+    width: 100%;
+  }
+  .banner .banner-content h1 {
+    font-size: 40px;
+  }
+  .banner .banner-content .button-banner {
+    opacity: 1;
+  }
+  .home3 .home3-all {
+    display: inline;
+    text-align: center;
+  }
+  .home3-all .home3-left .title-home3 {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  .home3-left .content-home3 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 20px;
+  }
+  .home3 .home3-all .home3-right {
+    padding: 0px 50px 20px 50px;
+  }
+  .home3 .home3-all .bottom-span {
+    margin-top: 10px;
+  }
+  .home3 .home3-left .btn-home3 {
+    width: 133px;
+    height: 36px;
+  }
+  .home3 .btn-home3 p {
+    font-size: 16px;
+  }
+  .home3-all .bottom-span span {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .home3-all .bottom-span .contact {
+    font-weight: 700;
+  }
+  .home2-all .home2-button .btn-top-home2 {
+    width: 180px;
+    height: 45px;
+    background-color: #FA7716;
+    transform: translateY(0);
+  }
+  .home2-all .home2-content h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 20px;
+  }
+  .home2 .flexbox-service .flexbox-item {
+    background: #FFFFFF;
+    border: 1px solid #F8F7F7;
+    box-shadow: 0px 4px 4px rgba(187, 184, 184, 0.25);
+    border-radius: 23px;
+    margin: 5px;
+    min-height: 350px;
+  }
+  .home2 .flexbox-item .flex-content {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  .home2 .img_flex img {
+    width: 150px;
+    height: 150px;
+  }
+  .fix2 img {
+    transform: translateY(0) !important;
+  }
+  .fix3 h5 {
+    transform: translateY(0) !important;
+  }
+  .home2 .flexbox-service {
+    padding-top: 0px;
   }
 }
 

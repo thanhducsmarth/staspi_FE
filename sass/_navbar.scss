@@ -1,6 +1,5 @@
 .logo {
-    width: 161px;
-    height: 41.86px;
+    width: 15%;
     cursor: pointer;
     transform: translateX(-10%);
     margin-top: auto;
@@ -91,4 +90,8 @@
   .nav li:hover .subnav {
     display: block;
     transition: 3s ease;
+  }
+
+  .nav .search-btn-banner, .nav .mobile-menu-btn {
+    display: none;
   }

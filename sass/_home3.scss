@@ -7,7 +7,6 @@
 .home3 .home3-all{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
     height: 100%;
     padding-left: calc(calc(100% - 1200px)/2);
@@ -25,6 +24,7 @@
 
 .home3-all .home3-right img{
     width: 100%;
+    display: block;
 }
 
 .home3-all .home3-left .title-home3 {

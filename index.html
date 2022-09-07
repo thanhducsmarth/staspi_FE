@@ -18,9 +18,9 @@
     <div class="wrapper">
         <!-- NAVBAR -->
         <section class="navbar">
-            <div class="nav">
-                <img src="./images/LOGO STASPI.png" alt="" class="logo" />
-                <ul class="nav-items">
+            <div id="header" class="nav">
+                <img id="logo-staspi" src="./images/LOGO STASPI.png" alt="" class="logo" />
+                <ul class="nav-items" id="navs">
                     <li>
                         <a class="nav_home" href="./index.html">Home</a>
                     </li>
@@ -38,6 +38,15 @@
                     <li><a href="./html/Blog.html">Blog</a></li>
                     <li><a href="./html/Contact.html"><button class="btn-button"> <p> Contact</p></button></a></li>
                 </ul>
+                <div class="auto">
+                <div class="search-btn-banner">
+                    <i class="search-icon ti-search"></i>
+                </div>
+
+                <div id="mobile-menu" class="mobile-menu-btn">
+                    <i class="menu-items ti-menu"></i>
+                </div>
+            </div>
             </div>
         </section>
         <!-- BANNER HOME -->
@@ -624,6 +633,43 @@
             </div>
         </section>
     </div>
+
+
+    <script>
+        var header = document.getElementById('header');
+        var navs = document.getElementById('navs');
+        var logostaspi = document.getElementById('logo-staspi');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        var headerWidth = header.clientWidth;
+        var width = screen.width==headerWidth;
+        mobileMenu.onclick = function() {
+            var isClose = header.clientHeight === headerHeight;
+            if(width < 829 ) {
+                if(isClose) {
+                header.style.height = 'auto';
+                navs.style.display = 'inline';
+                logostaspi.style.display = 'none';
+            } else {
+                header.style.height = null;
+                navs.style.display = 'none';
+                logostaspi.style.display = 'inline';
+            }
+            // resetCss();
+            // return;
+            }
+        }
+        // resetCss = () => {
+        //     if (width > 829){
+        //         console.log("width > 829");
+        //         navs.removeAttribute('style');
+        //     }
+        //     else{
+        //         console.log("width < 829");
+        //     }
+        // }
+        // resetCss();
+    </script>
 </body>
 <script src="./JavaScript/index.js"></script>
 </html>
