@@ -29,6 +29,10 @@
     display: inline-block;
     position: relative;
   }
+
+  .nav .nav-items {
+    transform: translateX(10%);
+  }
   
   .nav .nav-items a:hover {
     color: #FA7716;
@@ -65,7 +69,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    color: #FFFFFF;
+    color: $white-contact;
     font-family: "Montserrat", sans-serif;
   }
   
