@@ -2759,9 +2759,14 @@ table {
   margin-left: 10%;
 }
 
+.component-post .main-post .main-post-container .interactive {
+  display: flex;
+  justify-content: space-between;
+}
+
 .component-post .main-post .main-post-container img {
   width: 90%;
-  height: 340px;
+  height: 450px;
   border-radius: 26px;
   margin: 0 5%;
 }
@@ -2827,10 +2832,151 @@ table {
 
 .component-post .highlight-post {
   flex: 40%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
-.component-post .infomation-post {
-  flex: 100%;
+.component-post .highlight-post h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.component-post .highlight-post .search-bar {
+  margin: 50px 0;
+  width: 80%;
+  height: 50px;
+}
+
+.component-post .highlight-post .search-bar form {
+  width: 100%;
+  height: 100%;
+}
+
+.component-post .highlight-post .search-bar input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background-color: #fff;
+  border: 4px solid #D1C9C9;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 45px;
+}
+
+.component-post .highlight-post .search-bar input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 45px;
+  color: #8F8F8F;
+}
+
+.component-post .highlight-post .search-bar button {
+  background-color: #F07E2A;
+  width: 20%;
+  height: 100%;
+  border-radius: 10px;
+  margin-left: -20px;
+  cursor: pointer;
+  border: none;
+}
+
+.component-post .highlight-post .highlight-post-container {
+  width: 100%;
+  padding-left: calc((100% - 800px) / 2);
+  padding-right: calc((100% - 800px) / 2);
+  height: auto;
+  margin-top: 30px;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  background: #FFFFFF;
+  border-bottom: 3px solid #E9E9E9;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post .item-left {
+  display: flex;
+  flex: 40%;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post .item-left img {
+  width: 250px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post .item-right {
+  display: flex;
+  flex: 60%;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post .item-right h2 {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 47px;
+  color: #202857;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post .item-right p {
+  margin-left: 10px;
+  font-weight: 150;
+  font-size: 23px;
+  color: #B8B8B8;
+}
+
+.component-post .highlight-post .categortires-container {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.component-post .highlight-post .categortires-container h2 {
+  margin: 40px 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151A3C;
+}
+
+.component-post .highlight-post .categortires-container .item-category {
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  border-bottom: 2px solid #E9E9E9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-post .highlight-post .categortires-container .item-category h6 {
+  font-weight: 450;
+  font-size: 38px;
+  color: #151A3C;
+  margin: 20px;
+}
+
+.component-post .highlight-post .categortires-container .item-category p {
+  font-weight: 400;
+  font-size: 38px;
+  color: #151A3C;
+  margin: 15px 0 15px;
 }
 
 /*# sourceMappingURL=app.css.map */
