@@ -2767,19 +2767,69 @@ table {
 }
 
 .component-post .main-post .main-post-container .info {
-  border: 1px solid red;
-  width: 80%;
+  width: auto;
   height: 50px;
-  margin: 0 10%;
+  margin: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-post .main-post .main-post-container .info .c-date {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.component-post .main-post .main-post-container .info .c-date span {
+  font-size: 32px;
+  color: #3E5AFE;
+}
+
+.component-post .main-post .main-post-container .info .c-date p {
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+.component-post .main-post .main-post-container .info .owner {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.component-post .main-post .main-post-container .info .owner span {
+  font-size: 32px;
+  color: #3E5AFE;
+}
+
+.component-post .main-post .main-post-container .info .owner p {
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+.component-post .main-post .main-post-container .info .sign {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.component-post .main-post .main-post-container .info .sign span {
+  font-size: 32px;
+  color: #3E5AFE;
+}
+
+.component-post .main-post .main-post-container .info .sign p {
+  font-size: 23px;
+  margin-left: 20px;
 }
 
 .component-post .highlight-post {
-  border: 1px solid rgb(0, 0, 0);
   flex: 40%;
 }
 
 .component-post .infomation-post {
-  border: 1px solid red;
   flex: 100%;
 }
 
