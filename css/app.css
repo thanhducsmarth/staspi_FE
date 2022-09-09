@@ -4557,8 +4557,7 @@ table {
     background-color: rgb(231, 231, 231);
   }
   .nav .nav-items li a {
-    width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
   }
   .nav .auto {
@@ -4569,8 +4568,20 @@ table {
   }
   .nav .nav-items {
     display: none;
-    line-height: 60px;
+    line-height: 55px;
     padding: 10px 0;
+  }
+  .navbar .nav .subnav {
+    position: relative;
+    transform: translateX(0%);
+    width: 100%;
+    background-color: rgb(186, 186, 186);
+  }
+  .subnav li {
+    line-height: 40px;
+  }
+  .nav .subnav li a {
+    font-size: 18px;
   }
   .nav .search-btn-banner, .nav .mobile-menu-btn {
     display: block;
@@ -4598,7 +4609,7 @@ table {
   }
   .navbar .btn-button p {
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #151A3C;
   }
@@ -4846,6 +4857,9 @@ table {
     width: auto;
     height: auto;
   }
+  .feedback {
+    display: none;
+  }
   .feedback .slider .nav {
     width: 30px;
     height: 30px;
@@ -4868,11 +4882,45 @@ table {
   .feedback .pre {
     margin: 0 10px;
   }
-  .home9 {
-    display: none;
+  .home9 .all-home9 .title-home9 h3 {
+    font-size: 40px;
+    line-height: 100px;
+  }
+  .home9 .all-home9 {
+    padding-left: calc((100% - 330px) / 2);
+    padding-right: calc((100% - 330px) / 2);
+  }
+  .home9 .all-home9 .form-input {
+    height: 40px;
+  }
+  .home9 .button-home9 .btn-home9 {
+    width: 100%;
+    height: 50px;
+    opacity: 0.9;
+  }
+  .home9 .button-home9 p {
+    font-size: 20px;
+  }
+  .home9 .left-top {
+    width: 30vh;
+    height: 20vh;
+  }
+  .home9 .right-top {
+    position: absolute;
+    width: 35vh;
+    height: 50vh;
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 200%;
+    border-bottom-right-radius: 3%;
   }
   .home10 {
     display: flex;
+  }
+}
+@media (min-width: 395px) and (max-width: 420px) {
+  .home2 .img_flex img {
+    width: 120px;
+    height: 120px;
   }
 }
 
