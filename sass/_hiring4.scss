@@ -1,0 +1,150 @@
+.hiring4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-hiring4;
+}
+
+.hiring4 .all-hiring4 {
+    width: 100%;
+}
+
+.hiring4 .all-hiring4>h3 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 96px;
+    color: $font-home5;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hiring4 .all-hiring4 .sub-form {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.hiring4 .sub-form button {
+    width: 10%;
+    background: $third;
+    border-radius: 20px;
+    border:  none;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.hiring4 .sub-form .name-search {
+    font-size: 30px;
+    color: $white-contact;
+}
+
+.hiring4 .all-hiring4 input {
+    padding: 20px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 60%;
+    background: $white-contact;
+    border: 4px solid $font-hiring4;
+}
+
+.hiring4 .all-hiring4 input::placeholder {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    color: $font-input-hiring4;
+}
+
+.hiring4 .all-hiring4 .all-form {
+    width: 100%;
+    padding-left: calc(calc(100% - 800px)/2);
+    padding-right: calc(calc(100% - 800px)/2);
+    margin-top: 50px;
+}
+
+.hiring4 .all-form .square-form {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background: $white-contact;
+    box-shadow: 0px 11px 12px 2px $color-square-hiring4;
+    border-radius: 42px;
+} 
+
+.hiring4 .square-form .left-square {
+    flex: 1;
+}
+
+.hiring4 .square-form .right-content {
+    flex: 1;
+}
+
+.hiring4 .left-square .squares {
+    background: $third;
+    border-radius: 11px;
+    width: 320px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.hiring4 .right-content .date {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: $color-text;
+}
+
+.hiring4 .right-content h5 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: $font-black;
+}
+
+.hiring4 .right-content span {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    color: $color-items;
+}
+
+.hiring4 .all-hiring4 .footer-slide-items {
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    background-color: $primary;
+}
+
+.hiring4 .footer-slide-items .all-footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.hiring4 .all-hiring4 .footer-slide-items img {
+    // margin: 20px;
+    width: 250px;
+}
+
+.fix-content {
+    margin-top: 22px;
+}

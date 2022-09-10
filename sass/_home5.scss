@@ -52,29 +52,27 @@
 .home5 .square-item {
     width: 200px;
     height: 160px;
+    padding: 20px;
     border: 2px solid $white-contact;
     border-radius: 20px;
 }
 
-.home5 .right-home5 .left-item .square-item {
-    margin: 20px 0;
+.home5 .right-home5 .square-item {
+    margin: 20px 10px;
 }
 
-.home5 .right-home5 .right-item .square-item {
-    margin: 20px 50px;
-}
 
 .home5 .right-home5 {
     padding-left: 100px;
 }
 
-.home5 .square-item>p {
+.home5 .square-item>h5 {
     font-family: $font-text;
     font-style: normal;
-    margin-top: 50px;
-    font-weight: 700;
+    margin-top: 15px;
+    font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 150%;
     text-align: center;
     color: $white-contact;
     opacity: 0.99;
@@ -83,15 +81,14 @@
     flex-grow: 0;
 }
 
-.home5 .square-item>span {
+.home5 .square-item>p {
     font-family: $font-text;
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 130%;
     text-align: center;
     color: $white-contact;
-    margin-left: 40px;
     opacity: 0.99;
     flex: none;
     order: 0;

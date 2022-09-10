@@ -1,0 +1,83 @@
+.hiring1 {
+    width: 100%;
+    height:100vh;
+    position: relative;
+    margin-top: 50px;
+}
+
+.hiring1 .all-hiring1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.hiring1 .all-hiring1 .left-hiring1 {
+    flex: 1;
+}
+
+.hiring1 .all-hiring1 .right-hiring1 {
+    flex: 1;
+}
+
+.hiring1 .left-hiring1 .content-hiring .space{
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 135px;
+    letter-spacing: -0.02em;
+    color: $font-hiring;
+}
+
+.hiring1 .left-hiring1 .content-hiring .space1{
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 135px;
+    letter-spacing: -0.02em;
+    color: $font-space1;
+    margin-left: 20px;
+}
+
+.hiring1 .all-hiring1 .left-hiring1 {
+    display: flex;
+}
+
+.hiring1 .content-hiring .display {
+    display: flex;
+}
+
+.hiring1 .square-hiring .oval-yelow {
+    width: 90px;
+    height: 90px;
+    background: $font-hiring;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-100%);
+}
+
+.hiring1 .square-hiring .oval-blue {
+    width: 20px;
+    height: 20px;
+    background: $font-space1;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.hiring1 .left-hiring1 .content-hiring h1{
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 150px;
+    letter-spacing: -0.01em;
+    color: $font-space1;
+}
+
+.hiring1 .all-hiring1 .right-hiring1 img{
+    width: 100%;
+}

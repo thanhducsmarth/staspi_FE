@@ -3,6 +3,7 @@
     height: 100vh;
     background-color: $white-contact;
     position: relative;
+    margin-top: 50px;
 }
 
 .aboutus .all_aboutus {
@@ -53,8 +54,13 @@
 
 .aboutus .right .img-about {
     width: 100%;
+    // float: right;
 }
 
 .aboutus .right .image-aboutus {
     padding: 50px;
+}
+
+.aboutus .content-aboutus b {
+    font-weight: 600;
 }

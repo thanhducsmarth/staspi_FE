@@ -4,7 +4,6 @@
     background-color: $primary;
     position: relative;
 }
-
 .banner .banner-top {
     background-color: $primary;
     width: 100%;
@@ -23,7 +22,7 @@
 
 .banner .banner-content {
     position: absolute;
-    top: 35%;
+    top: 41%;
     z-index: 99;
     padding-left: calc(calc(100% - 1200px)/2);
 }
@@ -40,7 +39,7 @@
     // border-bottom-right-radius: 50%;
 }
 
-.banner .banner-content h1 {
+.banner .banner-content h1{
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
@@ -48,7 +47,7 @@
     color: $white-contact;
 }
 
-.banner .banner-content .button-banner {
+.banner .banner-content .button-banner{
     position: absolute;
     width: 200px;
     height: 40px;
@@ -62,10 +61,10 @@
 
 .banner .banner-content .button-banner:hover {
     opacity: 1;
-    transition: all 0.5s ease;
+    transition:all 0.5s ease;
 }
 
-.banner .button-banner p {
+.banner .button-banner p{
     margin-left: -50px;
     font-family: $font-text;
     font-weight: 400;
@@ -73,7 +72,7 @@
     color: $third;
 }
 
-.banner .button-banner .alo {
+.banner .button-banner .alo{
     position: absolute;
     font-size: 15px;
     color: $third;
@@ -81,7 +80,7 @@
     margin-top: -16px;
 }
 
-.banner .square-right {
+.banner .square-right{
     position: absolute;
     width: 125vh;
     height: 85vh;
@@ -93,15 +92,15 @@
     border-bottom-left-radius: 50%;
 }
 
-.banner .img_banner {
+.banner .img_banner{
     position: absolute;
     top: 20%;
     left: 50%;
     z-index: 999;
 }
 
-.banner .img_banner img {
-    width: 90%;
+.banner .img_banner img{
+    width: 95%;
 }
 
 // transition
@@ -118,13 +117,24 @@
     animation: slideRight 1.5s ease;
 }
 
+.hiring1 .left-hiring1 .content-hiring {
+    animation: slideLeft 1.5s ease;
+}
+
+.hiring1 .right-hiring1 img {
+    animation: slideRight 1.5s ease;
+}
+
+.hiring1 .left-hiring1 .square-hiring {
+    animation: slideRight 1.5s ease;    
+}
+
 
 @keyframes slideCenter {
     0% {
         transform: translateX(-100%);
         opacity: 0;
     }
-
     100% {
         transform: translateX(0);
         opacity: 1;
@@ -136,7 +146,6 @@
         transform: translateX(-100%);
         opacity: 0;
     }
-
     100% {
         transform: translateX(0);
         opacity: 1;
@@ -148,7 +157,6 @@
         transform: translateY(-100%);
         opacity: 0;
     }
-
     100% {
         transform: translateY(0);
         opacity: 1;

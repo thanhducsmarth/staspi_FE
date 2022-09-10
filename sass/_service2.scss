@@ -1,0 +1,85 @@
+.service2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.service2 .all-service2 {
+    width: 100%;
+    // height: 100%;
+    text-align: center;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.service2 .all-service2 .top-service2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    gap: 50px;
+    justify-content: center;
+}
+
+.service2 .all-service2 .bottom-service2 {
+    flex: 1;
+}
+
+.service2 .top-service2 .square-service {
+    flex: 25%;
+    height: 300px;
+    box-shadow: 0px 8px 13px 4px $shadow-navbar2;
+    border-radius: 19px;
+    padding: 80px 25px;
+    transform: translateY(-20%);
+    background-color: $white-contact;
+}
+
+.service2 .square-service p {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    // line-height: 45px;
+    color: $font-back;
+    padding-top: 30px;
+}
+
+.service2 .square-service img {
+    width: 55%;
+    margin-top: -30px;
+}
+
+.service2 .bottom-service2 .content-bottom h4 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 96px;
+    color: $second-primary;
+}
+
+.service2 .bottom-service2 .flex-service2 {
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.service2 .flex-service2 .flex-items-service2 {
+    flex: 33.33%;
+    padding: 100px 40px;
+    background: $white-contact;
+    border: 4px solid $font-service2;
+    border-radius: 10px;
+}
+
+.service2 .flex-service2 .flex-items-service2 p {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    color: $font-service2;
+}
+
+

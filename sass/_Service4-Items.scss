@@ -1,0 +1,56 @@
+.Service4-Items {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: $white-contact;
+}
+
+.Service4-Items .all-Service4-Items {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.Service4-Items .all-Service4-Items .left-Service4 {
+    flex: 1;
+}
+
+.Service4-Items .all-Service4-Items .right-content {
+    flex: 1;
+}
+
+.Service4-Items .right-content span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: $font-black;
+    font-family: $font-text;
+}
+
+.Service4-Items .right-content h4 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 60px;
+    padding-top: 10px;
+    color: $font-home5;
+}
+
+.Service4-Items .right-content p {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: $font-black;
+    padding-top: 25px;
+}
+
+.Service4-Items .left-Service4 img {
+    width: 95%;
+}

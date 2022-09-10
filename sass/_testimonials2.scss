@@ -1,0 +1,160 @@
+
+.testimonials2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: $font-testimonials2;
+}
+
+.image-slider {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+}
+
+.slides-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+.stars {
+    font-size: 25px;
+    color: $color-yelow;
+}
+
+.img {
+    position: relative;
+    width: 450px;
+    height: 310px;
+    transition: 0.5s;
+    filter: saturate(20%);
+    padding: 40px;
+}
+
+.icon-star{
+    height: 10%;
+}
+
+.img .content-square {
+    font-size: 20px;
+    color: $font-done;
+    font-family: $font-text;
+    padding: 30px 0;
+    text-align: justify;
+    line-height: 23px;
+    height: 60%;
+}
+
+.user-square {
+    display: flex;
+    align-items: center;
+    height: 30%;
+}
+
+.user-square .right-name h5{
+    font-size: 20px;
+    color: $font-home5;
+}
+
+.user-square .right-name p{
+    font-size: 16px;
+    color: $font-home5;
+    line-height: 23px
+}
+
+.user-square .left-image {
+    flex: 1;
+}
+
+.user-square .right-name {
+    flex: 4;
+}
+
+.user-square .left-image img {
+    width: 80px;
+    display: block;
+}
+
+.button {
+    position: absolute;
+    width: 450px;
+    height: 255px;
+    transition: .5s;
+    background-color: $color-btn-testimonials2;
+    box-shadow: 4px 4px 21px -2px $font-service2-color1;
+}
+
+.button:hover {
+    background-color: $color-hover-button;    
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1 {
+    width: 600px;
+    height: 300px;
+    // background-color: blue;
+    filter: saturate(100%);
+}
+
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2 {
+    width: 600px;
+    height: 300px;
+    filter: saturate(100%);
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3 {
+    width: 600px;
+    height: 300px;
+    filter: saturate(100%);
+}
+
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4 {
+    width: 600px;
+    height: 300px;
+    filter: saturate(100%);
+}
+
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5 {
+    width: 600px;
+    height: 300px;
+    filter: saturate(100%);
+}
+
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6 {
+    width: 600px;
+    height: 300px;
+    filter: saturate(100%);
+}
+
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~ .image-slider #button-7 {
+    width: 600px;
+    height: 300px;
+    filter: saturate(100%);
+}
+
+#slider-span1:target ~ .image-slider {left: 96%;}
+#slider-span2:target ~ .image-slider {left: 64%;}
+#slider-span3:target ~ .image-slider {left: 31%;}
+#slider-span4:target ~ .image-slider {left: 0%;}
+#slider-span5:target ~ .image-slider {left: -31%;}
+#slider-span6:target ~ .image-slider {left: -64%;}
+#slider-span7:target ~ .image-slider {left: -96%;}

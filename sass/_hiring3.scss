@@ -1,0 +1,94 @@
+.hiring3 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hiring3 .fa-hiring {
+    width: 100%;
+}
+
+.hiring3 .fa-hiring>h3 {
+    font-family:$font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: $font-home5;
+    text-align: center;
+}
+
+.hiring3 .all-hiring3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiring3 .all-hiring3 .img-slider {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+}
+
+.img-slider .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0  50%);
+}
+
+.img-slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+.img-slider .slide img {
+    z-index: 1;
+    border-radius: 5px;
+    width: 800px;
+    height: 500px;
+}
+
+.img-slider .slide .info {
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+}
+
+.img-slider .slide .info h2 {
+    color: $color-white-none;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800px;
+    letter-spacing: 2px;
+}
+
+.img-slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+    background-color: $color-hiring3-btn;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-slider .navigation .btn.active {
+    background-color: $color-btnactive;
+    box-shadow: 0 0 2px $color-navigation-btn;
+}
+

@@ -2,49 +2,60 @@
     width: 15%;
     cursor: pointer;
     transform: translateX(-10%);
-}
-
-.navbar .nav {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .navbar .nav {
     position: fixed;
     display: flex;
     justify-content: space-between;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
     height: 100px;
-    align-items: center;
     background-color: $navbar;
     top: 0;
     right: 0;
     left: 0;
+    line-height: 100px;
     z-index: 99999;
-}
-
-.nav .nav-items li {
+  }
+  
+  .auto-nav {
+    box-shadow: 0px 0px 2px 0px $shadow-navbar;
+  }
+  
+  .nav .nav-items > li {
     display: inline-block;
-}
+    position: relative;
+  }
 
-.nav .nav-items a:hover {
+  .nav .nav-items {
+    transform: translateX(10%);
+  }
+  
+  .nav .nav-items a:hover {
     color: $primary;
     transition: 1s;
-}
-
-.nav .nav-items li a {
+  }
+  
+  .nav .nav-items li a {
     text-decoration: none;
-    margin-left: 39px;
+    padding: 0 15px;
     font-size: 22px;
     font-weight: 500;
-    line-height: 30px;
     color: $second-primary;
     font-family: $font-text;
     font-style: normal;
+    display: inline-block;
     font-weight: 400;
-}
-
-.nav-items .nav_home {
-    color: $primary  !important;
-}
-
-.navbar .btn-button {
+  }
+  
+  .nav-items .nav_home {
+    color: $primary !important;
+  }
+  
+  .navbar .btn-button {
     width: 120px;
     height: 40px;
     border: none;
@@ -52,24 +63,39 @@
     border-radius: 20px;
     font-family: $font-text;
     cursor: pointer;
-}
-
-.navbar .btn-button p {
+  }
+  
+  .navbar .btn-button p {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     color: $white-contact;
     font-family: $font-text;
-}
-
-.navbar .btn-button p:hover {
+  }
+  
+  .navbar .btn-button p:hover {
     color: $second-primary;
     transition: 1s;
-}
+  }
+  
+  .navbar .nav .subnav {
+    position: absolute;
+    background-color: $navbar;
+    display: none;
+    width: 136px;
+    transform: translateX(-5%);
+    box-shadow: 0px 8px 13px 4px $shadow-navbar2;
+  }
+  
+  .subnav li {
+    line-height: 50px;
+  }
+  
+  .nav li:hover .subnav {
+    display: block;
+    transition: 3s ease;
+  }
 
-// @media (max-width: 992px) {
-//     .navbar.nav{   
-//         padding-left: calc(calc(100% - 960px)/2);
-//         padding-right: calc(calc(100% - 960px)/2);
-//     }
-// }
+  .nav .search-btn-banner, .nav .mobile-menu-btn {
+    display: none;
+  }
