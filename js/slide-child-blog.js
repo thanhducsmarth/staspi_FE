@@ -1,4 +1,4 @@
-let perPage = 6;
+let perPage = 3;
 let idPage = 1;
 let start = 0;
 let end = perPage;

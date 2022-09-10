@@ -460,16 +460,17 @@
   height:auto;
   margin: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: center;
+    justify-content: center;
 }
-.posts .item-topic {
+.posts .post-container .item-post {
   position: relative;
   flex:33%;
   display: flex;
   margin: 20px;
-  max-width: 650px;
-  min-width: 650px;
-  min-height: 400px;
+  width: calc(33% - 40px);
+  height: 350px;
   box-sizing: border-box;
 }
 

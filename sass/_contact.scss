@@ -173,6 +173,7 @@
  .contact-block .frm-contact input,select, textarea {
    background-color:$home-air;
    width: 90%;
+   height: auto;
    min-height: 80px;
    margin: 20px;
    border-radius: 4px;
@@ -183,6 +184,7 @@
  }
  .contact-block .frm-contact .btn-submit-contact {
    background-color: $primary;
+   height: auto;
    width: 80%;
    min-height: 80px;
    margin: 20px 0;
