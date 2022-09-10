@@ -263,7 +263,7 @@ table {
 }
 
 .banner .banner-bottom {
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
   height: 15%;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -791,7 +791,7 @@ table {
 
 .home5 .all-home5-item .all-home5 {
   height: 80%;
-  background: #0066B2;
+  background: url(../images/background-home5.png) center center no-repeat;
   mix-blend-mode: normal;
 }
 
