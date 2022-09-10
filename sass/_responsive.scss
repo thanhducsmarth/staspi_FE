@@ -7,6 +7,10 @@
         line-height: 150px;
     }
 
+    .nav .nav-items {
+        transform: translateX(19%);
+    }
+
     .navbar .nav .subnav {
         width: 168px;
     }
@@ -275,7 +279,7 @@
 
     .home9 .all-home9 .form-input {
         padding: 0 20px;
-        border: solid #eee;
+        border: solid $font-team;
         border-radius: 10px;
         width: 100%;
         height: 80px;
@@ -779,6 +783,10 @@
         border-top-left-radius: 90%;
         border-bottom-left-radius: 50%;
     }
+
+    .nav .nav-items {
+        transform: translateX(10%);
+      }
 
     .banner .img_banner img{
         width: 100%;

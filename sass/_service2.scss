@@ -28,7 +28,7 @@
 .service2 .top-service2 .square-service {
     flex: 25%;
     height: 300px;
-    box-shadow: 0px 8px 13px 4px rgba(155, 155, 155, 0.25);
+    box-shadow: 0px 8px 13px 4px $shadow-navbar2;
     border-radius: 19px;
     padding: 80px 25px;
     transform: translateY(-20%);

@@ -1427,7 +1427,7 @@ table {
   background: #FA7716;
   border-radius: 21px;
   width: 151px;
-  height: 156px;
+  min-height: 156px;
   margin-top: 10px;
   padding: 10px;
 }
@@ -2584,7 +2584,7 @@ table {
   font-size: 13px;
   line-height: 20px;
   letter-spacing: -0.005em;
-  color: #454545;
+  color: rgb(231, 231, 231);
 }
 
 .hiring4 .all-hiring4 .footer-slide-items {
@@ -3179,6 +3179,9 @@ table {
     padding-left: calc((100% - 1700px) / 2);
     padding-right: calc((100% - 1700px) / 2);
     line-height: 150px;
+  }
+  .nav .nav-items {
+    transform: translateX(19%);
   }
   .navbar .nav .subnav {
     width: 168px;
@@ -3783,6 +3786,9 @@ table {
     border-top-right-radius: 60%;
     border-top-left-radius: 90%;
     border-bottom-left-radius: 50%;
+  }
+  .nav .nav-items {
+    transform: translateX(10%);
   }
   .banner .img_banner img {
     width: 100%;
@@ -4602,8 +4608,9 @@ table {
     margin-right: 20px;
   }
   .navbar .btn-button {
-    width: 0px;
-    height: 0px;
+    width: auto;
+    height: auto;
+    background: transparent;
     border: none;
     cursor: pointer;
   }
@@ -4713,7 +4720,7 @@ table {
   }
   .home2 .flexbox-service .flexbox-item {
     background: #FFFFFF;
-    border: 1px solid #F8F7F7;
+    border: 1px solid #F6F8FA;
     box-shadow: 0px 4px 4px rgba(187, 184, 184, 0.25);
     border-radius: 23px;
     margin: 5px;
@@ -4917,10 +4924,10 @@ table {
     display: flex;
   }
 }
-@media (min-width: 395px) and (max-width: 420px) {
+@media (min-width: 395px) and (max-width: 450px) {
   .home2 .img_flex img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
 }
 

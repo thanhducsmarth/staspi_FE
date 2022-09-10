@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background: #FFFFFF;
+    background: $white-contact;
     position: relative;
   }
   
@@ -13,11 +13,11 @@
   }
   
   .feedback .home8 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;
     font-style: normal;
     font-weight: 700;
     font-size: 47px;
-    color: #151A3C;
+    color: $second-primary;
     text-align: center;
   }
   
@@ -62,7 +62,7 @@
     width: 600px;
     height: 380px;
     border-radius: 25px;
-    background-color: #f3f0f0;
+    background-color: $feedback-color;
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -88,7 +88,7 @@
   }
   
   .feedback .slider .nav:hover {
-    color: orangered;
+    color: $color-nav-slider;
   }
   
   .feedback .nxt {
@@ -134,7 +134,7 @@
     font-weight: 700;
     font-size: 47px;
     margin: 0;
-    color: #151A3C;
+    color: $second-primary;
     text-align: left;
     margin-left: 20px;
   }
@@ -145,7 +145,7 @@
     font-weight: 700;
     font-size: 18px;
     margin: 0;
-    color: #151A3C;
+    color: $second-primary;
     text-align: left;
     margin-left: 20px;
     padding: 10px;
@@ -153,13 +153,13 @@
   
   .feedback .comment p {
     margin: 0 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
     letter-spacing: -0.005em;
-    color: #151A3C;
+    color: $second-primary;
     text-align: justify;
     overflow: hidden;
   }

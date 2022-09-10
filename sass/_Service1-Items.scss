@@ -25,7 +25,7 @@
 .Service1-Items .content-items {
     font-family: $font-text;
     font-style: normal;
-    background: linear-gradient(180deg, #EC6C65 0%, #EFA156 100%);
+    background: linear-gradient(180deg, $font-ITEMS-SERVICE1 0%, $font-ITEMS-SERVICE2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

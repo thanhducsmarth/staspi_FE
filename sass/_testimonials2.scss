@@ -32,7 +32,7 @@
 
 .stars {
     font-size: 25px;
-    color: yellow;
+    color: $color-yelow;
 }
 
 .img {
@@ -93,12 +93,12 @@
     width: 450px;
     height: 255px;
     transition: .5s;
-    background-color: rgba(252, 252, 252, 0.2);
-    box-shadow: 4px 4px 21px -2px rgba(159, 159, 159, 0.25);
+    background-color: $color-btn-testimonials2;
+    box-shadow: 4px 4px 21px -2px $font-service2-color1;
 }
 
 .button:hover {
-    background-color: rgba(252, 252, 252, 0.1);    
+    background-color: $color-hover-button;    
 }
 
 #slider-span1:target ~ .image-slider #img1,
