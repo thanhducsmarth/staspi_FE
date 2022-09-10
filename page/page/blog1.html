@@ -34,14 +34,14 @@
                         <a href="../../index.html">Home</a>
                     </li>
                     <li>
-                        <a href="./About Us.html">About us</a>
+                        <a href="../About Us.html">About us</a>
                     </li>
-                    <li><a href="./Service.html">Service</a></li>
-                    <li><a href="./Testimonials.html">Testimonials</a></li>
-                    <li><a href="./Hiring.html">Hiring</a></li>
-                    <li><a class="nav_home" href="./Blog.html">Blog</a></li>
+                    <li><a href="../Service.html">Service</a></li>
+                    <li><a href="../Testimonials.html">Testimonials</a></li>
+                    <li><a href="../Hiring.html">Hiring</a></li>
+                    <li><a class="nav_home" href="../Blog.html">Blog</a></li>
                     <li>
-                        <a href="./Contact.html"
+                        <a href="../Contact.html"
                             ><button class="btn-button">
                                 <p>Contact</p>
                             </button></a
@@ -141,7 +141,36 @@
                             là một hàm, hàm này có tác dụng giúp cải thiện
                         </p>
                     </div>
-                    <div class="interactive">hehe</div>
+
+                    <div class="interactive">
+                        <div class="item-views">
+                            <span class="ti-eye"></span>
+                            <p>400 Views</p>
+                        </div>
+                        <div class="item-contact">
+                            <p>Share:</p>
+                            <span class="ti-facebook"></span>
+                            <span class="ti-instagram"></span>
+                            <span class="ti-email"></span>
+                        </div>
+                        <div class="item-tag">
+                            <p>Tag:#VinhDau</p>
+                        </div>
+                    </div>
+
+                    <div class="block-owner">
+                        <div class="avt">
+                            <span class="ti-user"></span>
+                        </div>
+                        <div class="right-block">
+                            <h2>Admin</h2>
+                            <p>
+                                nó nằm trong collections hooks của Reactjs được
+                                bổ sung ở version 16.8,nói đến hooks thì các bạn
+                                hay sử dụng phổ biến như useState, useEffect
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="highlight-post">
@@ -198,6 +227,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="categortires-container">
                     <h2>Categories</h2>
                     <div class="item-category">
@@ -217,7 +247,53 @@
                         <p>( 2 )</p>
                     </div>
                 </div>
+
+                <div class="tags-block">
+                    <h1>Tags</h1>
+                    <div class="tags-container">
+                        <a href="#" class="color1">this-is-a-long-tag</a>
+                        <a href="#" class="color2"> small</a>
+                        <a href="#" class="color3"> 1</a>
+                        <a href="#" class="color1"> tag-blog</a>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <!-- New-Post -->
+
+        <section class="posts">
+            <div class="post-container" id="post">
+                <!-- <div class="item-topic">
+                    <img src="../images/image-footer.png" alt="image" class="image-item">
+                    <div onclick="location.href = '/page/contact.html' " class="overlay-item">
+                        <div class="title-item">title</div>
+                        <p class="content-item">content</p>
+                    </div>
+                </div>
+                -->
+            </div>
+            <ul class="pagination">
+                <li class="page-item pre-page ti-arrow-circle-left disable">
+                    <!-- <a  class="page-link "></a> -->
+                </li>
+                <div class="page-number" id="page-number">
+                    <!-- <li class="page-item cur-page active">
+                            <a href="#" class="page-link">cur</a>
+                        </li>
+                        <li class="page-item cur-page">
+                            <a href="#" class="page-link">cur</a>
+                        </li>
+                        <li class="page-item dots">
+                            <a href="#" class="page-link">...</a>
+                        </li>
+                        <li class="page-item cur-page">
+                            <a href="#" class="page-link">cur</a>
+                        </li> -->
+                </div>
+
+                <li class="page-item ti-arrow-circle-right nxt-page"></li>
+            </ul>
         </section>
         <!-- FOOTER -->
         <section class="footer">
@@ -267,6 +343,9 @@
                 </div>
             </div>
         </section>
-        <script type="text/javascript" src="../js/pagination.js"></script>
+        <script
+            type="text/javascript"
+            src = "../../js/slide-child-blog.js""
+        ></script>
     </body>
 </html>
