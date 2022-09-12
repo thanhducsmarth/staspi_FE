@@ -263,7 +263,7 @@ table {
 }
 
 .banner .banner-bottom {
-  background-color: #FFFFFF;
+  background-color: #FAFAFA;
   height: 15%;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -1792,10 +1792,6 @@ table {
   justify-content: space-around;
 }
 
-.aboutus_2 .second .image-oval {
-  background: url(../images/oval-aboutus.png) center center/cover;
-}
-
 .aboutus_2 {
   width: 100%;
   display: flex;
@@ -1982,10 +1978,6 @@ table {
   justify-content: space-around;
 }
 
-.aboutus_2 .second .image-oval {
-  background: url(../images/oval-aboutus.png) center center/cover;
-}
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -2035,8 +2027,21 @@ table {
 .testimonials1 {
   width: 100%;
   height: 100vh;
-  background-color: #8D9BED;
+  background: radial-gradient(#EA7F3A, #E04D27);
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials1 h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 23px;
+  letter-spacing: -0.005em;
+  color: #fff;
 }
 
 .testimonials1 .all-testimonials1 {
@@ -4648,9 +4653,8 @@ table {
   background-color: #FA7716;
   color: #fff;
   display: flex;
-  min-width: 600px;
   margin: 0;
-  height: 90vh;
+  height: auto;
   min-height: 100%;
   box-sizing: border-box;
   flex-wrap: wrap;
@@ -4659,7 +4663,7 @@ table {
 .contact-block .infomation {
   width: 50%;
   min-width: 600px;
-  height: 100%;
+  height: 950px;
   position: relative;
   padding: 2em;
   font-size: 32px;
@@ -4667,7 +4671,7 @@ table {
   flex-direction: column;
 }
 
-.infomation h2 {
+.contact-block .infomation h2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -4730,7 +4734,7 @@ table {
   box-sizing: border-box;
   width: 50%;
   min-width: 600px;
-  height: 100%;
+  height: 950px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -4829,8 +4833,6 @@ table {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .topic-container {
@@ -4839,11 +4841,13 @@ table {
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .topics .item-topic {
   position: relative;
-  flex: 33%;
+  flex: 31%;
   display: flex;
   margin: 20px;
   max-width: 650px;
@@ -6029,6 +6033,9 @@ table {
   }
   .home10 {
     display: flex;
+  }
+  .topics .item-topic {
+    flex: 100%;
   }
 }
 @media (min-width: 395px) and (max-width: 450px) {

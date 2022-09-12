@@ -65,9 +65,8 @@
     background-color: $primary;
     color: #fff;
     display: flex;
-    min-width: 600px;
     margin: 0;
-    height: 90vh;
+    height: auto;
     min-height: 100%;
     box-sizing: border-box;
     flex-wrap:wrap;
@@ -76,14 +75,14 @@
  .contact-block .infomation {
     width: 50%;
     min-width: 600px;
-    height: 100%;
+    height: 950px;
     position: relative;
     padding: 2em;
     font-size:32px;
     display: flex;
     flex-direction: column;
  }
- .infomation h2 {
+ .contact-block .infomation h2 {
    font-family: "Montserrat", sans-serif;
    font-style: normal;
    font-weight: 700;
@@ -146,7 +145,7 @@
     box-sizing: border-box;
     width: 50%;
     min-width: 600px;
-    height:100%;
+    height:950px;
     display: flex;
     justify-content: center;
    flex-direction: column;
