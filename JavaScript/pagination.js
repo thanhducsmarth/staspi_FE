@@ -1,4 +1,4 @@
-let perPage = 3;
+let perPage = 6;
 let idPage = 1;
 let start = 0;
 let end = perPage;
@@ -6,105 +6,105 @@ let end = perPage;
 const items = [
     {
         id: 1,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title1",
         content: "content",
-        link: "'/page/page/blog1.html'",
+        link: "'/page/pages/blog1.html'",
     },
     {
         id: 2,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title2",
         content: "content",
         link: "'/page/Contact.html'",
     },
     {
         id: 3,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title3",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 4,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title4",
         content: "content",
         link: "/page/Blog.htm",
     },
     {
         id: 5,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title5",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 6,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title6",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 7,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title7",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 8,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title8",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 9,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title9",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 10,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 11,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 12,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 13,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 14,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title",
         content: "content",
         link: "'/page/Blog.html'",
     },
     {
         id: 15,
-        image: "../../images/image-footer.png",
+        image: ".././images/image-footer.png",
         title: "title",
         content: "content",
         link: "'/page/Blog.html'",
@@ -116,7 +116,7 @@ const items = [
 let totalPages = Math.ceil(items.length / perPage);
 
 function initRender(items, totalPage) {
-    renderPost(items);
+    renderTopic(items);
     renderListPage(totalPage);
 }
 
@@ -130,11 +130,11 @@ function getCurrentPage(indexPage) {
 
 getCurrentPage(1);
 
-function renderPost(post) {
+function renderTopic(topic) {
     html = "";
-    const content = post.map((item, index) => {
+    const content = topic.map((item, index) => {
         if (index >= start && index < end) {
-            html += '<div class="item-post">';
+            html += '<div class="item-topic">';
             html +=
                 "<img  src=" +
                 item.image +
@@ -160,7 +160,7 @@ function renderPost(post) {
             return html;
         }
     });
-    document.getElementById("post").innerHTML = html;
+    document.getElementById("topic").innerHTML = html;
 }
 
 function renderListPage(totalPages) {
@@ -198,7 +198,7 @@ function changePage() {
             }
             idPage = value;
             getCurrentPage(idPage);
-            renderPost(items);
+            renderTopic(items);
         };
     }
 }
@@ -221,7 +221,7 @@ $(".nxt-page").on("click", () => {
     $(".page-number li").removeClass("active");
     $(`.page-number li:eq(${idPage - 1})`).addClass("active");
     getCurrentPage(idPage);
-    renderPost(items);
+    renderTopic(items);
 });
 
 $(".pre-page").on("click", () => {
@@ -239,5 +239,5 @@ $(".pre-page").on("click", () => {
     $(".page-number li").removeClass("active");
     $(`.page-number li:eq(${idPage - 1})`).addClass("active");
     getCurrentPage(idPage);
-    renderPost(items);
+    renderTopic(items);
 });
