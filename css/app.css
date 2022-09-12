@@ -263,7 +263,7 @@ table {
 }
 
 .banner .banner-bottom {
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
   height: 15%;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -1792,6 +1792,10 @@ table {
   justify-content: space-around;
 }
 
+.aboutus_2 .second .image-oval {
+  background: url(../images/oval-aboutus.png) center center/cover;
+}
+
 .aboutus_2 {
   width: 100%;
   display: flex;
@@ -1976,6 +1980,10 @@ table {
   align-items: center;
   height: 150px;
   justify-content: space-around;
+}
+
+.aboutus_2 .second .image-oval {
+  background: url(../images/oval-aboutus.png) center center/cover;
 }
 
 @keyframes scroll {
