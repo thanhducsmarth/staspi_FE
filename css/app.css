@@ -1681,7 +1681,6 @@ table {
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background-color: #F07E2A;
 }
 
 .aboutus_2 .content-right h5 {
@@ -1790,6 +1789,10 @@ table {
   align-items: center;
   height: 150px;
   justify-content: space-around;
+}
+
+.aboutus_2 .second .image-oval {
+  background: url(../images/oval-aboutus.png) center center/cover;
 }
 
 .aboutus_2 {
@@ -1867,7 +1870,6 @@ table {
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background-color: #F07E2A;
 }
 
 .aboutus_2 .content-right h5 {
@@ -1976,6 +1978,10 @@ table {
   align-items: center;
   height: 150px;
   justify-content: space-around;
+}
+
+.aboutus_2 .second .image-oval {
+  background: url(../images/oval-aboutus.png) center center/cover;
 }
 
 @keyframes scroll {
