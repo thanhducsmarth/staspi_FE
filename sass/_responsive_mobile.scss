@@ -481,7 +481,26 @@
 
     //Blog
     .topics .item-topic {
-        flex: 100%;
+        flex: 25%;
+
+    }
+    .topics .topic-container .item-topic .title-mobile{
+        display:flex;
+    }
+    .topics .topic-container .item-topic .title-mobile{
+        display: flex;
+    }
+    .topics .topic-container .item-topic .content-mobile{
+        display:flex;
+    }
+    .topics .topic-container .item-topic .overlay-item {
+        display: none;
+    }
+    .topics .topic-container .item-topic .image-item {
+        height: 200px;
+    }
+    .pagination .pre-page , .pagination .nxt-page , .pagination .cur-page {
+        font-size: 35px;
     }
 }
 

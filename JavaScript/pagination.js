@@ -7,8 +7,9 @@ const items = [
     {
         id: 1,
         image: ".././images/image-footer.png",
-        title: "title1",
-        content: "content",
+        title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ducimus a repudiandae eius numquam incidunt.",
+        content:
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ducimus a repudiandae eius numquam incidunt quam suscipit sapiente libero architecto asperiores molestias iure et minima, quidem voluptas minus nesciunt laboriosam hehehehehehe heheheheheheh.",
         link: "'/page/pages/blog1.html'",
     },
     {
@@ -156,6 +157,8 @@ function renderTopic(topic) {
             html += '<div class = "title-item">' + item.title + "</div>";
             html += '<p class = "content-item">' + item.content + "</p>";
             html += "</div>";
+            html += '<div class = "title-mobile">' + item.title + "</div>";
+            html += '<div class = "content-mobile">' + item.content + "</div>";
             html += "</div>";
             return html;
         }
