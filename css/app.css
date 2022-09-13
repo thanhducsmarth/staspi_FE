@@ -637,34 +637,25 @@ table {
 }
 
 .home4 .all-home4 .btn-home4 {
-  width: 216px;
-  height: 53px;
-  background: #8F68FF;
-  border-radius: 10px;
-  border: none;
+  width: 180px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 18px;
+  background-color: transparent;
   margin-left: auto;
   margin-right: auto;
-  transform: translateY(-100%);
   cursor: pointer;
-  opacity: 0.9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+  color: #444444;
+  transform: translateY(60%);
 }
 
 .home4 .all-home4 .btn-home4:hover {
   opacity: 1;
-  transition: all 0.5s ease;
-}
-
-.home4 .btn-home4 p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: #FFFFFF;
-}
-
-.home4 .btn-home4 p:hover {
-  font-size: 20px;
   transition: all 0.5s ease;
 }
 
@@ -759,8 +750,8 @@ table {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   margin-top: 15px;
-  font-weight: 500;
-  font-size: 26px;
+  font-weight: 700;
+  font-size: 30px;
   line-height: 150%;
   text-align: center;
   color: #FFFFFF;
@@ -1457,6 +1448,67 @@ table {
   margin-left: 80px;
 }
 
+.home11 {
+  width: 100%;
+  height: 100vh;
+}
+
+.home11 .all-home11-dis {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.home11 .all-home11 {
+  width: 100%;
+}
+
+.home11 .all-home11 .all-flex-home11 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-left: calc((100% - 1200px) / 2);
+  padding-right: calc((100% - 1200px) / 2);
+}
+
+.home11 .all-flex-home11 .square-home11 {
+  flex: 33.33%;
+}
+
+.home11 .all-home11 h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 96px;
+  text-align: center;
+  color: #151A3C;
+  transform: translateY(-30%);
+}
+
+.home11 .img-home11 img {
+  width: 80%;
+}
+
+.home11 .square-home11 .btn-home11 {
+  background: #FFFFFF;
+  border: 4px solid #0066B2;
+  border-radius: 10px;
+  width: 80%;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #0066B2;
+  margin-top: 10px;
+}
+
 .footer {
   width: 100%;
   height: 55vh;
@@ -1664,7 +1716,7 @@ table {
   height: 550px;
   float: right;
   border-radius: 50%;
-  background-color: #F07E2A;
+  background: url(../images/oval1-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .second {
@@ -1725,7 +1777,7 @@ table {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  background-color: #F07E2A;
+  background: url(../images/oval3-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .four {
@@ -1738,7 +1790,7 @@ table {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #F07E2A;
+  background: url(../images/oval4-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
@@ -1792,7 +1844,7 @@ table {
 }
 
 .aboutus_2 .second .image-oval {
-  background: url(../images/oval-aboutus.png) center center/cover;
+  background: url(../images/oval2-aboutus.png) center center/cover;
 }
 
 .aboutus_2 {
@@ -1853,7 +1905,7 @@ table {
   height: 550px;
   float: right;
   border-radius: 50%;
-  background-color: #F07E2A;
+  background: url(../images/oval1-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .second {
@@ -1914,7 +1966,7 @@ table {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  background-color: #F07E2A;
+  background: url(../images/oval3-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .four {
@@ -1927,7 +1979,7 @@ table {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #F07E2A;
+  background: url(../images/oval4-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
@@ -1981,7 +2033,7 @@ table {
 }
 
 .aboutus_2 .second .image-oval {
-  background: url(../images/oval-aboutus.png) center center/cover;
+  background: url(../images/oval2-aboutus.png) center center/cover;
 }
 
 @keyframes scroll {
@@ -3290,9 +3342,10 @@ table {
     font-size: 64px;
     line-height: 150px;
   }
-  .home4 .btn-home4 p {
+  .home4 .all-home4 .btn-home4 {
+    width: 240px;
+    height: 60px;
     font-size: 20px;
-    line-height: 35px;
   }
   .home5 .all-home5 {
     padding-left: calc((100% - 1700px) / 2);
@@ -3409,6 +3462,19 @@ table {
     width: 300px;
     height: 80px;
     border-radius: 15px;
+  }
+  .home11 .all-home11 .all-flex-home11 {
+    padding-left: calc((100% - 1700px) / 2);
+    padding-right: calc((100% - 1700px) / 2);
+  }
+  .home11 .all-home11 h2 {
+    font-size: 64px;
+    transform: translateY(-40%);
+  }
+  .home11 .square-home11 .btn-home11 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
   }
   .footer .all_footer .top {
     padding-left: calc((100% - 1700px) / 2);
@@ -4123,6 +4189,14 @@ table {
   }
   .home9 .button-home9 p {
     font-size: 16px;
+  }
+  .home11 .all-home11 .all-flex-home11 {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
+  .home11 .all-home11 h2 {
+    font-size: 50px;
+    transform: translateY(-30%);
   }
   .footer .all_footer .top {
     padding-left: calc((100% - 940px) / 2);

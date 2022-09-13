@@ -56,7 +56,7 @@
     height: 550px;
     float: right;
     border-radius: 50%;
-    background-color: $third;
+    background: url(../images/oval1-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .second {
@@ -73,7 +73,6 @@
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    // background-color: $third;
 }
 
 .aboutus_2 .content-right h5 {
@@ -118,7 +117,7 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    background-color: $third;
+    background: url(../images/oval3-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .four {
@@ -131,7 +130,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color: $third;
+    background: url(../images/oval4-aboutus.png) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
@@ -185,5 +184,5 @@
 }
 
 .aboutus_2 .second .image-oval {
-    background: url(../images/oval-aboutus.png) center center/cover;
+    background: url(../images/oval2-aboutus.png) center center/cover;
 }

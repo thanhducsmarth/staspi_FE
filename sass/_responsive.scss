@@ -14,7 +14,9 @@
     .navbar .nav .subnav {
         width: 168px;
     }
+
     // BANNER
+
     .banner .banner-content {
         top: 45%;
         padding-left: calc(calc(100% - 1700px)/2);
@@ -142,9 +144,10 @@
         line-height: 150px;
     }
 
-    .home4 .btn-home4 p {
+    .home4 .all-home4 .btn-home4 {
+        width: 240px;
+        height: 60px;
         font-size: 20px;
-        line-height: 35px;
     }
 
     // HOME 5
@@ -294,6 +297,24 @@
         width: 300px;
         height: 80px;
         border-radius: 15px;
+    }
+
+    //HOME 11
+
+    .home11 .all-home11 .all-flex-home11 {
+        padding-left: calc((100% - 1700px) / 2);
+        padding-right: calc((100% - 1700px) / 2);
+    }
+
+    .home11 .all-home11 h2 {
+        font-size: 64px;
+        transform: translateY(-40%);
+    }
+
+    .home11 .square-home11 .btn-home11 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 20px;
     }
 
     // FOOTER
@@ -1203,6 +1224,18 @@
         font-size: 16px;
     }
 
+    //HOME 11
+
+    .home11 .all-home11 .all-flex-home11 {
+        padding-left: calc((100% - 940px) / 2);
+        padding-right: calc((100% - 940px) / 2);
+    }
+
+    .home11 .all-home11 h2 {
+        font-size: 50px;
+        transform: translateY(-30%);
+    }
+
     // FOOTER
 
     .footer .all_footer .top {
@@ -1222,8 +1255,6 @@
     .footer .footer-item h5 {
         font-size: 25px;
         line-height: 30px;
-        // letter-spacing: -0.065em;
-        // color: $font-home5;
         padding-bottom: 35px;
         margin-top: 10px;
     }
