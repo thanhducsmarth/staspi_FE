@@ -4895,14 +4895,19 @@ table {
   transform: translateY(0);
 }
 
+.topics .topic-container .item-topic .overlay-item .contents-item {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #fff;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
 .topics .topic-container .item-topic .overlay-item .title-item {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 37px;
-  padding: 20px 0;
-  color: #fff;
-  margin-left: 10px;
 }
 
 .topics .topic-container .item-topic .overlay-item .content-item {
@@ -4910,7 +4915,6 @@ table {
   font-weight: 400;
   font-size: 24px;
   color: #fff;
-  margin-left: 10px;
 }
 
 .topics .topic-container .item-topic .title-mobile {
@@ -6058,9 +6062,6 @@ table {
   .topics .topic-container .item-topic .title-mobile {
     display: flex;
   }
-  .topics .topic-container .item-topic .title-mobile {
-    display: flex;
-  }
   .topics .topic-container .item-topic .content-mobile {
     display: flex;
   }
@@ -6070,8 +6071,45 @@ table {
   .topics .topic-container .item-topic .image-item {
     height: 200px;
   }
-  .pagination .pre-page, .pagination .nxt-page, .pagination .cur-page {
+  .topics .pagination .pre-page, .topics .pagination .nxt-page, .topics .pagination .cur-page {
     font-size: 35px;
+  }
+  .topics .pagination li a {
+    display: none;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topics .pagination .page-number .cur-page, .topics .pagination .dots {
+    background-color: #ccc;
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.1);
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .topics .pagination .cur-page a {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+  }
+  .topics .pagination .dots a {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 52px;
+    color: #fff;
+  }
+  .pagination .pre-page, .pagination .nxt-page {
+    font-size: 70px;
+    background-color: #fff;
+    box-shadow: none;
+    color: #FA7716;
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
+  .topics .pagination .page-number .cur-page:hover {
+    width: 10px;
   }
 }
 @media (min-width: 395px) and (max-width: 450px) {

@@ -95,21 +95,24 @@
 .topics .topic-container .item-topic .overlay-item:hover > * {
   transform: translateY(0);
 }
+.topics .topic-container .item-topic .overlay-item .contents-item {
+  font-family: "Montserrat", sans-serif;
+   font-style: normal;
+   color:#fff;
+   padding: 20px 0;
+   box-sizing: border-box;
+}
 .topics .topic-container .item-topic .overlay-item .title-item {
   font-family: "Montserrat", sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 37px;
-   padding: 20px 0;
-   color:#fff;
-   margin-left: 10px;
 }
 .topics .topic-container .item-topic .overlay-item .content-item {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #fff;
-  margin-left: 10px;
 }
 .topics .topic-container .item-topic .title-mobile {
   // display: none;

@@ -484,10 +484,7 @@
         flex: 25%;
 
     }
-    .topics .topic-container .item-topic .title-mobile{
-        display:flex;
-    }
-    .topics .topic-container .item-topic .title-mobile{
+    .topics .topic-container .item-topic .title-mobile {
         display: flex;
     }
     .topics .topic-container .item-topic .content-mobile{
@@ -499,9 +496,50 @@
     .topics .topic-container .item-topic .image-item {
         height: 200px;
     }
-    .pagination .pre-page , .pagination .nxt-page , .pagination .cur-page {
+    .topics .pagination .pre-page ,.topics .pagination .nxt-page , .topics .pagination .cur-page {
         font-size: 35px;
     }
+    .topics .pagination li a {
+        display: none;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      .topics .pagination .page-number .cur-page, .topics .pagination .dots {
+        background-color: #ccc;
+        width: 10px;
+        height:10px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 10%);
+        border-radius:25px;
+        cursor: pointer;
+      }
+      .topics .pagination .cur-page a {
+        font-family: $font-text;
+        font-style: normal;
+        // font-weight: 500;
+        font-size: 25px;
+        // line-height: 52px;
+        // color: red;
+      }
+      .topics .pagination .dots a {
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 52px;
+        color: #fff;
+      }
+      
+      .pagination .pre-page , .pagination .nxt-page  {
+        font-size: 70px;
+        background-color: #fff;
+        box-shadow: none;
+        color: $primary;
+        transition: 0.4s ease;
+        cursor: pointer;
+      }
+      .topics .pagination .page-number .cur-page:hover{
+        width: 10px;
+      }
 }
 
 
