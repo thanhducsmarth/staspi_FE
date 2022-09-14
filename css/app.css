@@ -811,7 +811,7 @@ table {
   font-weight: 600;
   font-size: 50px;
   line-height: 96px;
-  color: #FFFFFF;
+  color: #202857;
   transform: translateY(-30%);
 }
 
@@ -829,7 +829,6 @@ table {
 .home6 .flex-item .top-item {
   width: 280px;
   height: 261px;
-  background: #202857;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -859,6 +858,22 @@ table {
   font-size: 14px;
   line-height: 30px;
   color: #3D4888;
+}
+
+.home6 #item1 {
+  background: url(../images/item1-home6.png) center center/cover;
+}
+
+.home6 #item2 {
+  background: url(../images/item2-home6.png) center center/cover;
+}
+
+.home6 #item3 {
+  background: url(../images/item3-home6.png) center center/cover;
+}
+
+.home6 #item4 {
+  background: url(../images/item4-home6.png) center center/cover;
 }
 
 .home7 {
@@ -1191,7 +1206,7 @@ table {
   font-weight: 700;
   font-size: 47px;
   margin: 0;
-  color: #151A3C;
+  color: #202857;
   text-align: left;
   margin-left: 20px;
 }
@@ -1202,7 +1217,7 @@ table {
   font-weight: 700;
   font-size: 18px;
   margin: 0;
-  color: #151A3C;
+  color: #707070;
   text-align: left;
   margin-left: 20px;
   padding: 10px;
@@ -1216,7 +1231,7 @@ table {
   font-size: 18px;
   line-height: 20px;
   letter-spacing: -0.005em;
-  color: #151A3C;
+  color: #707070;
   text-align: justify;
   overflow: hidden;
 }
@@ -1610,7 +1625,7 @@ table {
 }
 
 .aboutus .all_aboutus .left {
-  width: 50%;
+  flex: 1;
 }
 
 .aboutus .content-aboutus h4 {
@@ -1643,7 +1658,7 @@ table {
 }
 
 .aboutus .all_aboutus .right {
-  width: 50%;
+  flex: 1;
 }
 
 .aboutus .right .img-about {
@@ -1656,6 +1671,10 @@ table {
 
 .aboutus .content-aboutus b {
   font-weight: 600;
+}
+
+#aboutus-faker {
+  display: none;
 }
 
 .aboutus_2 {
@@ -1726,7 +1745,7 @@ table {
 }
 
 .aboutus_2 .second .content-right {
-  width: 50%;
+  flex: 1;
 }
 
 .aboutus_2 .second .image-oval {
@@ -1764,7 +1783,7 @@ table {
 }
 
 .aboutus_2 .third .content-right {
-  width: 50%;
+  flex: 1;
 }
 
 .aboutus_2 .all-aboutus_2 .third {
@@ -1915,7 +1934,7 @@ table {
 }
 
 .aboutus_2 .second .content-right {
-  width: 50%;
+  flex: 1;
 }
 
 .aboutus_2 .second .image-oval {
@@ -1953,7 +1972,7 @@ table {
 }
 
 .aboutus_2 .third .content-right {
-  width: 50%;
+  flex: 1;
 }
 
 .aboutus_2 .all-aboutus_2 .third {
@@ -2391,7 +2410,7 @@ table {
 .hiring2 .left-square .square-hiring2 {
   width: 450px;
   height: 450px;
-  background: #FA7716;
+  background: url(../images/image1-hiring.png) center center/cover;
   border-radius: 50%;
 }
 
@@ -2609,7 +2628,6 @@ table {
 }
 
 .hiring4 .left-square .squares {
-  background: #F07E2A;
   border-radius: 11px;
   width: 320px;
   height: 200px;
@@ -2642,7 +2660,7 @@ table {
   font-size: 13px;
   line-height: 20px;
   letter-spacing: -0.005em;
-  color: rgb(231, 231, 231);
+  color: #151A3C;
 }
 
 .hiring4 .all-hiring4 .footer-slide-items {
@@ -2666,6 +2684,18 @@ table {
 
 .fix-content {
   margin-top: 22px;
+}
+
+.hiring4 #items-hiring {
+  background: url(../images/hiring4-square.png) center center/cover;
+}
+
+.hiring4 #items1-hiring {
+  background: url(../images/hiring4-square1.png) center center/cover;
+}
+
+.hiring4 #items2-hiring {
+  background: url(../images/hiring4-square2.png) center center/cover;
 }
 
 .service1 {
@@ -3026,11 +3056,16 @@ table {
   padding-top: 10px;
 }
 
+.Service3-Items .flex-Service3 {
+  flex: 33.33%;
+}
+
 .Service3-Items .bottom-Service3 .flex-Service3-item {
   background-color: #FFFFFF;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  min-height: 260px;
   padding: 20px;
   box-shadow: 0px 4px 9px 5px rgba(174, 170, 170, 0.25);
   border-radius: 20px;
@@ -3058,7 +3093,7 @@ table {
 }
 
 .Service3-Items .flex-Service3-item img {
-  width: 28%;
+  width: 15%;
 }
 
 .Service4-Items {
@@ -3147,7 +3182,7 @@ table {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: #D9D9D9;
+  background: url(../images/Service1-items1.png) center center/cover;
 }
 
 .Service5-Items .content-Service5 h5 {
@@ -5002,6 +5037,74 @@ table {
   }
   .home10 {
     display: flex;
+  }
+  .aboutus {
+    margin-top: 100px;
+  }
+  .aboutus .all_aboutus {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+    flex-direction: column-reverse;
+  }
+  .aboutus .content-aboutus h4 {
+    font-size: 20px;
+    line-height: 52px;
+  }
+  .aboutus .content-aboutus h1 {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .aboutus .content-aboutus p {
+    font-size: 13px;
+    line-height: 25px;
+    padding-top: 10px;
+  }
+  .aboutus .right .img-about {
+    width: 100%;
+  }
+  .aboutus_2 .all-aboutus_2 .first {
+    flex-direction: column-reverse;
+  }
+  .aboutus_2 .all-aboutus_2 .second {
+    flex-direction: column;
+  }
+  .aboutus_2 .all-aboutus_2 .third {
+    flex-direction: column-reverse;
+  }
+  .aboutus_2 .all-aboutus_2 .four {
+    flex-direction: column;
+  }
+  .aboutus_2 .all-footer-items-aboutus2 img {
+    width: 20%;
+  }
+  .aboutus_2 .first .right-oval {
+    width: 350px;
+    height: 350px;
+  }
+  .aboutus_2 .second .image-oval {
+    width: 300px;
+    height: 300px;
+  }
+  .aboutus_2 .third .image-oval {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutus_2 .four .left-image {
+    width: 200px;
+    height: 200px;
+  }
+  .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+  }
+  .aboutus_2 .first .content-left h3 {
+    font-size: 30px;
+  }
+  .aboutus_2 .content-right p {
+    font-size: 13px;
+  }
+  .aboutus_2 .first .content-left p {
+    font-size: 13px;
   }
 }
 @media (min-width: 395px) and (max-width: 450px) {

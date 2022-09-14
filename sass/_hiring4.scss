@@ -89,7 +89,7 @@
 }
 
 .hiring4 .left-square .squares {
-    background: $third;
+    // background: $third;
     border-radius: 11px;
     width: 320px;
     height: 200px;
@@ -122,7 +122,7 @@
     font-size: 13px;
     line-height: 20px;
     letter-spacing: -0.005em;
-    color: $color-items;
+    color: $second-primary;
 }
 
 .hiring4 .all-hiring4 .footer-slide-items {
@@ -141,10 +141,21 @@
 }
 
 .hiring4 .all-hiring4 .footer-slide-items img {
-    // margin: 20px;
     width: 250px;
 }
 
 .fix-content {
     margin-top: 22px;
+}
+
+.hiring4 #items-hiring{
+    background: url(../images/hiring4-square.png) center center/cover;
+}
+
+.hiring4 #items1-hiring {
+    background: url(../images/hiring4-square1.png) center center/cover;
+}
+
+.hiring4 #items2-hiring {
+    background: url(../images/hiring4-square2.png) center center/cover;
 }

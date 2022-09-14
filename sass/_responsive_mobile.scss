@@ -478,6 +478,99 @@
     .home10 {
         display: flex;
     }
+
+    //Aboutus
+
+    .aboutus {
+        margin-top: 100px;
+    }
+
+    .aboutus .all_aboutus {
+        padding-left: calc(calc(100% - 350px)/2);
+        padding-right: calc(calc(100% - 350px)/2);
+        flex-direction: column-reverse;
+    }
+
+    .aboutus .content-aboutus h4 {
+        font-size: 20px;
+        line-height: 52px;
+    }
+    
+    .aboutus .content-aboutus h1 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+
+    .aboutus .content-aboutus p {
+        font-size: 13px;
+        line-height: 25px;
+        padding-top: 10px;
+    }
+
+    .aboutus .right .img-about {
+       width: 100%;
+    }
+
+    // .aboutus_2 {
+    //     display: none;
+    // }
+
+    .aboutus_2 .all-aboutus_2 .first {
+        flex-direction: column-reverse;
+    }
+
+    .aboutus_2 .all-aboutus_2 .second {
+        flex-direction: column;
+    }
+
+    .aboutus_2 .all-aboutus_2 .third {
+        flex-direction: column-reverse;
+    }
+
+    .aboutus_2 .all-aboutus_2 .four {
+        flex-direction: column;
+    }
+    
+    .aboutus_2 .all-footer-items-aboutus2 img{
+        width: 20%;
+    }
+
+    .aboutus_2 .first .right-oval {
+        width: 350px;
+        height: 350px;
+    }
+
+    .aboutus_2 .second .image-oval {
+        width: 300px;
+        height: 300px;
+    }
+
+    .aboutus_2 .third .image-oval {
+        width: 250px;
+        height: 250px;
+    }
+
+    .aboutus_2 .four .left-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
+        padding-left: calc(calc(100% - 350px)/2);
+        padding-right: calc(calc(100% - 350px)/2);
+    }
+
+    .aboutus_2 .first .content-left h3 {
+        font-size: 30px;
+    }
+
+    .aboutus_2 .content-right p {
+        font-size: 13px;
+    }
+
+    .aboutus_2 .first .content-left p {
+        font-size: 13px;
+    }
 }
 
 
