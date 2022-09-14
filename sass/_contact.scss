@@ -12,26 +12,25 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    // padding-left: calc(calc(100% - 1000px)/2);
-    // padding-right: calc(calc(100% - 1000px)/2);
  }
  
  .cooperate .cooperate-content {
-    margin: 0 10%;
-    flex: 1;
+    flex: 50%;
     overflow: hidden;
+    box-sizing: border-box;
+    margin: 30px 0;
+    height:auto;
  }
  .cooperate .cooperate-content h1{
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
-    line-height: 120px;
+    line-height: 60px;
     color: $second-primary;
-    margin-right: 20px;
+    margin: 20px 100px;
  }
  .cooperate .cooperate-content p {
-    margin-right: 20px;
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
@@ -39,14 +38,28 @@
     line-height: 30px;
     color: $second-primary;
     text-align: justify;
+    margin: 0 100px;
+ }
+ .cooperate .cooperate-content p + p {
+  margin-top: 30px;
  }
  .cooperate .cooperate-block{
-    flex: 1;
-    width: 40%;
-    height: 550px;
-    background-color:$primary;
-    margin: 10%;
+    flex: 50%;
+    width: 50%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    min-width: 375px;
+ }
+ .cooperate .cooperate-block .image {
+    width:calc(100% - 200px);
+    height: 600px;
+    margin: 70px 100px;
+    background: url(../images/image-hiring.png) no-repeat center center/cover;
+    // background-repeat: no-repeat;
     border-radius: 25px;
+    border: 1px red solid;
  }
  .container-map {
     width: 100%;
@@ -57,30 +70,31 @@
  .container-map iframe {
     width: 100%;
     height: 70%;
-    margin: 0 200px 100px;
-    min-width: 500px;
+    margin: 0 100px 100px;
+    // min-width: 500px;
  }
  //FORM CONTACT
  .contact-block {
+  width: 100%;
     background-color: $primary;
     color: #fff;
     display: flex;
     margin: 0;
     height: auto;
-    min-height: 100%;
     box-sizing: border-box;
     flex-wrap:wrap;
 
  }
  .contact-block .infomation {
-    width: 50%;
-    min-width: 600px;
-    height: 950px;
+    flex: 50%;
+    height: auto;
     position: relative;
     padding: 2em;
     font-size:32px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  align-items: center;
  }
  .contact-block .infomation h2 {
    font-family: "Montserrat", sans-serif;
@@ -91,13 +105,14 @@
  }
  .contact-block .infomation .item-contact {
    margin-top: 20px;
-   width: 90%;
+   width: 95%;
    height: 30%;
    border-radius: 25px;
    background-color: #fff;
    display: flex;
    box-sizing: border-box;
-   min-width: 500px;
+  //  min-width: 500px;
+  min-height: 200px;
  }
  .contact-block .infomation .item-left {
       width: 30%;
@@ -130,12 +145,13 @@
    font-style: normal;
    font-weight: 400;
    font-size: 25px;
-   max-width: 300px ;
+  //  max-width: 300px ;
  }
  .item-left .icon {
    width: 100%;
-   height: 50%;
+  //  height: 50%;
    font-size: 100px;
+  //  font-size: 50px;//for mibile
    color: black;
    display: flex;
    justify-content: center;
@@ -143,44 +159,59 @@
  }
  .contact-block .contact-container {
     box-sizing: border-box;
-    width: 50%;
-    min-width: 600px;
-    height:950px;
+    flex: 50%;
+    // width: 50%;
+    // min-width: 600px;
+    height: auto;
     display: flex;
     justify-content: center;
    flex-direction: column;
    align-items: center;
  }
  .contact-block .contact-container .frm-contact {
-   width: 70%;
-   height: 90%;
+  margin: 20px;
+   width: 95%;
+   height: auto;
    background-color:#fff;
    border-radius: 25px;
    color: $second-primary;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
+   font-family: "Montserrat", sans-serif;
+   font-style: normal;
  }
  .contact-block .frm-contact h2 {
    padding: 40px 0 ;
-   font-family: "Montserrat", sans-serif;
-   font-style: normal;
    font-weight: 700;
    font-size: 40px;
  }
- .contact-block .frm-contact input,select, textarea {
+ .contact-block .frm-contact input,select,option {
    background-color:$home-air;
    width: 90%;
    height: auto;
    min-height: 80px;
    margin: 20px;
-   border-radius: 4px;
+   border-radius: 15px;
    box-sizing: border-box;
    font-size: 25px;
    resize: none;
    padding: 10px;
  }
+ .contact-block .frm-contact textarea {
+  background-color:$home-air;
+   width: 90%;
+   height: auto;
+   min-height: 80px;
+   max-height: 160px;
+   margin: 20px;
+   border-radius: 15px;
+   box-sizing: border-box;
+   font-size: 25px;
+   resize: none;
+   padding: 10px;
+ } 
  .contact-block .frm-contact .btn-submit-contact {
    background-color: $primary;
    height: auto;

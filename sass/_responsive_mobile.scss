@@ -540,6 +540,61 @@
       .topics .pagination .page-number .cur-page:hover{
         width: 10px;
       }
+
+      //CONTACT
+      .banner_contact h1 {
+        font-size: 30px;
+      }
+
+      .cooperate-content h1{
+        font-size: 30px !important;
+        margin : 0 20px !important;
+      }
+      .cooperate-content p {
+        font-size: 18px !important;
+        margin : 0 20px !important;
+    }
+    .cooperate-block .image {
+        width: calc(100% - 40px) !important;
+        margin: 5px !important;
+        height:500px !important;
+    }
+    .container-map iframe {
+        width: calc(100% - 20px);
+        margin: 0 5px 50px;
+    }
+    .contact-block .infomation{
+        width: 100%;
+        padding: 5px;
+    }
+    .contact-block .infomation h2{
+        font-size: 22px !important;
+    }
+    .contact-block .infomation .item-right h2 {
+        font-size: 20px !important;
+    }
+    .contact-block .infomation .item-right p {
+        font-size: 16px !important;
+    }
+    .contact-block .infomation .item-contact .item-left .icon {
+        font-size: 50px;
+    }
+    .contact-block .infomation .item-contact .item-right h2 {
+        padding: 8px 0;
+    } 
+    .contact-block .infomation .item-contact {
+        width: 100%;
+    }
+
+    .contact-block .frm-contact h2 {
+        font-size: 24px;
+    }
+    .contact-block .frm-contact input,select,option {
+        font-size: 16px;
+    }
+    .contact-block .frm-contact .btn-submit-contact {
+        font-size: 24px;
+    }
 }
 
 
