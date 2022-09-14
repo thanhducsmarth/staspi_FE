@@ -269,7 +269,7 @@
 
     .home5 .left-home5 p {
         padding-top: 30px;
-        font-size: 13px;
+        font-size: 10px;
         line-height: 18px;
         text-align: justify;
 
@@ -511,9 +511,7 @@
        width: 100%;
     }
 
-    // .aboutus_2 {
-    //     display: none;
-    // }
+    //Aboutus2
 
     .aboutus_2 .all-aboutus_2 .first {
         flex-direction: column-reverse;
@@ -570,6 +568,169 @@
 
     .aboutus_2 .first .content-left p {
         font-size: 13px;
+    }
+
+    .aboutus_2 .footer-items-aboutus2 {
+        height: 80px;
+    }
+
+    .aboutus_2 .all-footer-items-aboutus2 {
+        height: 80px;
+    }
+
+    //HIRING1
+
+    .hiring1 {
+        margin-top: 0px;
+    }
+
+    .hiring1 .all-hiring1 {
+        flex-direction: column;
+        padding-left: calc(calc(100% - 350px)/2);
+        padding-right: calc(calc(100% - 350px)/2);
+    }
+
+    .hiring1 .left-hiring1 .content-hiring .space{
+        font-size: 60px;
+        line-height: 135px;
+    }
+
+    .hiring1 .left-hiring1 .content-hiring .space1{
+        font-size: 60px;
+        line-height: 135px;
+        margin-left: 20px;
+    }
+
+    .hiring1 .left-hiring1 .content-hiring h1{
+        font-size: 100px;
+        line-height: 40px;
+    }
+
+    .hiring1 .all-hiring1 .left-hiring1 {
+        transform: translateY(30%);
+    }
+
+    .hiring1 .square-hiring .oval-yelow {
+        width: 60px;
+        height: 60px;
+    }
+
+    //HIRING2
+    .hiring2 .all-hiring2 {
+        flex-wrap: wrap-reverse;
+        padding-left: calc(calc(100% - 350px)/2);
+        padding-right: calc(calc(100% - 350px)/2);
+    }
+
+    .hiring2 .left-square .square-hiring2 {
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hiring2 .content-right h3 {
+        font-size: 35px;
+        line-height: 86px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .hiring2 .content-right p {
+        font-size: 13px;
+        line-height: 25px;  
+        margin-left: 0px;
+        text-align: justify;
+    }
+
+    //HIRING3
+
+    .hiring3 .fa-hiring>h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hiring3 .all-hiring3 .img-slider {
+        width: 350px;
+        height: 450px;
+        margin: 10px;
+    }
+
+    .img-slider .slide img {
+        width: 350px;
+        height: 450px;
+    }
+    //HIRING4
+
+    .hiring4 .all-hiring4>h3 {
+        font-size: 35px;
+        line-height: 66px;
+        padding-top: 50px;
+    }
+
+    .hiring4 .all-hiring4 .sub-form {
+        padding-left: calc(calc(100% - 370px)/2);
+        padding-right: calc(calc(100% - 370px)/2);
+    }
+
+    .hiring4 .left-square .squares {
+        margin-left: 0px;
+        margin-top: 20px;
+        border-top-left-radius: 26px;
+        border-top-right-radius: 26px;
+    }
+
+    .hiring4 .all-form .square-form {
+        flex-direction: column;
+    }
+
+    .hiring4 .sub-form button {
+        width: 15%;
+        margin-left: -30px;
+    }
+
+    .hiring4 .all-hiring4 input::placeholder {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .hiring4 .all-hiring4 input {
+        width: 95%;
+    }
+
+    .hiring4 .all-hiring4 .all-form {
+        width: 100%;
+        padding-left: calc(calc(100% - 350px)/2);
+        padding-right: calc(calc(100% - 350px)/2);
+        margin-top: 50px;
+    }
+
+    .hiring4 .right-content .date {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .hiring4 .right-content h5 {
+        text-align: center;
+    }
+    
+    .hiring4 .right-content p {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .hiring4 .all-form .square-form {
+        margin-top: 20px;
+    }
+
+    .hiring4 .all-hiring4 .footer-slide-items {
+        min-height: 80px;
+        background-color: $primary;
+    }
+
+    .hiring4 .all-hiring4 .footer-slide-items img {
+        width: 20%;
+        margin-top: 25px;
     }
 }
 
