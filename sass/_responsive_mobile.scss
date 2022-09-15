@@ -305,10 +305,6 @@
         height: 10%;
     }
 
-    .footer {
-        display: none;
-    }
-
     //HOME6 
 
     .home6 .all-home6 .top-content {
@@ -400,6 +396,10 @@
         height: 0; 
         width: auto;
         height: auto;
+    }
+
+    .home7 .img-item-slider img {
+        display: inline;
     }
 
     //HOME 8
@@ -731,6 +731,40 @@
     .hiring4 .all-hiring4 .footer-slide-items img {
         width: 20%;
         margin-top: 25px;
+    }
+
+    .home11 {
+        width: 100%;
+        height: auto;
+    }
+
+    .home11 .all-home11 .all-flex-home11 {
+        flex-direction: column;
+    }
+
+    .home11 .all-home11 h2 {
+        font-size: 40px;
+        line-height: 56px;
+        transform: translateY(-30%);
+    }
+
+    .home11 .all-flex-home11 .square-home11 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    //FOOTER 
+
+    .footer {
+        width: 100%;
+        height: auto;
+        text-align: start;
+    }
+
+    .footer .all_footer .top {
+        flex-direction: column;
+        padding-left: calc(calc(100% - 1200px)/2);
+        padding-right: calc(calc(100% - 1200px)/2);
     }
 }
 

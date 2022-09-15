@@ -2703,6 +2703,11 @@ table {
   background: url(../images/hiring4-square2.png) center center/cover;
 }
 
+.service0 {
+  width: 100%;
+  height: 100vh;
+}
+
 .service1 {
   width: 100%;
   height: 100vh;
@@ -4908,9 +4913,6 @@ table {
   .home5 .all-home5-item .footer-items {
     height: 10%;
   }
-  .footer {
-    display: none;
-  }
   .home6 .all-home6 .top-content {
     font-size: 35px;
     line-height: 50px;
@@ -4983,6 +4985,9 @@ table {
     height: 0;
     width: auto;
     height: auto;
+  }
+  .home7 .img-item-slider img {
+    display: inline;
   }
   .feedback {
     display: none;
@@ -5237,6 +5242,32 @@ table {
   .hiring4 .all-hiring4 .footer-slide-items img {
     width: 20%;
     margin-top: 25px;
+  }
+  .home11 {
+    width: 100%;
+    height: auto;
+  }
+  .home11 .all-home11 .all-flex-home11 {
+    flex-direction: column;
+  }
+  .home11 .all-home11 h2 {
+    font-size: 40px;
+    line-height: 56px;
+    transform: translateY(-30%);
+  }
+  .home11 .all-flex-home11 .square-home11 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+    text-align: start;
+  }
+  .footer .all_footer .top {
+    flex-direction: column;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
   }
 }
 @media (min-width: 395px) and (max-width: 450px) {
