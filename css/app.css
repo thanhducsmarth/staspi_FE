@@ -2706,6 +2706,105 @@ table {
 .service0 {
   width: 100%;
   height: 100vh;
+  margin-top: 100px;
+  position: relative;
+}
+
+.service0 .all-service0 {
+  width: 100%;
+  height: 100%;
+}
+
+.service0 .top-service {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  background: url(../images/Banner-father-service.jpg) center center/cover;
+}
+
+.service0 .bottom-service {
+  width: 100%;
+  height: 20%;
+  background-color: #007EDC;
+}
+
+.service0 .right-service {
+  padding-right: calc((100% - 1200px) / 2);
+}
+
+.service0 .left-service {
+  padding-left: calc((100% - 1200px) / 2);
+}
+
+.service0 .left-service h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 79px;
+  color: #FFFFFF;
+}
+
+.service0 .left-service p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 40px 0;
+  padding-right: calc((100% - 100px) / 2);
+}
+
+.service0 .left-service .btn-service {
+  background: #FFFFFF;
+  border-radius: 9px;
+  width: 150px;
+  padding: 8px 15px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #202857;
+  cursor: pointer;
+}
+
+.service0 .right-service img {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 45%;
+  padding-right: calc((100% - 1350px) / 2);
+}
+
+.service0 .bottom-service .square-bottom {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: calc((100% - 1200px) / 2);
+}
+
+.service0 .image-icon {
+  display: flex;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+.service0 .image-icon img {
+  width: 50px;
+}
+
+.service0 .image-icon p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .service1 {
