@@ -3086,6 +3086,7 @@ table {
   height: 200px;
   padding: 20px;
   margin-left: 20px;
+  text-align: center;
   margin-top: 20px;
 }
 
@@ -3162,7 +3163,6 @@ table {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-top: 10px;
 }
 
 .Service3-Items .flex-Service3 {
@@ -3171,10 +3171,10 @@ table {
 
 .Service3-Items .bottom-Service3 .flex-Service3-item {
   background-color: #FFFFFF;
-  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   min-height: 260px;
+  margin-top: 10px;
   padding: 20px;
   box-shadow: 0px 4px 9px 5px rgba(174, 170, 170, 0.25);
   border-radius: 20px;
@@ -3195,14 +3195,18 @@ table {
   font-style: normal;
   font-weight: 400;
   text-align: justify;
-  font-size: 14px;
-  padding-top: 20px;
+  font-size: 13px;
   line-height: 25px;
   color: #000000;
 }
 
 .Service3-Items .flex-Service3-item img {
-  width: 15%;
+  width: 40%;
+}
+
+.Service3-Items .flex-Service3-item .all-flex-icon-content {
+  display: flex;
+  align-items: center;
 }
 
 .Service4-Items {
