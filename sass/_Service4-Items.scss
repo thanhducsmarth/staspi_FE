@@ -24,33 +24,33 @@
 
 .Service4-Items .right-content span {
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 38px;
     color: $font-black;
     font-family: $font-text;
 }
 
-.Service4-Items .right-content h4 {
+.Service4-Items .right-content ul {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 60px;
     padding-top: 10px;
     color: $font-home5;
 }
 
-.Service4-Items .right-content p {
+.Service4-Items .right-content li {
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 40px;
     color: $font-black;
-    padding-top: 25px;
+    margin-left: 40px;
 }
 
 .Service4-Items .left-Service4 img {
-    width: 95%;
+    width: 100%;
 }

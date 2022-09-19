@@ -23,11 +23,8 @@
     flex: 1;
 }
 
-.Service5-Items .left-Service5-Items .oval-Service5 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background: url(../images/Service1-items1.png) center center/cover;
+.Service5-Items .left-Service5-Items .oval-Service5 img{
+    width: 100%;
 }
 
 .Service5-Items .content-Service5 h5 {
@@ -60,7 +57,7 @@
     background-color: $white-contact;
     font-family:$font-text;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     border: none;
     line-height: 29px;
@@ -75,7 +72,7 @@
     background-color: $white-contact;
     font-family:$font-text;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 29px;
     border: none;
@@ -90,7 +87,7 @@
     padding: 10px;
     font-family:$font-text;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     border: none;
 }
@@ -103,7 +100,7 @@
     padding: 15px;
     font-family: $font-text;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     letter-spacing: -0.065em;
     color: $font-home5;

@@ -753,6 +753,93 @@
         margin-bottom: 20px;
     }
 
+    //Service1-Items
+
+    .Service1-Items {
+        display: none;
+    }
+
+    //Service4-Items    
+
+    .Service4-Items .all-Service4-Items {
+        flex-direction: column-reverse;
+        padding-left: calc(calc(100% - 350px)/2);
+        padding-right: calc(calc(100% - 350px)/2);
+    }
+
+    //Service2-Items
+
+    .Service2-Items {
+        text-align: center;
+        height: auto;
+        padding-left: calc(calc(100% - 700px)/2);
+        padding-right: calc(calc(100% - 700px)/2);
+    }
+
+    .Service2-Items .all-Service2-Items {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .Service2-Items .all-Service2-Items .right-Service2-Items {
+        margin-top: 30px;
+    }
+
+    .Service2-Items .right-Service2-Items .square-service2 {
+        width: 160px;
+        height: 160px;
+        padding: 20px;
+        margin-left: 0px;
+        padding: 5px;
+    }
+
+    //Service3-Items
+
+    .Service3-Items {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .Service3-Items .all-Service3-Items .bottom-Service3 {
+        flex-direction: column;
+    }
+
+    //Service5-Items
+
+    .Service5-Items {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .Service5-Items .all-Service5-Items {
+        flex-direction: column;
+        padding-left: calc(calc(100% - 350px)/2);
+        padding-right: calc(calc(100% - 350px)/2);
+    }
+
+    .Service5-Items .input-Service5 input {
+        width: 100%;
+        display: inherit;
+        margin-top: 10px;
+    }
+
+    .Service5-Items .form-Service5 .input-second {
+        width: 100%;
+    }
+
+    .Service5-Items .all-form textarea {
+        width: 100%;
+    }
+
+    .Service5-Items .all-Service5-Items .right-Service5-Items {
+        text-align: center;
+    }
+
+    .Service5-Items .all-form button {
+        width: 40%;
+    } 
+
+
     //FOOTER 
 
     .footer {

@@ -97,6 +97,7 @@ html {
   background-color: rgb(255, 255, 255);
   display: none;
   width: 136px;
+  list-style: none;
   transform: translateX(-5%);
   box-shadow: 0px 8px 13px 4px rgba(155, 155, 155, 0.25);
 }
@@ -230,8 +231,7 @@ body {
   line-height: 1;
 }
 
-ol,
-ul {
+ol {
   list-style: none;
 }
 
@@ -2983,13 +2983,13 @@ table {
   background-clip: text;
   text-fill-color: transparent;
   font-weight: 700;
-  font-size: 105px;
+  font-size: 110px;
   line-height: 110px;
   letter-spacing: -0.06em;
 }
 
 .Service1-Items .content-items h1 {
-  font-size: 115px;
+  font-size: 110px;
 }
 
 .Service1-Items .content-Service1-Items p {
@@ -2999,7 +2999,7 @@ table {
   color: #000000;
   font-weight: 400;
   line-height: 25px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .Service1-Items .right-Service1-Items .image-service1-items {
@@ -3072,6 +3072,7 @@ table {
 
 .Service2-Items .all-Service2-Items .right-Service2-Items {
   flex: 1;
+  gap: 10px;
 }
 
 .Service2-Items .all-Service2-Items .right-Service2-Items {
@@ -3184,7 +3185,7 @@ table {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 96px;
   text-align: center;
   color: #202857;
@@ -3235,35 +3236,35 @@ table {
 
 .Service4-Items .right-content span {
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 38px;
   color: #000000;
   font-family: "Montserrat", sans-serif;
 }
 
-.Service4-Items .right-content h4 {
+.Service4-Items .right-content ul {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 27px;
   line-height: 60px;
   padding-top: 10px;
   color: #202857;
 }
 
-.Service4-Items .right-content p {
+.Service4-Items .right-content li {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 25px;
+  line-height: 40px;
   color: #000000;
-  padding-top: 25px;
+  margin-left: 40px;
 }
 
 .Service4-Items .left-Service4 img {
-  width: 95%;
+  width: 100%;
 }
 
 .Service5-Items {
@@ -3291,11 +3292,8 @@ table {
   flex: 1;
 }
 
-.Service5-Items .left-Service5-Items .oval-Service5 {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  background: url(../images/Service1-items1.png) center center/cover;
+.Service5-Items .left-Service5-Items .oval-Service5 img {
+  width: 100%;
 }
 
 .Service5-Items .content-Service5 h5 {
@@ -3328,7 +3326,7 @@ table {
   background-color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   border: none;
   line-height: 29px;
@@ -3343,7 +3341,7 @@ table {
   background-color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 29px;
   border: none;
@@ -3358,7 +3356,7 @@ table {
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   border: none;
 }
@@ -3371,7 +3369,7 @@ table {
   padding: 15px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: -0.065em;
   color: #202857;
@@ -5361,6 +5359,67 @@ table {
   .home11 .all-flex-home11 .square-home11 {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .Service1-Items {
+    display: none;
+  }
+  .Service4-Items .all-Service4-Items {
+    flex-direction: column-reverse;
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+  }
+  .Service2-Items {
+    text-align: center;
+    height: auto;
+    padding-left: calc((100% - 700px) / 2);
+    padding-right: calc((100% - 700px) / 2);
+  }
+  .Service2-Items .all-Service2-Items {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  .Service2-Items .all-Service2-Items .right-Service2-Items {
+    margin-top: 30px;
+  }
+  .Service2-Items .right-Service2-Items .square-service2 {
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    margin-left: 0px;
+    padding: 5px;
+  }
+  .Service3-Items {
+    height: auto;
+    padding: 20px 0;
+  }
+  .Service3-Items .all-Service3-Items .bottom-Service3 {
+    flex-direction: column;
+  }
+  .Service5-Items {
+    height: auto;
+    padding: 30px 0;
+  }
+  .Service5-Items .all-Service5-Items {
+    flex-direction: column;
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+  }
+  .Service5-Items .input-Service5 input {
+    width: 100%;
+    display: inherit;
+    margin-top: 10px;
+  }
+  .Service5-Items .form-Service5 .input-second {
+    width: 100%;
+  }
+  .Service5-Items .all-form textarea {
+    width: 100%;
+  }
+  .Service5-Items .all-Service5-Items .right-Service5-Items {
+    text-align: center;
+  }
+  .Service5-Items .all-form button {
+    width: 40%;
   }
   .footer {
     width: 100%;
