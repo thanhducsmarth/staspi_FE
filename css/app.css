@@ -27,7 +27,8 @@ html {
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
   height: 100px;
-  background-color: rgb(255, 255, 255);
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   top: 0;
   right: 0;
   left: 0;
@@ -3377,6 +3378,125 @@ table {
   cursor: pointer;
 }
 
+.service1-items-none {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: 100px;
+}
+
+.service1-items-none .square-service1-items-none {
+  width: 48vh;
+  height: 48vh;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  position: absolute;
+  top: -15%;
+  left: -10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-service1-items-none h1 {
+  background: linear-gradient(180deg, #EC6C65 0%, #EFA156 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.06em;
+  transform: translateX(10%);
+  transform: translateY(15%);
+}
+
+.service1-items-none .img-service1-items-none img {
+  width: 85%;
+  right: 0;
+  position: absolute;
+  top: 7%;
+}
+
+.service1-items-none .content-service1-items-none {
+  bottom: 23%;
+  position: absolute;
+}
+
+.service1-items-none .content-service1-items-none p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  padding: 0 20px;
+  transform: translateY(0%);
+  text-align: justify;
+}
+
+.image-service1-items-none {
+  width: 65% !important;
+  top: 15% !important;
+}
+
+.image1-service1-items-none {
+  width: 62% !important;
+  top: 13% !important;
+}
+
+.fix-h1 h1 {
+  font-size: 28px !important;
+}
+
+.service1-items-none form {
+  margin-top: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 6px 12px 2px rgba(138, 136, 136, 0.25);
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  bottom: 10%;
+  position: absolute;
+}
+
+.service1-items-none form .all-form {
+  display: flex;
+  width: 100%;
+}
+
+.service1-items-none .all-form input {
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #7A7A7A;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+}
+
+.service1-items-none .all-form button {
+  width: 30%;
+  background: #3D4888;
+  border-radius: 5px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
 @media (min-width: 1750px) {
   .navbar .nav {
     height: 150px;
@@ -5363,10 +5483,24 @@ table {
   .Service1-Items {
     display: none;
   }
+  .Service4-Items {
+    height: auto;
+  }
   .Service4-Items .all-Service4-Items {
     flex-direction: column-reverse;
     padding-left: calc((100% - 350px) / 2);
     padding-right: calc((100% - 350px) / 2);
+  }
+  .Service4-Items .right-content span {
+    font-size: 9px;
+  }
+  .Service4-Items .right-content ul {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .Service4-Items .right-content li {
+    font-size: 13px;
+    margin-left: 20px;
   }
   .Service2-Items {
     text-align: center;
@@ -5388,12 +5522,34 @@ table {
     margin-left: 0px;
     padding: 5px;
   }
+  .Service2-Items .left-Service2-Items .center-content {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .Service2-Items .left-Service2-Items .bottom-content {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0 20px;
+  }
+  .Service2-Items .bottom-button button {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 30px;
+  }
   .Service3-Items {
     height: auto;
     padding: 20px 0;
   }
   .Service3-Items .all-Service3-Items .bottom-Service3 {
     flex-direction: column;
+  }
+  .Service3-Items .all-Service3-Items .content-top-Service3 {
+    font-size: 28px;
+  }
+  .Service3-Items .all-Service3-Items .bottom-Service3 {
+    padding: 0 20px;
+    gap: 0px;
   }
   .Service5-Items {
     height: auto;
