@@ -78,7 +78,8 @@
 .service0 .bottom-service .square-bottom {
     display: flex;
     align-items: center;
-    height: 100%;padding-left: calc((100% - 1200px) / 2);
+    height: 100%;
+    padding-left: calc((100% - 1200px) / 2);
 }
 
 .service0 .image-icon {
@@ -100,3 +101,12 @@
     text-align: center;
     color: $white-contact;
 }
+
+.service1 {
+    display: none !important;
+}
+
+.service2 {
+    display: none;
+}
+
