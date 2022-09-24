@@ -3035,6 +3035,10 @@ table {
   color: #FA7716;
 }
 
+.service01 {
+  display: none;
+}
+
 .Service1-Items {
   width: 100%;
   position: relative;
@@ -5081,6 +5085,9 @@ table {
   }
 }
 @media (max-width: 829px) {
+  .service01 {
+    display: flex;
+  }
   .navbar .nav {
     padding: 0 20px;
     background-color: rgb(243, 243, 243);

@@ -1,6 +1,10 @@
 @media (max-width: 829px) {
     //NAVBAR 
 
+    .service01{
+        display: flex;
+    }
+
     .navbar .nav {
         padding: 0 20px;
         background-color: $color-navbar;
@@ -887,6 +891,8 @@
     .service0 {
         display: none;
     }
+
+
 
 
     //FOOTER 
