@@ -850,6 +850,11 @@
         transform: translateY(-51px);
         margin-top: 48px;
     }
+
+    .home2 .flexbox-service .flexbox-item {
+        padding: 6px;
+        flex: 25%;
+    }
 }
 //
 
@@ -887,6 +892,11 @@
     .all-build {
         margin-top: 47px;
         transform: translateY(-48px);
+    }
+
+    .home2 .flexbox-service .flexbox-item {
+        padding: 6px;
+        flex: 25%;
     }
 }
 
@@ -1260,7 +1270,7 @@
     }
 
     .feedback .comment p {
-        font-size: 13px;
+        font-size: 10px;
         line-height: 20px;
     }
 

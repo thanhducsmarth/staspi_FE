@@ -491,7 +491,7 @@ table {
 }
 
 .home2 .flexbox-service .flexbox-item {
-  padding: 20px;
+  padding: 10px;
   flex: 25%;
 }
 
@@ -787,7 +787,7 @@ table {
 
 .home5 .all-home5-item .all-home5 {
   height: 80%;
-  background: url(../images/background-home5.png) center center no-repeat;
+  background: url(../images/background-home5.jpg) center center no-repeat;
   mix-blend-mode: normal;
 }
 
@@ -1059,8 +1059,8 @@ table {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px !important;
+  line-height: 30px !important;
   letter-spacing: -0.005em;
   color: #151A3C;
   text-align: justify;
@@ -1801,7 +1801,7 @@ table {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  background: url(../images/oval3-aboutus.png) center center/cover;
+  background: url(../images/oval3-aboutus.jpg) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .four {
@@ -1990,7 +1990,7 @@ table {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  background: url(../images/oval3-aboutus.png) center center/cover;
+  background: url(../images/oval3-aboutus.jpg) center center/cover;
 }
 
 .aboutus_2 .all-aboutus_2 .four {
@@ -4251,6 +4251,10 @@ table {
     transform: translateY(-51px);
     margin-top: 48px;
   }
+  .home2 .flexbox-service .flexbox-item {
+    padding: 6px;
+    flex: 25%;
+  }
 }
 @media (min-width: 1250px) and (max-width: 1530px) {
   .banner .square {
@@ -4280,6 +4284,10 @@ table {
   .all-build {
     margin-top: 47px;
     transform: translateY(-48px);
+  }
+  .home2 .flexbox-service .flexbox-item {
+    padding: 6px;
+    flex: 25%;
   }
 }
 @media (min-width: 830px) and (max-width: 1249px) {
@@ -4575,7 +4583,7 @@ table {
     transform: translateY(5%);
   }
   .feedback .comment p {
-    font-size: 13px;
+    font-size: 10px;
     line-height: 20px;
   }
   .feedback .infomation h2 {
