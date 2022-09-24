@@ -825,15 +825,32 @@
     .Service5-Items .all-form button {
         font-size: 16px;
     }
+
+    .service1-items-none {
+        display: none;
+    }
+
+
+    .all-build {
+        margin-top: 55px;
+        transform: translateY(-60px);
+    }
     
 }
 
 //ABOUT US 
 
 
+@media (min-width: 1529px) and (max-width: 1749px) {
+    .service1-items-none {
+        display: none;
+    }
 
-
-
+    .all-build {
+        transform: translateY(-51px);
+        margin-top: 48px;
+    }
+}
 //
 
 @media (min-width: 1250px) and (max-width: 1530px) {
@@ -861,6 +878,15 @@
 
     .banner .img_banner img{
         width: 100%;
+    }
+
+    .service1-items-none {
+        display: none;
+    }
+
+    .all-build {
+        margin-top: 47px;
+        transform: translateY(-48px);
     }
 }
 
@@ -1295,6 +1321,11 @@
 
     .footer .footer-img{
         width: 50%;
+    }
+
+    .all-build {
+        transform: translateY(-37px);
+        margin-top: -13px;
     }
 
     .footer .first .content-img h5{
@@ -1797,6 +1828,15 @@
     .Service5-Items .all-form button {
         font-size: 14px;
         width: 30%;
+    }
+
+    .service1-items-none {
+        display: none;
+    }
+
+    .footer-items-content {
+        transform: translateY(17px);
+        margin-top: -18px;
     }
     
 }

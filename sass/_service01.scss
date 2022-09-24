@@ -1,0 +1,80 @@
+.service01 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url(../images/background-service01.jpg) center center/cover;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.service01 .all-service01 {
+    width: 100%;
+    padding-left: calc(calc(100% - 350px)/2);
+    padding-right: calc(calc(100% - 350px)/2);
+}
+
+.service01 .content-service01 h2 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: $white-contact;
+}
+
+.service01 .content-service01 p {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: $white-contact;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.service01 .btn-service01 {
+    width: 130px;
+    height: 35px;
+    border: none;
+    background: $white-contact;
+    border-radius: 9px;
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 30px 0;
+    color: $font-home5;
+}
+
+// .service01 .square-service01 {
+//     padding: 10px;
+// }
+
+.service01 .square-items img {
+    width: 75%;
+}
+
+.service01 .square-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $white-contact;
+    border: 1px solid $primary;
+    box-shadow: 0px 4px 4px rgba(187, 184, 184, 0.25);
+    border-radius: 23px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.service01 .square-items p {
+    font-family:$font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: $primary;
+}
+
