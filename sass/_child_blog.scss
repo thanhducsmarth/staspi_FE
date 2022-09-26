@@ -1,0 +1,613 @@
+.banner-child-blog {
+    width: 100%;
+    height: 90vh;
+    background-color: $home-air;
+    position: relative;
+    font-family: $font-text;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-child-blog h1 {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: rgb(0, 0, 0);
+}
+.banner-child-blog a {
+    color: $color-text;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 23px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 80px;
+}
+// posts
+.component-post {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.component-post .main-post {
+    // border: 1px solid green;
+    flex: 60%;
+    height: auto;
+    display: flex;
+}
+.component-post .main-post .main-post-container {
+    // border: 1px black solid;
+    flex: 100%;
+    margin: 50px;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    font-family: $font-text;
+    font-style: normal;
+
+}
+.component-post .main-post .main-post-container a{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 25px;
+    color: $color-text;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.component-post .main-post .main-post-container h2{
+    font-weight: 500;
+    line-height: 80px;
+    font-size: 35px;
+    color: #202857;
+    margin-left: 30px;
+}
+.component-post .main-post .main-post-container .content p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 35px;
+    font-size: 25px;
+    color: #484848;
+}
+.component-post .main-post .main-post-container .content {
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
+}
+.component-post .main-post .main-post-container .interactive {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.component-post .main-post .main-post-container .interactive .item-views{
+    display : flex;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    margin-left: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.component-post .main-post .main-post-container .interactive .item-views span {
+    font-size: 38px;
+}
+.component-post .main-post .main-post-container .interactive .item-views p {
+    font-size: 23px;
+    margin-left: 10px;
+}
+.component-post .main-post .main-post-container .interactive .item-contact {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    justify-content: space-around;
+    align-items: center;
+}
+.component-post .main-post .main-post-container .interactive .item-contact p {
+    font-size: 23px;
+}
+.component-post .main-post .main-post-container .interactive .item-contact span {
+    font-size: 38px;
+    margin-left: 20px;
+}
+.component-post .main-post .main-post-container .interactive .item-tag {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    justify-content: space-around;
+    align-items: center;
+}
+.component-post .main-post .main-post-container .interactive .item-tag p {
+    font-size: 23px;
+}
+.component-post .main-post .main-post-container .block-owner {
+    width: 90%;
+    height: auto;
+    background-color:#fff;
+    margin: 50px 0;
+    margin-left: 10%;
+    border-radius: 25px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+}
+.component-post .main-post .main-post-container .block-owner .avt {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.component-post .main-post .main-post-container .block-owner .avt span {
+    width: 140px;
+    height: 140px;
+    font-size: 140px;
+    
+}
+.component-post .main-post .main-post-container .block-owner .right-block {
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    font-family: $font-text;
+    font-style: normal;
+}
+.component-post .main-post .main-post-container .block-owner .right-block>h2 {
+    margin: 40px 0 5px;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.component-post .main-post .main-post-container .block-owner .right-block p {
+    font-size: 23px;
+    line-height: 33px;
+    font-weight: 400;
+    margin: 15px 0;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.component-post .main-post .main-post-container img{
+    width: 90%;
+    height: 450px;
+    border-radius: 26px;
+    margin:0 5%;
+
+}
+.component-post .main-post .main-post-container .info{
+    width: auto;
+    height: 50px;
+    margin: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.component-post .main-post .main-post-container .info .c-date {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.component-post .main-post .main-post-container .info .c-date span{
+    font-size: 32px;
+    color: $color-text;
+}
+.component-post .main-post .main-post-container .info .c-date p {
+    font-size: 23px;
+    margin-left: 20px;
+}
+.component-post .main-post .main-post-container .info .owner {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.component-post .main-post .main-post-container .info .owner span {
+    font-size: 32px;
+    color: $color-text;
+}
+.component-post .main-post .main-post-container .info .owner p {
+    font-size: 23px;
+    margin-left: 20px;
+}
+.component-post .main-post .main-post-container .info .sign {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.component-post .main-post .main-post-container .info .sign span {
+    font-size: 32px;
+    color: $color-text;
+}
+.component-post .main-post .main-post-container .info .sign p {
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+.component-post .highlight-post {
+    flex: 40%;
+    display:flex;
+    flex-direction: column;
+    height: auto;
+}
+.component-post .highlight-post h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+.component-post .highlight-post .search-bar {
+    margin: 50px 0;
+    width: 80%;
+    height:50px;
+
+}
+.component-post .highlight-post .search-bar form {
+    width:100%;
+    height: 100%;
+}
+.component-post .highlight-post .search-bar input {
+    width:80%;
+    height: 100%;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    background-color:#fff;
+    border: 4px solid #D1C9C9;
+    padding: 10px;
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 45px;
+}
+.component-post .highlight-post .search-bar input::placeholder{
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 45px;
+    color: #8F8F8F;
+}
+.component-post .highlight-post .search-bar button {
+    background-color: $third;
+    width:20%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: -20px;
+    cursor: pointer;
+    border: none;
+}
+
+.component-post .highlight-post .highlight-post-container {
+  width: 100%;
+  padding-left: calc((100% - 800px) / 2);
+  padding-right: calc((100% - 800px) / 2);
+  height: auto;
+  margin-top: 30px;
+}
+.component-post .highlight-post .highlight-post-container .item-post {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  height: auto;
+  background: #FFFFFF;
+  border-bottom: 3px solid #E9E9E9;
+//   background-color: pink;
+}
+.component-post .highlight-post .highlight-post-container .item-post .item-left {
+    // border: 1px solid red;
+    display: flex;
+    flex: 40%;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+.component-post .highlight-post .highlight-post-container .item-post .item-left img {
+    // background-color:red;
+    width:250px;
+    height: 220px;
+    border-radius: 20px;
+}
+.component-post .highlight-post .highlight-post-container .item-post .item-right {
+    // border: 1px solid yellow;
+    display: flex;
+    flex:60%;
+    justify-content: center;
+    flex-direction: column;
+    font-family: $font-text;
+    font-style: normal;
+}
+.component-post .highlight-post .highlight-post-container .item-post .item-right h2{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 47px;
+    color:#202857;
+}
+.component-post .highlight-post .highlight-post-container .item-post .item-right p {
+    margin-left: 10px;
+    font-weight: 150;
+    font-size: 23px;
+    color:#B8B8B8;
+}
+.component-post .highlight-post .categortires-container {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.component-post .highlight-post .categortires-container h2 {
+    margin: 40px 0;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151A3C;
+}
+.component-post .highlight-post .categortires-container .item-category {
+    width:90%;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    border-bottom: 2px solid #E9E9E9;
+    display: flex;
+    justify-content: space-between;
+}
+.component-post .highlight-post .categortires-container .item-category h6 {
+    font-weight: 450;
+    font-size: 38px;
+    color: #151A3C;
+    margin: 20px;
+}
+.component-post .highlight-post .categortires-container .item-category p {
+    font-weight: 400;
+    font-size: 38px;
+    color: #151A3C;
+    margin: 15px 0 15px;
+}
+.component-post .highlight-post .tags-block {
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    font-family: $font-text;
+    font-style: normal;
+}
+.component-post .highlight-post .tags-block h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151A3C;
+    margin-bottom: 20px;
+}
+.component-post .highlight-post .tags-block .tags-container{
+    width:100%;
+    height: auto;
+}
+.component-post .highlight-post .tags-block .tags-container a {
+    display: inline-block;
+	height:36px;
+	line-height:23px;
+	position:relative;
+	margin: 0 18px 8px 0;
+	padding: 4px 18px 4px 10px;
+	background: #777;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	color: #fff;
+	font-size:28px;
+	font-family: $font-text;
+	text-decoration: none;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	font-weight: 400;
+}
+.component-post .highlight-post .tags-block .tags-container a:before {
+    content: "";
+	position: absolute;
+	top: 10px;
+	right: 1px;
+	float: left;
+	width: 8px;
+	height: 8px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: #fff;
+	-moz-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+	-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+	box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+    justify-content: center;
+}
+.component-post .highlight-post .tags-block .tags-container a:after {
+    content: "";
+	position: absolute;
+	top:0;
+	right: -17px;
+	width: 0;
+	height: 0;
+	border-color: transparent transparent transparent #777;
+	border-style: solid;
+	border-width: 18px 0 18px 18px;
+}
+.component-post .highlight-post .tags-block .tags-container a.color1{
+    background:#005385;
+}
+.component-post .highlight-post .tags-block .tags-container a.color1:after{border-color: transparent transparent transparent #005385;}
+.component-post .highlight-post .tags-block .tags-container a.color2{
+    background:#EA803A;
+}
+.component-post .highlight-post .tags-block .tags-container a.color2:after{border-color: transparent transparent transparent #EA803A;}
+.component-post .highlight-post .tags-block .tags-container a.color3{
+    background:#E04D27;
+}
+.component-post .highlight-post .tags-block .tags-container a.color3:after{border-color: transparent transparent transparent #E04D27;}
+
+//component NEW-POST
+.posts {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+//item
+.post-container {
+  width: calc(100% - 40px);
+  height:auto;
+  margin: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+    justify-content: center;
+}
+.posts .post-container .item-post {
+  position: relative;
+  flex:33%;
+  display: flex;
+  margin: 20px;
+  width: calc(33% - 40px);
+  height: 350px;
+  box-sizing: border-box;
+}
+
+.image-item {
+  background-color: rgb(232,233,235);
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  
+}
+.overlay-item {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  
+  transition: opacity 0.25s;
+}
+.overlay-item > *{
+  transform: translateY(250px);
+  transition: transform 0.25s;
+}
+.overlay-item:hover {
+  opacity: 1;
+}
+
+.overlay-item:hover > * {
+  transform: translateY(0);
+}
+.title-item {
+  font-family: "Montserrat", sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 35px;
+   margin: 20px 10px;
+//    text-align: justify;
+   color:#fff;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+.content-item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 10px;
+  overflow: hidden;
+//   text-align: justify;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 8;
+           line-clamp: 8; 
+   -webkit-box-orient: vertical;
+}
+.pagination {
+  text-align: center;
+  margin: 30px 30px 60px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 250px;
+
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  font-size: 24px;
+}
+.pagination .cur-page, .pagination .dots {
+  background-color: #ccc;
+  width: 50px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 10%);
+  border-radius:25px;
+  cursor: pointer;
+}
+.pagination .cur-page a {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 52px;
+  color: #fff;
+}
+.pagination .dots a {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.pagination .pre-page , .pagination .nxt-page  {
+  font-size: 70px;
+  background-color: #fff;
+  box-shadow: none;
+  color: $primary;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.pre-page a:hover {
+  color: #D04E27;
+}
+.nxt-page a:hover {
+  color: #D04E27;
+}
+.cur-page:hover, .dots:hover {
+  width: 70px;
+}
+.active {
+  background-color: $primary !important;
+}
+.disable {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+.pagination .disable a{
+  color: #ccc;
+}

@@ -1,0 +1,205 @@
+//slide cooperation branch
+.slide-cooperation-branch {
+    width: 100%;
+    height: 20vh;
+}
+
+.slide-cooperation-branch .footer-items {
+    height: 100%;
+    background-color: $white-contact;
+}
+// banner blog
+.banner_blog {
+  width: 100%;
+  height: 90vh;
+  background-color: #1E57EA;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_blog h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 23px;
+  letter-spacing: -0.005em;
+  color: #fff;
+}
+// topics
+.topics {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+}
+//item
+.topic-container {
+  flex: calc(100% - 40px);
+  height:auto;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.topics .topic-container .item-topic {
+  position: relative;
+  width: calc(100% / 3 - 40px);
+  display: flex;
+  margin: 20px;
+  height: auto;
+  max-width: 650px;
+  min-width: 330px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.topics .topic-container .item-topic .image-item {
+  background-color: rgb(232,233,235);
+  display: block;
+  width: 100%;
+  height: 350px;
+  border-radius: 25px;
+  
+}
+.topics .topic-container .item-topic .overlay-item {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.topics .topic-container .item-topic .overlay-item > *{
+  transform: translateY(100px);
+  transition: transform 0.25s;
+}
+.topics .topic-container .item-topic .overlay-item:hover {
+  opacity: 1;
+}
+
+.topics .topic-container .item-topic .overlay-item:hover > * {
+  transform: translateY(0);
+}
+.topics .topic-container .item-topic .overlay-item .contents-item {
+  font-family: "Montserrat", sans-serif;
+   font-style: normal;
+   color:#fff;
+   padding: 20px 0;
+   box-sizing: border-box;
+}
+.topics .topic-container .item-topic .overlay-item .title-item {
+  font-family: "Montserrat", sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 37px;
+}
+.topics .topic-container .item-topic .overlay-item .content-item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.topics .topic-container .item-topic .title-mobile {
+  // display: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px 0;
+  color:$second-primary;
+  display: none;
+}
+.topics .topic-container .item-topic .content-mobile {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #797979;
+  display: none;
+}
+.topics .pagination {
+  text-align: center;
+  margin: 90px 30px 60px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 250px;
+
+}
+
+.topics .pagination li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.topics .pagination li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.topics .pagination .page-number .cur-page, .topics .pagination .dots {
+  background-color: #ccc;
+  width: 50px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 10%);
+  border-radius:25px;
+  cursor: pointer;
+}
+.topics .pagination .cur-page a {
+  font-family: $font-text;
+  font-style: normal;
+  // font-weight: 500;
+  font-size: 25px;
+  // line-height: 52px;
+  // color: red;
+}
+.topics .pagination .dots a {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.pagination .pre-page , .pagination .nxt-page  {
+  font-size: 70px;
+  background-color: #fff;
+  box-shadow: none;
+  color: $primary;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.topics .pagination .page-number .pre-page a:hover {
+  color: #D04E27;
+}
+.topics .pagination .nxt-page a:hover {
+  color: #D04E27;
+}
+.topics .pagination .page-number .cur-page:hover, .dots:hover {
+  width: 70px;
+}
+.topics .pagination .page-number .active {
+  background-color: $primary !important;
+}
+.topics .pagination .disable {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+.topics .pagination .disable a{
+  color: #ccc;
+}
