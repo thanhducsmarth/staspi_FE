@@ -39,24 +39,29 @@
     flex: 60%;
     height: auto;
     display: flex;
+    width: 100%;
 }
 .component-post .main-post .main-post-container {
     // border: 1px black solid;
     flex: 100%;
-    margin: 50px;
+    // margin: 50px;
     padding-left: calc((100% - 1200px) / 2);
     padding-right: calc((100% - 1200px) / 2);
     font-family: $font-text;
     font-style: normal;
-
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
 }
 .component-post .main-post .main-post-container a{
     font-weight: 400;
     line-height: 30px;
     font-size: 25px;
     color: $color-text;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
     text-decoration: none;
+    // order: -1;
 }
 .component-post .main-post .main-post-container h2{
     font-weight: 500;
@@ -64,16 +69,17 @@
     font-size: 35px;
     color: #202857;
     margin-left: 30px;
+    // order: -1;
 }
 .component-post .main-post .main-post-container .content p {
     margin: 20px 0;
     font-weight: 500;
-    line-height: 35px;
-    font-size: 25px;
+    line-height: 25px;
+    font-size: 18px;
     color: #484848;
 }
 .component-post .main-post .main-post-container .content {
-    width: 90%;
+    // width: 90%;
     height: auto;
     margin-left: 10%;
 }
@@ -143,7 +149,6 @@
     width: 140px;
     height: 140px;
     font-size: 140px;
-    
 }
 .component-post .main-post .main-post-container .block-owner .right-block {
     width: 70%;
@@ -156,14 +161,14 @@
     font-family: $font-text;
     font-style: normal;
 }
-.component-post .main-post .main-post-container .block-owner .right-block>h2 {
+.component-post .main-post .main-post-container .block-owner .right-block > h2 {
     margin: 40px 0 5px;
     font-size: 35px;
     line-height: 45px;
     font-weight: 700;
 }
 .component-post .main-post .main-post-container .block-owner .right-block p {
-    font-size: 23px;
+    font-size: 18px;
     line-height: 33px;
     font-weight: 400;
     margin: 15px 0;
@@ -171,12 +176,13 @@
     text-align: justify;
 }
 
-.component-post .main-post .main-post-container img{
+.component-post .main-post .main-post-container .img-post{
     width: 90%;
     height: 450px;
+    display: flex;
     border-radius: 26px;
-    margin:0 5%;
-
+    align-self: center;
+    border: red 1px solid;
 }
 .component-post .main-post .main-post-container .info{
     width: auto;
@@ -184,6 +190,7 @@
     margin: 30px 10%;
     display: flex;
     justify-content: space-between;
+    // order: -1;
 }
 .component-post .main-post .main-post-container .info .c-date {
     width: auto;
