@@ -515,14 +515,29 @@
    font-style: normal;
    font-weight: 700;
    font-size: 35px;
-   padding: 20px 0;
+   margin: 20px 10px;
+//    text-align: justify;
    color:#fff;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
 }
 .content-item {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+  margin: 0 10px;
+  overflow: hidden;
+//   text-align: justify;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 8;
+           line-clamp: 8; 
+   -webkit-box-orient: vertical;
 }
 .pagination {
   text-align: center;

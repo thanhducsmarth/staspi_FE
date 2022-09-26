@@ -4242,8 +4242,14 @@ table {
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
-  padding: 20px 0;
+  margin: 20px 10px;
   color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .content-item {
@@ -4251,6 +4257,13 @@ table {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+  margin: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  line-clamp: 8;
+  -webkit-box-orient: vertical;
 }
 
 .pagination {
