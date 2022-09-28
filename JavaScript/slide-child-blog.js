@@ -2,7 +2,7 @@ let perPage = 3;
 let idPage = 1;
 let start = 0;
 let end = perPage;
-
+// mobileMedia.addEventListener()
 const items = [
     {
         id: 1,

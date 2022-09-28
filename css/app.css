@@ -1755,11 +1755,12 @@ table {
 .aboutus_2 .all-aboutus_2 .second {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aboutus_2 .second .content-right {
   flex: 1;
+  max-width: 650px;
 }
 
 .aboutus_2 .second .image-oval {
@@ -1944,11 +1945,12 @@ table {
 .aboutus_2 .all-aboutus_2 .second {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aboutus_2 .second .content-right {
   flex: 1;
+  max-width: 650px;
 }
 
 .aboutus_2 .second .image-oval {
@@ -2112,7 +2114,7 @@ table {
 }
 .footer_items .footer_item {
   height: 100px;
-  width: 250px;
+  width: 312.5px;
 }
 
 .testimonials1 {
@@ -6304,6 +6306,9 @@ table {
     width: 100%;
     margin-top: 1px;
     background-color: rgb(231, 231, 231);
+  }
+  .nav .nav-items .impotant {
+    color: #FA7716 !important;
   }
   .nav .nav-items li a {
     font-size: 20px;

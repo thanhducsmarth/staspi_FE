@@ -62,11 +62,13 @@
 .aboutus_2 .all-aboutus_2 .second {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .aboutus_2 .second .content-right {
     flex: 1;
+    //fix padding
+    max-width: 650px;
 }
 
 .aboutus_2 .second .image-oval {
