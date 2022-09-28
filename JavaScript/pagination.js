@@ -10,7 +10,7 @@ const items = [
         title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ducimus a repudiandae eius numquam incidunt.",
         content:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ducimus a repudiandae eius numquam incidunt quam suscipit sapiente libero architecto asperiores molestias iure et minima, quidem voluptas minus nesciunt laboriosam hehehehehehe heheheheheheh.",
-        link: "'/page/pages/blog1.html'",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 2,
@@ -136,6 +136,7 @@ function renderTopic(topic) {
     const content = topic.map((item, index) => {
         if (index >= start && index < end) {
             html += '<div class="item-topic">';
+            html += '<a class = onclick-image href = ' + item.link + '>';
             html +=
                 "<img  src=" +
                 item.image +
@@ -144,6 +145,7 @@ function renderTopic(topic) {
                 "image-item" +
                 "'" +
                 ">";
+            html += "</a>"
             html +=
                 "<div " +
                 "onclick =" +
@@ -157,7 +159,9 @@ function renderTopic(topic) {
             html += '<div class = "title-item">' + item.title + "</div>";
             html += '<p class = "content-item">' + item.content + "</p>";
             html += "</div>";
-            html += '<div class = "title-mobile">' + item.title + "</div>";
+            html += "<a href =" + item.link  + ">";
+            html += '<div class = "title-mobile" >' + item.title + "</div>";
+            html += "</a>"
             html += '<div class = "content-mobile">' + item.content + "</div>";
             html += "</div>";
             return html;

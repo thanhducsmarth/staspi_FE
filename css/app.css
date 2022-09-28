@@ -97,7 +97,7 @@ html {
   position: absolute;
   background-color: rgb(255, 255, 255);
   display: none;
-  width: 136px;
+  width: 170px;
   list-style: none;
   transform: translateX(-5%);
   box-shadow: 0px 8px 13px 4px rgba(155, 155, 155, 0.25);
@@ -414,7 +414,7 @@ table {
 }
 .home2 {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background-color: #FAFAFA;
   position: relative;
 }
@@ -1035,6 +1035,8 @@ table {
 }
 
 .home7 .content-slider-item {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
   display: flex;
   width: 60%;
   height: 100%;
@@ -1047,7 +1049,7 @@ table {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 47px;
+  font-size: 32px;
   line-height: 23px;
   letter-spacing: -0.005em;
   color: #151A3C;
@@ -1193,11 +1195,18 @@ table {
 }
 
 .feedback .block_customer .infomation {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
   width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.feedback .block_customer .infomation h2 {
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .feedback .item-slider .comment {
@@ -3605,7 +3614,8 @@ table {
 .banner_contact {
   width: 100%;
   height: 90vh;
-  background-color: #1E57EA;
+  background: rgb(233, 125, 57);
+  background: radial-gradient(circle, rgb(233, 125, 57) 0%, rgb(255, 83, 41) 100%);
   position: relative;
   display: flex;
   justify-content: center;
@@ -3661,7 +3671,7 @@ table {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 30px;
   color: #151A3C;
   text-align: justify;
@@ -3684,11 +3694,10 @@ table {
 
 .cooperate .cooperate-block .image {
   width: calc(100% - 200px);
-  height: 600px;
+  height: 800px;
   margin: 70px 100px;
-  background: url(../images/image-hiring.png) no-repeat center center/cover;
+  background: url(../images/Busuness-deal-bro.png) no-repeat center center/cover;
   border-radius: 25px;
-  border: 1px red solid;
 }
 
 .container-map {
@@ -3879,7 +3888,7 @@ table {
 .banner_blog {
   width: 100%;
   height: 90vh;
-  background-color: #1E57EA;
+  background: radial-gradient(circle, rgb(233, 125, 57) 0%, rgb(255, 83, 41) 100%);
   position: relative;
   display: flex;
   justify-content: center;
@@ -3976,13 +3985,13 @@ table {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 37px;
+  font-size: 25px;
 }
 
 .topics .topic-container .item-topic .overlay-item .content-item {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -3994,6 +4003,10 @@ table {
   padding: 20px 0;
   color: #151A3C;
   display: none;
+}
+
+.topics .topic-container .item-topic a {
+  text-decoration: none;
 }
 
 .topics .topic-container .item-topic .content-mobile {
@@ -4085,7 +4098,7 @@ table {
 .banner-child-blog {
   width: 100%;
   height: 90vh;
-  background-color: #D9D9D9;
+  background: radial-gradient(circle, rgb(233, 125, 57) 0%, rgb(255, 83, 41) 100%);
   position: relative;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -4100,7 +4113,7 @@ table {
   font-size: 47px;
   line-height: 23px;
   letter-spacing: -0.005em;
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 .banner-child-blog a {
@@ -4780,7 +4793,7 @@ table {
     transform: translateX(19%);
   }
   .navbar .nav .subnav {
-    width: 168px;
+    width: 180px;
   }
   .banner .banner-content {
     top: 45%;
@@ -7055,6 +7068,9 @@ table {
   .contact-block .infomation .item-contact .item-left .icon {
     font-size: 50px;
   }
+  .contact-block .infomation .item-contact {
+    min-height: 120px;
+  }
   .contact-block .infomation .item-contact .item-right h2 {
     padding: 8px 0;
   }
@@ -7066,9 +7082,14 @@ table {
   }
   .contact-block .frm-contact input, select, option {
     font-size: 16px;
+    min-height: 50px;
+  }
+  .contact-block .frm-contact textarea {
+    font-size: 16px;
   }
   .contact-block .frm-contact .btn-submit-contact {
     font-size: 24px;
+    height: 75px;
   }
   .banner-child-blog {
     display: none;

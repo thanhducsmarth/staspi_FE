@@ -116,11 +116,17 @@
   }
   
   .feedback .block_customer .infomation {
+    font-family: $font-text;
+    font-style: normal;
     width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .feedback .block_customer .infomation h2{
+    font-weight: 700;
+    font-size: 32px;
   }
   
   .feedback .item-slider .comment {

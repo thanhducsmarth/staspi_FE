@@ -156,6 +156,8 @@
         
     }
   .home7 .content-slider-item {
+        font-family: $font-text;
+        font-style: normal;
         display:flex;
         width: 60%;
         height:100%;
@@ -168,7 +170,7 @@
         font-family: $font-text;
         font-style: normal;
         font-weight: 700;
-        font-size: 47px;
+        font-size: 32px;
         line-height: 23px;
         letter-spacing: -0.005em;
         color: $second-primary;

@@ -992,6 +992,9 @@
     .contact-block .infomation .item-contact .item-left .icon {
         font-size: 50px;
     }
+    .contact-block .infomation .item-contact {
+        min-height: 120px;
+    }
     .contact-block .infomation .item-contact .item-right h2 {
         padding: 8px 0;
     } 
@@ -1004,9 +1007,14 @@
     }
     .contact-block .frm-contact input,select,option {
         font-size: 16px;
+        min-height: 50px;
     }
+    .contact-block .frm-contact textarea {
+        font-size: 16px;
+    } 
     .contact-block .frm-contact .btn-submit-contact {
         font-size: 24px;
+        height: 75px;
     }
     //CHILD BLOCK
     .banner-child-blog {
