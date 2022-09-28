@@ -78,8 +78,19 @@
     margin: 20px 0;
     font-weight: 500;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 20px;
     color: #484848;
+    text-align: justify;
+}
+.component-post .main-post .main-post-container .content a {
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 20px;
+    color: #484848;
+    text-align: justify;
+    margin: 0 !important;
+    text-decoration: underline !important;
+    color: #D04E27 !important;
 }
 .component-post .main-post .main-post-container .content {
     // width: 90%;
@@ -88,12 +99,50 @@
 }
 .component-post .main-post .main-post-container .content img {
     width: 100%;
+    margin-top: 15px;
+}
+.component-post .main-post .main-post-container .content ol > li{
+    font-weight: 700;
+    line-height: 27px;
+    font-size: 22px;
+}
+.component-post .main-post .main-post-container .content h4 {
+    // color: red;
+    font-weight: 700;
+    line-height: 27px;
+    font-size: 22px;
+    font-style: italic;
+}
+.component-post .main-post .main-post-container .content .decription {
+    display: flex;
+    font-weight: 300;
+    line-height: 23px;
+    font-size: 18px;
+    font-style: italic;
+    align-self: center;
+    margin: 10px 0;
+}
+
+.component-post .main-post .main-post-container .content ul > li{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+.component-post .main-post .main-post-container .content ul + .component-post .main-post .main-post-container .content ul {
+    margin-bottom: 10px;
 }
 .component-post .main-post .main-post-container .content ol{
     list-style-type: decimal;
+    display: flex;
+    flex-direction: column;
 }
 .component-post .main-post .main-post-container .content ul {
     list-style-type: disc ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .component-post .main-post .main-post-container .interactive {
     display:flex;
@@ -194,7 +243,7 @@
     display: flex;
     border-radius: 26px;
     align-self: center;
-    border: red 1px solid;
+    // border: red 1px solid;
 }
 .component-post .main-post .main-post-container .info{
     width: auto;
