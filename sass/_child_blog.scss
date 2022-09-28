@@ -36,10 +36,12 @@
 }
 .component-post .main-post {
     // border: 1px solid green;
-    flex: 60%;
+    flex: 55%;
     height: auto;
     display: flex;
     width: 100%;
+    box-sizing: border-box;
+    margin-right: 5%;
 }
 .component-post .main-post .main-post-container {
     // border: 1px black solid;
@@ -65,10 +67,11 @@
 }
 .component-post .main-post .main-post-container h2{
     font-weight: 500;
-    line-height: 80px;
+    line-height: 50px;
     font-size: 35px;
     color: #202857;
     margin-left: 30px;
+    margin-bottom: 25px;
     // order: -1;
 }
 .component-post .main-post .main-post-container .content p {
@@ -82,6 +85,15 @@
     // width: 90%;
     height: auto;
     margin-left: 10%;
+}
+.component-post .main-post .main-post-container .content img {
+    width: 100%;
+}
+.component-post .main-post .main-post-container .content ol{
+    list-style-type: decimal;
+}
+.component-post .main-post .main-post-container .content ul {
+    list-style-type: disc ;
 }
 .component-post .main-post .main-post-container .interactive {
     display:flex;
@@ -245,7 +257,7 @@
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 40px;
 }
 .component-post .highlight-post .search-bar {
     margin: 50px 0;
@@ -332,7 +344,7 @@
 .component-post .highlight-post .highlight-post-container .item-post .item-right h2{
     margin-left: 10px;
     font-weight: 500;
-    font-size: 47px;
+    font-size: 37px;
     color:#202857;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
@@ -348,7 +360,7 @@
 .component-post .highlight-post .categortires-container h2 {
     margin: 40px 0;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     color: #151A3C;
 }
 .component-post .highlight-post .categortires-container .item-category {
@@ -361,13 +373,13 @@
 }
 .component-post .highlight-post .categortires-container .item-category h6 {
     font-weight: 450;
-    font-size: 38px;
+    font-size: 30px;
     color: #151A3C;
     margin: 20px;
 }
 .component-post .highlight-post .categortires-container .item-category p {
     font-weight: 400;
-    font-size: 38px;
+    font-size: 28px;
     color: #151A3C;
     margin: 15px 0 15px;
 }
