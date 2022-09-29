@@ -311,7 +311,10 @@
     .home5 .all-home5-item .footer-items {
         height: 10%;
     }
-
+    .footer .first .content-img h5
+    {
+        display:none;
+    }
     //HOME6 
 
     .home6 .all-home6 .top-content {
@@ -1034,9 +1037,15 @@
     }
     .component-post .main-post .main-post-container a{
         order: -1;
+        font-weight: 500;
+        line-height: 50px;
+        font-size: 20px;
     }
     .component-post .main-post .main-post-container h2{
         order: -1;
+        font-weight: 500;
+        line-height: 50px;
+        font-size: 24px;
     }
     .component-post .main-post .main-post-container .info .c-date p {
         font-size: 15px;
@@ -1120,6 +1129,12 @@
         flex-direction: column;
         padding-left: calc(calc(100% - 1200px)/2);
         padding-right: calc(calc(100% - 1200px)/2);
+    }
+    .component-post .main-post .main-post-container .content ol > li{
+        margin-left: 20px;
+    }
+    .component-post .main-post .main-post-container .content ul > li {
+        font-size: 16px;
     }
 }
 

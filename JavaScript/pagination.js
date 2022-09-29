@@ -24,7 +24,7 @@ const items = [
         image: ".././images/blog/cover-image/social-media-anh-bia.jpg",
         title: "TỔNG HỢP KÍCH THƯỚC CHUẨN HÌNH ẢNH TRÊN CÁC KÊNH SOCIAL MEDIA",
         content: "Social Media là nền tảng mang đến nhiều tiềm năng phát triển cho doanh nghiệp. Khi biết cách tối ưu hình ảnh chuẩn trên Social Media sẽ mang đến ấn tượng tốt và sự chuyên nghiệp đến với khách hàng. Và dưới đây là tổng hợp kích thước chuẩn hình ảnh trên các kênh Social Media, bạn nhớ lưu lại và áp dụng nhé!",
-        link: "'/page/blogs/tong-hop-kich-thuoc-chuan-hinh-anh-tren-cac-kenh-social-media'",
+        link: "'/page/blogs/tong-hop-kich-thuoc-chuan-hinh-anh-tren-cac-kenh-social-media.html'",
     },
     {
         id: 4,

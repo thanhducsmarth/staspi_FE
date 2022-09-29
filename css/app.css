@@ -6597,6 +6597,9 @@ table {
   .home5 .all-home5-item .footer-items {
     height: 10%;
   }
+  .footer .first .content-img h5 {
+    display: none;
+  }
   .home6 .all-home6 .top-content {
     font-size: 35px;
     line-height: 50px;
@@ -7171,9 +7174,15 @@ table {
   }
   .component-post .main-post .main-post-container a {
     order: -1;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 20px;
   }
   .component-post .main-post .main-post-container h2 {
     order: -1;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 24px;
   }
   .component-post .main-post .main-post-container .info .c-date p {
     font-size: 15px;
@@ -7252,6 +7261,12 @@ table {
     flex-direction: column;
     padding-left: calc((100% - 1200px) / 2);
     padding-right: calc((100% - 1200px) / 2);
+  }
+  .component-post .main-post .main-post-container .content ol > li {
+    margin-left: 20px;
+  }
+  .component-post .main-post .main-post-container .content ul > li {
+    font-size: 16px;
   }
 }
 @media (min-width: 395px) and (max-width: 450px) {
