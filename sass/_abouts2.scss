@@ -62,7 +62,7 @@
 .aboutus_2 .all-aboutus_2 .second {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .aboutus_2 .second .content-right {
@@ -164,10 +164,6 @@
     line-height: 30px;
     color: $font-home5;
     text-align: justify;
-}
-
-.aboutus_2 .content-item p {
-    margin-left: 10px;
 }
 
 .aboutus_2 .footer-items-aboutus2 {

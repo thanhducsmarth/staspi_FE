@@ -147,7 +147,7 @@
     }
 .home7 .img-item-slider img {
         display: block;
-        width: 90%;
+        width: 80%;
         height: auto;
         min-height: 30%;
         object-fit: cover;
@@ -178,12 +178,12 @@
     }
 
 .home7 .content-slider-item p {
-        padding-top: 50px;
+        padding-top: 20px;
         font-family: $font-text;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px!important;
-        line-height: 30px!important;
+        font-size: 16px;
+        line-height: 25px;
         letter-spacing: -0.005em;
         color: $second-primary;
         text-align: justify;

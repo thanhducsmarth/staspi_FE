@@ -46,7 +46,7 @@ html {
 }
 
 .nav .nav-items {
-  transform: translateX(10%);
+  transform: translateX(2%);
 }
 
 .nav .nav-items a:hover {
@@ -1026,7 +1026,7 @@ table {
 
 .home7 .img-item-slider img {
   display: block;
-  width: 90%;
+  width: 80%;
   height: auto;
   min-height: 30%;
   object-fit: cover;
@@ -1057,12 +1057,12 @@ table {
 }
 
 .home7 .content-slider-item p {
-  padding-top: 50px;
+  padding-top: 20px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px !important;
-  line-height: 30px !important;
+  font-size: 16px;
+  line-height: 25px;
   letter-spacing: -0.005em;
   color: #151A3C;
   text-align: justify;
@@ -1755,7 +1755,7 @@ table {
 .aboutus_2 .all-aboutus_2 .second {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .aboutus_2 .second .content-right {
@@ -1856,10 +1856,6 @@ table {
   line-height: 30px;
   color: #202857;
   text-align: justify;
-}
-
-.aboutus_2 .content-item p {
-  margin-left: 10px;
 }
 
 .aboutus_2 .footer-items-aboutus2 {
@@ -1945,7 +1941,7 @@ table {
 .aboutus_2 .all-aboutus_2 .second {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .aboutus_2 .second .content-right {
@@ -2046,10 +2042,6 @@ table {
   line-height: 30px;
   color: #202857;
   text-align: justify;
-}
-
-.aboutus_2 .content-item p {
-  margin-left: 10px;
 }
 
 .aboutus_2 .footer-items-aboutus2 {
@@ -3889,7 +3881,7 @@ table {
 
 .banner_blog {
   width: 100%;
-  height: 90vh;
+  height: 50vh;
   background: radial-gradient(circle, rgb(233, 125, 57) 0%, rgb(255, 83, 41) 100%);
   position: relative;
   display: flex;
@@ -4507,14 +4499,12 @@ table {
 .component-post .highlight-post .highlight-post-container .item-post .item-left {
   display: flex;
   flex: 40%;
-  height: 250px;
+  height: 200px;
   justify-content: space-around;
   align-items: center;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-left img {
-  width: 250px;
-  height: 220px;
   border-radius: 20px;
 }
 
@@ -4771,7 +4761,6 @@ table {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  margin: 0 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -4869,7 +4858,7 @@ table {
     line-height: 150px;
   }
   .nav .nav-items {
-    transform: translateX(19%);
+    transform: translateX(8.5%);
   }
   .banner .banner-content {
     top: 45%;
@@ -5166,7 +5155,6 @@ table {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    background-color: #F07E2A;
   }
   .aboutus_2 .content-right h5 {
     font-size: 35px;
@@ -5544,9 +5532,6 @@ table {
     border-top-right-radius: 60%;
     border-top-left-radius: 90%;
     border-bottom-left-radius: 50%;
-  }
-  .nav .nav-items {
-    transform: translateX(10%);
   }
   .banner .img_banner img {
     width: 100%;

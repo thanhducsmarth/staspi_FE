@@ -365,20 +365,15 @@
   height: auto;
   background: #FFFFFF;
   border-bottom: 3px solid #E9E9E9;
-//   background-color: pink;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-left {
-    // border: 1px solid red;
     display: flex;
     flex: 40%;
-    height: 250px;
+    height: 200px;
     justify-content: space-around;
     align-items: center;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-left img {
-    // background-color:red;
-    width:250px;
-    height: 220px;
     border-radius: 20px;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right {
@@ -606,7 +601,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  margin: 0 10px;
+//   margin: 0 10px;
   overflow: hidden;
 //   text-align: justify;
    text-overflow: ellipsis;
