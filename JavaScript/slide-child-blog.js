@@ -1,7 +1,5 @@
-let perPage = 3;
+let perPage;
 let idPage = 1;
-let start = 0;
-let end = perPage;
 // mobileMedia.addEventListener()
 const items = [
     {
@@ -16,109 +14,98 @@ const items = [
         image: "../../images/image-footer.png",
         title: "title2",
         content: "content",
-        link: "'/page/contact.html'",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 3,
         image: "../../images/image-footer.png",
         title: "title3",
         content: "content",
-        link: "'/page/blog.html'",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 4,
         image: "../../images/image-footer.png",
         title: "title4",
         content: "content",
-        link: "/page/Blog.htm",
+        link: "'/page/Blog_items.html'",
+    },
+    {
+        id: 4,
+        image: "../../images/image-footer.png",
+        title: "title4",
+        content: "content",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 5,
         image: "../../images/image-footer.png",
         title: "title5",
         content: "content",
-        link: "'/page/blog.html'",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 6,
         image: "../../images/image-footer.png",
         title: "title6",
         content: "content",
-        link: "'/page/blog.html'",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 7,
         image: "../../images/image-footer.png",
         title: "title7",
         content: "content",
-        link: "'/page/blog.html'",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 8,
         image: "../../images/image-footer.png",
         title: "title8",
         content: "content",
-        link: "'/page/blog.html'",
+        link: "'/page/Blog_items.html'",
     },
     {
         id: 9,
         image: "../../images/image-footer.png",
         title: "title9",
         content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 10,
-        image: "../../images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 11,
-        image: "../../images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 12,
-        image: "../../images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 13,
-        image: "../../images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 14,
-        image: "../../images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 15,
-        image: "../../images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
+        link: "'/page/Blog_items.html'",
     },
 ];
 
 // let itemArr = [];
+var mobileResponsive = () =>{
+    if (window.innerWidth < 829){
+        perPage = 1;
+    }
+    else {
+        perPage = 3;
+    }
+    return perPage;
+}
+mobileResponsive();
 
+
+let start = 0;
+let end = perPage;
 let totalPages = Math.ceil(items.length / perPage);
 
+// console.log("check total pages:",totalPages);
+var clearPageItem = () => {
+    const prePage = document.querySelector('.posts .pagination .pre-page');
+    const nxtPage = document.querySelector('.posts .pagination .nxt-page');
+    if(totalPages === 0 || totalPages === 1){
+        prePage.style.display = 'none';
+        nxtPage.style.display = 'none';
+     }
+}
 function initRender(items, totalPage) {
+    clearPageItem();
     renderPost(items);
     renderListPage(totalPage);
 }
+
 
 initRender(items, totalPages);
 
@@ -135,6 +122,7 @@ function renderPost(post) {
     const content = post.map((item, index) => {
         if (index >= start && index < end) {
             html += '<div class="item-post">';
+            html += '<a class = onclick-image href = ' + item.link + '>';
             html +=
                 "<img  src=" +
                 item.image +
@@ -143,6 +131,7 @@ function renderPost(post) {
                 "image-item" +
                 "'" +
                 ">";
+                html += "</a>";
             html +=
                 "<div " +
                 "onclick =" +
@@ -156,6 +145,10 @@ function renderPost(post) {
             html += '<div class = "title-item">' + item.title + "</div>";
             html += '<p class = "content-item">' + item.content + "</p>";
             html += "</div>";
+            html += "<a href =" + item.link  + ">";
+            html += '<div class = "title-mobile" >' + item.title + "</div>";
+            html += "</a>"
+            html += '<div class = "content-mobile">' + item.content + "</div>";
             html += "</div>";
             return html;
         }

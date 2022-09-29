@@ -1115,7 +1115,51 @@
         font-size: 16px;
         margin-bottom: 10px;
     }
-
+    .post-container .item-post a {
+        text-decoration: none;
+    }
+    .posts .post-container .item-post{
+        max-width: 100%;
+    }
+    .posts .post-container .item-post .overlay-item {
+        display: none;
+    }
+    .posts .post-container .item-post .title-mobile {
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 20px 10px;
+        color: #151A3C;
+    }
+    .posts .post-container .item-post .content-mobile{
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #797979;
+        margin: 0 10px;
+    }
+    .posts .pagination .page-number .cur-page{
+        width: 10px;
+        height: 10px;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.1);
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    .posts .pagination .pre-page, .posts .pagination .nxt-page, .posts .pagination .cur-page{
+        font-size: 35px;
+    }
+    .posts .pagination li{
+        display: inline-block;
+        margin: 5px;
+    }
+    .posts .pagination .page-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     //FOOTER 
 
