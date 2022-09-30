@@ -46,7 +46,7 @@ html {
 }
 
 .nav .nav-items {
-  transform: translateX(2%);
+  transform: translateX(10.5%);
 }
 
 .nav .nav-items a:hover {
@@ -414,9 +414,10 @@ table {
 }
 .home2 {
   width: 100%;
-  height: 70vh;
+  height: auto;
   background-color: #FAFAFA;
   position: relative;
+  padding: 50px 0;
 }
 
 .home2 .home2-item {
@@ -462,7 +463,6 @@ table {
   line-height: 68px;
   padding-top: 20px;
   color: #000000;
-  transform: translateY(-30%);
 }
 
 .home2 .flexbox-service {
@@ -476,7 +476,7 @@ table {
 }
 
 .home2 .flexbox-item .flex-content {
-  margin: 20px 0;
+  margin: 40px 0;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -509,7 +509,7 @@ table {
 
 .home3 {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #FFFFFF;
 }
 
@@ -620,7 +620,7 @@ table {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
 }
 
 .home4 .all-home4 {
@@ -1479,6 +1479,7 @@ table {
 .home11 {
   width: 100%;
   height: 100vh;
+  background-color: #FAFAFA;
 }
 
 .home11 .all-home11-dis {
@@ -4872,7 +4873,7 @@ table {
     line-height: 150px;
   }
   .nav .nav-items {
-    transform: translateX(8.5%);
+    transform: translateX(18%);
   }
   .banner .banner-content {
     top: 45%;
@@ -4951,14 +4952,14 @@ table {
     padding: 50px;
   }
   .home2 .flexbox-item .flex-content {
-    margin: 20px 0;
+    margin: 40px 0;
     font-size: 28px;
   }
   .home2 .flexbox-item .flex-item {
     font-size: 18px;
   }
   .home2 .img_flex img {
-    width: 90%;
+    width: 40%;
   }
   .home4 .image-home4 {
     padding-left: calc((100% - 1700px) / 2);
@@ -5530,6 +5531,9 @@ table {
     padding: 6px;
     flex: 25%;
   }
+  .home2 .img_flex img {
+    width: 40%;
+  }
 }
 @media (min-width: 1250px) and (max-width: 1530px) {
   .banner .square {
@@ -5560,6 +5564,9 @@ table {
   .home2 .flexbox-service .flexbox-item {
     padding: 6px;
     flex: 25%;
+  }
+  .home2 .img_flex img {
+    width: 40%;
   }
 }
 @media (min-width: 830px) and (max-width: 1249px) {
@@ -5685,7 +5692,7 @@ table {
     font-size: 14px;
   }
   .home2 .img_flex img {
-    width: 65%;
+    width: 40%;
   }
   .home2 .flexbox-item .flex-content {
     margin: 20px 0;
