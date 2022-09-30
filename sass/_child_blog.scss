@@ -1,6 +1,6 @@
 .banner-child-blog {
     width: 100%;
-    height: 90vh;
+    height: 40vh;
     background: radial-gradient(circle, rgba(233,125,57,1) 0%, rgba(255,83,41,1) 100%);
     position: relative;
     font-family: $font-text;
@@ -9,22 +9,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 .banner-child-blog h1 {
     font-weight: 700;
-    font-size: 47px;
-    line-height: 23px;
+    font-size: 30px;
+    line-height: 32px;
     letter-spacing: -0.005em;
     color: #fff;
 }
 .banner-child-blog a {
     color: $color-text;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 23px;
     text-decoration: none;
     cursor: pointer;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 // posts
 .component-post {
@@ -33,6 +34,8 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    padding-left: calc((100% - 1200px) / 2) !important;
+    padding-right: calc((100% - 1200px) / 2) !important;
 }
 .component-post .main-post {
     // border: 1px solid green;
@@ -41,7 +44,7 @@
     display: flex;
     width: 100%;
     box-sizing: border-box;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 .component-post .main-post .main-post-container {
     // border: 1px black solid;
@@ -67,8 +70,8 @@
 }
 .component-post .main-post .main-post-container h2{
     font-weight: 500;
-    line-height: 50px;
-    font-size: 35px;
+    line-height: 35px;
+    font-size: 25px;
     color: #202857;
     margin-left: 30px;
     margin-bottom: 25px;
@@ -78,7 +81,7 @@
     margin: 20px 0;
     font-weight: 500;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 16px;
     color: #484848;
     text-align: justify;
 }
@@ -104,20 +107,20 @@
 .component-post .main-post .main-post-container .content ol > li{
     font-weight: 700;
     line-height: 27px;
-    font-size: 22px;
+    font-size: 18px;
 }
 .component-post .main-post .main-post-container .content h4 {
     // color: red;
     font-weight: 700;
     line-height: 27px;
-    font-size: 22px;
+    font-size: 16px;
     font-style: italic;
 }
 .component-post .main-post .main-post-container .content .decription {
     display: flex;
     font-weight: 300;
     line-height: 23px;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     align-self: center;
     margin: 10px 0;
@@ -126,7 +129,7 @@
 .component-post .main-post .main-post-container .content ul > li{
     font-weight: 400;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
 }
 .component-post .main-post .main-post-container .content ul + .component-post .main-post .main-post-container .content ul {
@@ -161,7 +164,7 @@
     font-size: 38px;
 }
 .component-post .main-post .main-post-container .interactive .item-views p {
-    font-size: 23px;
+    font-size: 18px;
     margin-left: 10px;
 }
 .component-post .main-post .main-post-container .interactive .item-contact {
@@ -172,7 +175,7 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .interactive .item-contact p {
-    font-size: 23px;
+    font-size: 18px;
 }
 .component-post .main-post .main-post-container .interactive .item-contact span {
     font-size: 38px;
@@ -186,7 +189,7 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .interactive .item-tag p {
-    font-size: 23px;
+    font-size: 18px;
 }
 .component-post .main-post .main-post-container .block-owner {
     width: 90%;
@@ -224,13 +227,13 @@
 }
 .component-post .main-post .main-post-container .block-owner .right-block > h2 {
     margin: 40px 0 5px;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 45px;
     font-weight: 700;
 }
 .component-post .main-post .main-post-container .block-owner .right-block p {
-    font-size: 18px;
-    line-height: 33px;
+    font-size: 16px;
+    line-height: 24px;
     font-weight: 400;
     margin: 15px 0;
     margin-right: 20px;
@@ -248,7 +251,7 @@
 .component-post .main-post .main-post-container .info{
     width: auto;
     height: 50px;
-    margin: 30px 10%;
+    margin: 0px 10%;
     display: flex;
     justify-content: space-between;
     // order: -1;
@@ -260,11 +263,11 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .info .c-date span{
-    font-size: 32px;
+    font-size: 27px;
     color: $color-text;
 }
 .component-post .main-post .main-post-container .info .c-date p {
-    font-size: 23px;
+    font-size: 14px;
     margin-left: 20px;
 }
 .component-post .main-post .main-post-container .info .owner {
@@ -274,12 +277,12 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .info .owner span {
-    font-size: 32px;
+    font-size: 27px;
     color: $color-text;
 }
 .component-post .main-post .main-post-container .info .owner p {
-    font-size: 23px;
-    margin-left: 20px;
+    font-size: 14px;
+    margin-left: 5px;
 }
 .component-post .main-post .main-post-container .info .sign {
     width: auto;
@@ -288,12 +291,12 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .info .sign span {
-    font-size: 32px;
+    font-size: 27px;
     color: $color-text;
 }
 .component-post .main-post .main-post-container .info .sign p {
-    font-size: 23px;
-    margin-left: 20px;
+    font-size: 14px;
+    margin-left: 5px;
 }
 
 .component-post .highlight-post {
@@ -305,8 +308,9 @@
 .component-post .highlight-post h2 {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 23px;
 }
 .component-post .highlight-post .search-bar {
     margin: 50px 0;
@@ -348,6 +352,7 @@
     margin-left: -20px;
     cursor: pointer;
     border: none;
+    font-size: 14px;
 }
 
 .component-post .highlight-post .highlight-post-container {
@@ -360,7 +365,7 @@
 .component-post .highlight-post .highlight-post-container .item-post {
     box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 90%;
   height: auto;
   background: #FFFFFF;
@@ -375,6 +380,8 @@
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-left img {
     border-radius: 20px;
+    width: 100px;
+    height: 100px;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right {
     // border: 1px solid yellow;
@@ -384,17 +391,20 @@
     flex-direction: column;
     font-family: $font-text;
     font-style: normal;
+    margin-left: 5px;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right h2{
     margin-left: 10px;
+    margin-bottom: 16px;
+    margin-top: 16px;
     font-weight: 500;
-    font-size: 37px;
+    font-size: 21px;
     color:#202857;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
     margin-left: 10px;
     font-weight: 150;
-    font-size: 23px;
+    font-size: 14px;
     color:#B8B8B8;
 }
 .component-post .highlight-post .categortires-container {
@@ -404,7 +414,7 @@
 .component-post .highlight-post .categortires-container h2 {
     margin: 40px 0;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 23px;
     color: #151A3C;
 }
 .component-post .highlight-post .categortires-container .item-category {
@@ -417,13 +427,13 @@
 }
 .component-post .highlight-post .categortires-container .item-category h6 {
     font-weight: 450;
-    font-size: 30px;
+    font-size: 18px;
     color: #151A3C;
     margin: 20px;
 }
 .component-post .highlight-post .categortires-container .item-category p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 18px;
     color: #151A3C;
     margin: 15px 0 15px;
 }
@@ -436,7 +446,7 @@
 }
 .component-post .highlight-post .tags-block h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 26px;
     color: #151A3C;
     margin-bottom: 20px;
 }
@@ -460,7 +470,7 @@
 	border-top-left-radius: 5px;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	color: #fff;
-	font-size:28px;
+	font-size:16px;
 	font-family: $font-text;
 	text-decoration: none;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
@@ -469,7 +479,7 @@
 .component-post .highlight-post .tags-block .tags-container a:before {
     content: "";
 	position: absolute;
-	top: 10px;
+	top: 13px;
 	right: 1px;
 	float: left;
 	width: 8px;
@@ -545,20 +555,19 @@
     display: none;
 }
 
-.image-item {
+.posts .post-container .item-post .image-item {
   background-color: rgb(232,233,235);
   display: block;
   width: 100%;
-  height: 380px;
+  height: 270px;
   border-radius: 25px;
-  
 }
-.overlay-item {
+.posts .overlay-item {
   position: absolute;
   top:0;
   left: 0;
   width: 100%;
-  height: 380px;
+  height: 270px;
   background: rgba(0,0,0,0.4);
   border-radius: 25px;
   display: flex;
@@ -585,8 +594,7 @@
   font-family: "Montserrat", sans-serif;
    font-style: normal;
    font-weight: 700;
-   font-size: 35px;
-   margin: 20px 10px;
+   font-size: 25px;
 //    text-align: justify;
    color:#fff;
    overflow: hidden;

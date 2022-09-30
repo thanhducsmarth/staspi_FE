@@ -258,7 +258,7 @@
       .feedback .container-slider .slide .item-slider {
         width: calc(calc(100% / 6) - 40px);
         width: 690px;
-        height: 400px;
+        height: 450px;
       }
 
       .feedback .item-slider .comment {
@@ -270,7 +270,7 @@
       }
 
       .feedback .comment p {
-        margin: 0 50px ;
+        margin: 0 20px ;
         font-size: 20px;
         }
     // HOME 9
@@ -917,9 +917,9 @@
         height: 30px;
     }
 
-    // .navbar .nav .subnav {
-    //     width: 250px;
-    // }
+    .navbar .nav .subnav {
+        width: 330px;
+    }
 
     .subnav li{
         line-height: 40px;
@@ -1208,7 +1208,7 @@
     }
 
     .home7 .img-item-slider img {
-        width: 75%;   
+        width: 70%;   
     }
 
     .home7 .content-slider-item h2{

@@ -96,7 +96,7 @@
   }
 
 .home7 .container-slider .slide {
-    width: 500%;
+    width: 300%;
     height: 100%;
     position: absolute;
     transition: all 1s ease-in-out;
@@ -104,7 +104,7 @@
 
 .home7 .container-slider .slide .item-slider {
     float: left;
-    width: 20%;
+    width: 33.33%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -147,12 +147,13 @@
     }
 .home7 .img-item-slider img {
         display: block;
-        width: 80%;
+        width: 75%;
         height: auto;
         min-height: 30%;
         object-fit: cover;
         object-position: top;
         border-radius: 50%;
+        // border: 1px red solid;
         
     }
   .home7 .content-slider-item {

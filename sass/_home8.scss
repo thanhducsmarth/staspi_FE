@@ -49,7 +49,7 @@
   }
   
   .feedback .container-slider .slide {
-    width: 300%;
+    width: 200%;
     height: 100%;
     position: absolute;
     transition: all 1s ease-in-out;
@@ -58,8 +58,7 @@
   }
   
   .feedback .container-slider .slide .item-slider {
-    width: calc(16.6666666667% - 40px);
-    width: 600px;
+    width: 25%;
     height: 380px;
     border-radius: 25px;
     background-color: $feedback-color;

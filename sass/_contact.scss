@@ -4,6 +4,8 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  padding-left: calc((100% - 1200px) / 2);
+  padding-right: calc((100% - 1200px) / 2);
 }
 .cooperate {
   width: 100%;
@@ -28,7 +30,7 @@
   font-size: 50px;
   line-height: 60px;
   color: $second-primary;
-  margin: 20px 100px;
+  margin: 10px 0;
 }
 .cooperate .cooperate-content p {
   font-family: $font-text;
@@ -38,7 +40,7 @@
   line-height: 30px;
   color: $second-primary;
   text-align: justify;
-  margin: 0 100px;
+  // margin: ;
 }
 .cooperate .cooperate-content p + p {
 margin-top: 30px;
