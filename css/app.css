@@ -2430,7 +2430,7 @@ table {
   flex: 1;
 }
 
-.hiring2 .content-right h3 {
+.hiring2 .content-right h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -2999,7 +2999,7 @@ table {
   padding-right: calc((100% - 350px) / 2);
 }
 
-.service01 .content-service01 h2 {
+.service01 .content-service01 h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -5566,7 +5566,7 @@ table {
     transform: translateY(-48px);
   }
   .home2 .flexbox-service .flexbox-item {
-    padding: 6px;
+    padding: 16px;
     flex: 25%;
   }
   .home2 .img_flex img {
