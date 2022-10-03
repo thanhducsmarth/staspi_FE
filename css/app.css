@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .logo {
@@ -60,7 +60,7 @@ html {
   font-size: 22px;
   font-weight: 500;
   color: #151A3C;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   display: inline-block;
   font-weight: 400;
@@ -76,7 +76,7 @@ html {
   border: none;
   background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border-radius: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   cursor: pointer;
 }
 
@@ -85,7 +85,7 @@ html {
   font-weight: 400;
   font-size: 22px;
   color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .navbar .btn-button p:hover {
@@ -295,7 +295,7 @@ table {
 }
 
 .banner .banner-content h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -321,7 +321,7 @@ table {
 
 .banner .button-banner p {
   margin-left: -50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #F07E2A;
@@ -447,7 +447,7 @@ table {
 }
 
 .home2-button .btn-top-home2 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -456,7 +456,7 @@ table {
 }
 
 .home2-all .home2-content h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 40px;
@@ -477,7 +477,7 @@ table {
 
 .home2 .flexbox-item .flex-content {
   margin: 40px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -485,7 +485,7 @@ table {
 }
 
 .home2 .flexbox-item .flex-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
@@ -541,7 +541,7 @@ table {
 }
 
 .home3-all .home3-left .title-home3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -564,7 +564,7 @@ table {
 }
 
 .home3 .btn-home3 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -577,7 +577,7 @@ table {
 }
 
 .home3-left .content-home3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -595,7 +595,7 @@ table {
 }
 
 .home3-all .bottom-span span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -669,7 +669,7 @@ table {
 }
 
 .home4 .title-home4 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -678,7 +678,7 @@ table {
 }
 
 .home4 .title-home4 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -714,7 +714,7 @@ table {
 }
 
 .home5 .left-home5 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 47px;
@@ -724,7 +724,7 @@ table {
 
 .home5 .left-home5 p {
   padding-top: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -756,7 +756,7 @@ table {
 }
 
 .home5 .square-item > h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   margin-top: 15px;
   font-weight: 700;
@@ -771,7 +771,7 @@ table {
 }
 
 .home5 .square-item > p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -815,7 +815,7 @@ table {
 }
 
 .home6 .all-home6 .top-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -852,7 +852,7 @@ table {
 }
 
 .flexbox-home6 .bottom-item h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -861,7 +861,7 @@ table {
 }
 
 .flexbox-home6 .bottom-item span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -916,7 +916,7 @@ table {
 }
 
 .home7 .button-home7 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -925,7 +925,7 @@ table {
 }
 
 .home7 .all-home7 .title-home7 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 55px;
@@ -1039,7 +1039,7 @@ table {
 }
 
 .home7 .content-slider-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   display: flex;
   width: 60%;
@@ -1050,7 +1050,7 @@ table {
 }
 
 .home7 .content-slider-item h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1062,7 +1062,7 @@ table {
 
 .home7 .content-slider-item p {
   padding-top: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1096,7 +1096,7 @@ table {
 }
 
 .feedback .home8 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 47px;
@@ -1198,7 +1198,7 @@ table {
 }
 
 .feedback .block_customer .infomation {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   width: 60%;
   height: 100%;
@@ -1218,7 +1218,7 @@ table {
 }
 
 .feedback .infomation h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -1229,7 +1229,7 @@ table {
 }
 
 .feedback .infomation p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1242,7 +1242,7 @@ table {
 
 .feedback .comment p {
   margin: 0 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1270,7 +1270,7 @@ table {
 }
 
 .home9 .all-home9 .title-home9 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -1339,7 +1339,7 @@ table {
 }
 
 .home9 .button-home9 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -1421,7 +1421,7 @@ table {
   transform: translateY(0%);
   opacity: 1;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -1430,7 +1430,7 @@ table {
 }
 
 .home10 .title-home10 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -1512,7 +1512,7 @@ table {
 }
 
 .home11 .all-home11 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -1532,7 +1532,7 @@ table {
   border-radius: 10px;
   width: 80%;
   padding: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1580,7 +1580,7 @@ table {
 }
 
 .footer .first .content-img h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -1591,7 +1591,7 @@ table {
 }
 
 .footer .footer-item h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -1602,7 +1602,7 @@ table {
 }
 
 .footer .footer-item p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1616,7 +1616,7 @@ table {
 }
 
 .footer .all_footer .bottom span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1647,7 +1647,7 @@ table {
 }
 
 .aboutus .content-aboutus h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -1656,7 +1656,7 @@ table {
 }
 
 .aboutus .content-aboutus h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 55px;
@@ -1665,7 +1665,7 @@ table {
 }
 
 .aboutus .content-aboutus p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1714,7 +1714,7 @@ table {
 }
 
 .aboutus_2 .first .content-left h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -1723,7 +1723,7 @@ table {
 }
 
 .aboutus_2 .first .content-left h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
@@ -1732,7 +1732,7 @@ table {
 }
 
 .aboutus_2 .first .content-left p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1774,7 +1774,7 @@ table {
 }
 
 .aboutus_2 .content-right h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -1783,7 +1783,7 @@ table {
 }
 
 .aboutus_2 .content-right h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
@@ -1792,7 +1792,7 @@ table {
 }
 
 .aboutus_2 .content-right p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1853,7 +1853,7 @@ table {
 }
 
 .aboutus_2 .content-item h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1900,7 +1900,7 @@ table {
 }
 
 .aboutus_2 .first .content-left h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -1909,7 +1909,7 @@ table {
 }
 
 .aboutus_2 .first .content-left h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
@@ -1918,7 +1918,7 @@ table {
 }
 
 .aboutus_2 .first .content-left p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1960,7 +1960,7 @@ table {
 }
 
 .aboutus_2 .content-right h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -1969,7 +1969,7 @@ table {
 }
 
 .aboutus_2 .content-right h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
@@ -1978,7 +1978,7 @@ table {
 }
 
 .aboutus_2 .content-right p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2039,7 +2039,7 @@ table {
 }
 
 .aboutus_2 .content-item h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -2129,7 +2129,7 @@ table {
 }
 
 .testimonials1 .all-testimonials1 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -2189,7 +2189,7 @@ table {
 .img .content-square {
   font-size: 20px;
   color: #000000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 30px 0;
   text-align: justify;
   line-height: 23px;
@@ -2341,7 +2341,7 @@ table {
 }
 
 .hiring1 .left-hiring1 .content-hiring .space {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
@@ -2351,7 +2351,7 @@ table {
 }
 
 .hiring1 .left-hiring1 .content-hiring .space1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
@@ -2387,7 +2387,7 @@ table {
 }
 
 .hiring1 .left-hiring1 .content-hiring h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 140px;
@@ -2431,7 +2431,7 @@ table {
 }
 
 .hiring2 .content-right h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -2441,7 +2441,7 @@ table {
 }
 
 .hiring2 .content-right p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2468,7 +2468,7 @@ table {
 }
 
 .hiring3 .fa-hiring > h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
@@ -2563,7 +2563,7 @@ table {
 }
 
 .hiring4 .all-hiring4 > h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -2605,7 +2605,7 @@ table {
 }
 
 .hiring4 .all-hiring4 input::placeholder {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2647,7 +2647,7 @@ table {
 }
 
 .hiring4 .right-content .date {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -2656,7 +2656,7 @@ table {
 }
 
 .hiring4 .right-content h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2666,7 +2666,7 @@ table {
 }
 
 .hiring4 .right-content p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -2746,7 +2746,7 @@ table {
 }
 
 .service0 .left-service h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 55px;
@@ -2755,7 +2755,7 @@ table {
 }
 
 .service0 .left-service p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2771,7 +2771,7 @@ table {
   width: 150px;
   padding: 8px 15px;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2813,7 +2813,7 @@ table {
 }
 
 .service0 .image-icon p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2854,7 +2854,7 @@ table {
 }
 
 .service1 .all-service1 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 55px;
@@ -2864,7 +2864,7 @@ table {
 }
 
 .service1 .all-service1 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2887,7 +2887,7 @@ table {
   background: #FFFFFF;
   border-radius: 9px;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2932,7 +2932,7 @@ table {
 }
 
 .service2 .square-service p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -2946,7 +2946,7 @@ table {
 }
 
 .service2 .bottom-service2 .content-bottom h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -2969,7 +2969,7 @@ table {
 }
 
 .service2 .flex-service2 .flex-items-service2 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -3000,7 +3000,7 @@ table {
 }
 
 .service01 .content-service01 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -3009,7 +3009,7 @@ table {
 }
 
 .service01 .content-service01 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -3025,7 +3025,7 @@ table {
   border: none;
   background: #FFFFFF;
   border-radius: 9px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -3051,7 +3051,7 @@ table {
 }
 
 .service01 .square-items p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -3088,7 +3088,7 @@ table {
 }
 
 .Service1-Items .content-items {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   background: linear-gradient(180deg, #EC6C65 0%, #EFA156 100%);
   -webkit-background-clip: text;
@@ -3106,7 +3106,7 @@ table {
 }
 
 .Service1-Items .content-Service1-Items p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   color: #000000;
@@ -3142,7 +3142,7 @@ table {
   border: none;
   border-bottom: 1px solid #7A7A7A;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -3154,7 +3154,7 @@ table {
   background: #3D4888;
   border-radius: 5px;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -3209,7 +3209,7 @@ table {
 }
 
 .Service2-Items .left-Service2-Items .top-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3223,7 +3223,7 @@ table {
   font-size: 35px;
   line-height: 50px;
   color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: 40px;
 }
 
@@ -3233,7 +3233,7 @@ table {
   font-size: 16px;
   line-height: 25px;
   color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: 40px;
   text-align: justify;
 }
@@ -3248,14 +3248,14 @@ table {
   font-size: 16px;
   color: #FA7716;
   margin-top: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .Service2-Items .right-Service2-Items p {
   font-weight: 600;
   font-size: 16px;
   color: #000000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   padding-top: 30px;
 }
 
@@ -3295,7 +3295,7 @@ table {
 }
 
 .Service3-Items .all-Service3-Items .content-top-Service3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 45px;
@@ -3305,7 +3305,7 @@ table {
 }
 
 .Service3-Items .flex-Service3-item p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: justify;
@@ -3353,11 +3353,11 @@ table {
   font-size: 18px;
   line-height: 38px;
   color: #000000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .Service4-Items .right-content ul {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 27px;
@@ -3367,7 +3367,7 @@ table {
 }
 
 .Service4-Items .right-content li {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -3410,7 +3410,7 @@ table {
 }
 
 .Service5-Items .content-Service5 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #FFFFFF;
   font-style: normal;
   font-weight: 600;
@@ -3420,7 +3420,7 @@ table {
 
 .Service5-Items .content-Service5 p {
   padding-top: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -3437,7 +3437,7 @@ table {
   padding: 10px;
   width: 99%;
   background-color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -3452,7 +3452,7 @@ table {
   padding: 10px;
   width: 49%;
   background-color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -3467,7 +3467,7 @@ table {
   background-color: #FFFFFF;
   margin-top: 10px;
   padding: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -3480,7 +3480,7 @@ table {
   border-radius: 10px;
   width: 20%;
   padding: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -3516,7 +3516,7 @@ table {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -3539,7 +3539,7 @@ table {
 }
 
 .service1-items-none .content-service1-items-none p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -3589,7 +3589,7 @@ table {
   border: none;
   border-bottom: 1px solid #7A7A7A;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -3601,7 +3601,7 @@ table {
   background: #3D4888;
   border-radius: 5px;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -3621,7 +3621,7 @@ table {
 }
 
 .banner_contact h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 47px;
@@ -3658,7 +3658,7 @@ table {
 }
 
 .cooperate .cooperate-content h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -3668,7 +3668,7 @@ table {
 }
 
 .cooperate .cooperate-content p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -3736,7 +3736,7 @@ table {
 }
 
 .contact-block .infomation h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -3771,14 +3771,14 @@ table {
 }
 
 .contact-block .infomation .item-right h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
 }
 
 .contact-block .infomation .item-right p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -3814,7 +3814,7 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -3896,7 +3896,7 @@ table {
 }
 
 .banner_blog h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -3976,7 +3976,7 @@ table {
 }
 
 .topics .topic-container .item-topic .overlay-item .contents-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   color: #fff;
   padding: 20px 0;
@@ -3984,7 +3984,7 @@ table {
 }
 
 .topics .topic-container .item-topic .overlay-item .title-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -3992,7 +3992,7 @@ table {
 }
 
 .topics .topic-container .item-topic .overlay-item .content-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -4000,7 +4000,7 @@ table {
 }
 
 .topics .topic-container .item-topic .title-mobile {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -4014,7 +4014,7 @@ table {
 }
 
 .topics .topic-container .item-topic .content-mobile {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #797979;
@@ -4051,13 +4051,13 @@ table {
 }
 
 .topics .pagination .cur-page a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
 }
 
 .topics .pagination .dots a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -4104,7 +4104,7 @@ table {
   height: 40vh;
   background: radial-gradient(circle, rgb(233, 125, 57) 0%, rgb(255, 83, 41) 100%);
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   display: flex;
   flex-direction: column;
@@ -4154,7 +4154,7 @@ table {
   flex: 85%;
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   display: flex;
   flex-direction: column;
@@ -4266,7 +4266,7 @@ table {
 
 .component-post .main-post .main-post-container .interactive .item-views {
   display: flex;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   margin-left: 10%;
   justify-content: space-around;
@@ -4284,7 +4284,7 @@ table {
 
 .component-post .main-post .main-post-container .interactive .item-contact {
   display: flex;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   justify-content: space-around;
   align-items: center;
@@ -4301,7 +4301,7 @@ table {
 
 .component-post .main-post .main-post-container .interactive .item-tag {
   display: flex;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   justify-content: space-around;
   align-items: center;
@@ -4345,7 +4345,7 @@ table {
   flex-direction: column;
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -4440,7 +4440,7 @@ table {
 }
 
 .component-post .highlight-post h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 25px;
@@ -4466,7 +4466,7 @@ table {
   background-color: #fff;
   border: 4px solid #D1C9C9;
   padding: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -4474,7 +4474,7 @@ table {
 }
 
 .component-post .highlight-post .search-bar input::placeholder {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -4530,7 +4530,7 @@ table {
   flex: 60%;
   justify-content: center;
   flex-direction: column;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   margin-left: 5px;
 }
@@ -4552,7 +4552,7 @@ table {
 }
 
 .component-post .highlight-post .categortires-container {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -4565,7 +4565,7 @@ table {
 
 .component-post .highlight-post .categortires-container .item-category {
   width: 90%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   border-bottom: 2px solid #E9E9E9;
   display: flex;
@@ -4590,7 +4590,7 @@ table {
   margin-top: 50px;
   width: 90%;
   height: auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -4623,7 +4623,7 @@ table {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   color: #fff;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   text-decoration: none;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   font-weight: 400;
@@ -4762,7 +4762,7 @@ table {
 }
 
 .title-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -4776,7 +4776,7 @@ table {
 }
 
 .content-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -4818,7 +4818,7 @@ table {
 }
 
 .pagination .cur-page a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -4827,7 +4827,7 @@ table {
 }
 
 .pagination .dots a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -4899,7 +4899,7 @@ table {
     font-size: 30px;
   }
   .banner .banner-content h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
@@ -4987,7 +4987,7 @@ table {
     padding-right: calc((100% - 1700px) / 2);
   }
   .home5 .left-home5 h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -5598,7 +5598,7 @@ table {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
   }
   .banner .banner-content {
     top: 40%;
@@ -5725,7 +5725,7 @@ table {
     line-height: 90px;
   }
   .home4 .title-home4 p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 13px;
     line-height: 20px;
     padding-left: calc((100% - 870px) / 2);
@@ -5804,7 +5804,7 @@ table {
     height: 35px;
   }
   .home7 .button-home7 p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -7101,12 +7101,12 @@ table {
     cursor: pointer;
   }
   .topics .pagination .cur-page a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 25px;
   }
   .topics .pagination .dots a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -7286,7 +7286,7 @@ table {
   }
   .posts .post-container .item-post .title-mobile {
     display: flex;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -7295,7 +7295,7 @@ table {
   }
   .posts .post-container .item-post .content-mobile {
     display: flex;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #797979;
@@ -7326,6 +7326,7 @@ table {
     text-align: start;
   }
   .footer .all_footer .top {
+    display: none;
     flex-direction: column;
     padding-left: calc((100% - 1200px) / 2);
     padding-right: calc((100% - 1200px) / 2);
@@ -7335,6 +7336,124 @@ table {
   }
   .component-post .main-post .main-post-container .content ul > li {
     font-size: 16px;
+  }
+  .top-mobile {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(224, 232, 245) 100%);
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(224, 232, 245) 100%);
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(224, 232, 245) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#e0e8f5",GradientType=0 );
+  }
+  .top-mobile .dropdown-info-block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .top-mobile .info-downdown-click {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background-color: #4f7df5;
+    box-shadow: 0px 7px 30px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .top-mobile .cont_icon_menu {
+    display: flex;
+    position: relative;
+    float: right;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-mobile .cont_icon_menu > img {
+    width: 32px;
+    z-index: 2;
+    position: relative;
+  }
+  .top-mobile .dropdown-info {
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #fff;
+  }
+  .top-mobile .cont_drobpdown_menu {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 20px -2px rgba(0, 0, 0, 0.3);
+    /* margin-top: 10px; */
+    border-radius: 3px;
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  .top-mobile .cont_drobpdown_menu ul > li {
+    list-style: none;
+    margin-left: -3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #eee;
+    width: 100%;
+    display: block;
+    transition: all 500ms;
+  }
+  .top-mobile .cont_drobpdown_menu ul > li:hover {
+    border-left: 5px solid #6992fe;
+  }
+  .top-mobile .cont_drobpdown_menu ul > li:hover > a {
+    color: #6992fe;
+  }
+  .top-mobile .cont_drobpdown_menu ul > li:nth-child(2) {
+    border: none;
+  }
+  .top-mobile .cont_drobpdown_menu ul > li > a {
+    position: relative;
+    display: block;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #c4d0de;
+  }
+  .top-mobile .cont_drobpdown_menu ul > li > hr {
+    width: 75%;
+    height: 0px;
+    color: #123455;
+    background-color: #123455;
+    border: 1px solid #eee;
+  }
+  .top-mobile .disable {
+    display: none;
+    transition: all 0.5s;
+    opacity: 0;
+    transform: translate(0px, 10px);
+  }
+  .disable > ul > li {
+    transform: translate(0px, 10px);
+    opacity: 0;
+  }
+  .active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+  .active > ul > li {
+    transform: translate(0px, 0px);
+    opacity: 1;
   }
 }
 @media (min-width: 395px) and (max-width: 450px) {

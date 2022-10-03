@@ -21,7 +21,7 @@ margin-top: 70px;
 }
 
 .banner_blog h1 {
-font-family: "Montserrat", sans-serif;
+font-family: $font-text;
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
@@ -99,21 +99,21 @@ opacity: 1;
 transform: translateY(0);
 }
 .topics .topic-container .item-topic .overlay-item .contents-item {
-font-family: "Montserrat", sans-serif;
+font-family: $font-text;;
  font-style: normal;
  color:#fff;
  padding: 20px 0;
  box-sizing: border-box;
 }
 .topics .topic-container .item-topic .overlay-item .title-item {
-font-family: "Montserrat", sans-serif;
+font-family: $font-text;;
  font-style: normal;
  font-weight: 700;
  font-size: 18px;
  padding: 10px 10px 0;
 }
 .topics .topic-container .item-topic .overlay-item .content-item {
-font-family: "Montserrat", sans-serif;
+font-family: $font-text;;
 font-weight: 400;
 font-size: 16px;
 color: #fff;
@@ -121,7 +121,7 @@ margin: 5px 10px;
 }
 .topics .topic-container .item-topic .title-mobile {
 // display: none;
-font-family: "Montserrat", sans-serif;
+font-family: $font-text;;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -133,7 +133,7 @@ display: none;
   text-decoration: none;
 }
 .topics .topic-container .item-topic .content-mobile {
-font-family: "Montserrat", sans-serif;
+font-family: $font-text;;
 font-weight: 400;
 font-size: 16px;
 color: #797979;

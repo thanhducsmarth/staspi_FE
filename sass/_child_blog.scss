@@ -154,7 +154,7 @@
 }
 .component-post .main-post .main-post-container .interactive .item-views{
     display : flex;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;;
     font-style: normal;
     margin-left: 10%;
     justify-content: space-around;
@@ -169,7 +169,7 @@
 }
 .component-post .main-post .main-post-container .interactive .item-contact {
     display: flex;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;;
     font-style: normal;
     justify-content: space-around;
     align-items: center;
@@ -183,7 +183,7 @@
 }
 .component-post .main-post .main-post-container .interactive .item-tag {
     display: flex;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;;
     font-style: normal;
     justify-content: space-around;
     align-items: center;
@@ -306,7 +306,7 @@
     height: auto;
 }
 .component-post .highlight-post h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;;
     font-style: normal;
     font-weight: 500;
     line-height: 25px;
@@ -408,7 +408,7 @@
     color:#B8B8B8;
 }
 .component-post .highlight-post .categortires-container {
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;;
     font-style: normal;
 }
 .component-post .highlight-post .categortires-container h2 {
@@ -419,7 +419,7 @@
 }
 .component-post .highlight-post .categortires-container .item-category {
     width:90%;
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-text;;
     font-style: normal;
     border-bottom: 2px solid #E9E9E9;
     display: flex;
@@ -591,7 +591,7 @@
   transform: translateY(0);
 }
 .title-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-text;;
    font-style: normal;
    font-weight: 700;
    font-size: 25px;
@@ -605,7 +605,7 @@
    -webkit-box-orient: vertical;
 }
 .content-item {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-text;;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
