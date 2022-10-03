@@ -2745,7 +2745,7 @@ table {
   padding-left: calc((100% - 1200px) / 2);
 }
 
-.service0 .left-service h2 {
+.service0 .left-service h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -2853,7 +2853,7 @@ table {
   width: 100%;
 }
 
-.service1 .all-service1 h2 {
+.service1 .all-service1 h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -5318,7 +5318,7 @@ table {
   .service0 .image-icon p {
     font-size: 20px;
   }
-  .service1 .all-service1 h2 {
+  .service1 .all-service1 h1 {
     font-size: 64px;
   }
   .service1 .all-service1 p {
@@ -6117,7 +6117,7 @@ table {
   .service0 .left-service {
     padding-left: calc((100% - 940px) / 2);
   }
-  .service0 .left-service h2 {
+  .service0 .left-service h1 {
     font-size: 40px;
     line-height: 55px;
   }
@@ -6136,7 +6136,7 @@ table {
   .service0 .bottom-service .square-bottom {
     padding-left: calc((100% - 990px) / 2);
   }
-  .service1 .all-service1 h2 {
+  .service1 .all-service1 h1 {
     font-size: 50px;
   }
   .service1 .all-service1 p {
