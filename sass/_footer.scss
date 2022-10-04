@@ -1,13 +1,13 @@
 .footer {
     width: 100%;
-    height: 55vh;
+    height: auto;
     display: flex;
     align-items: center;
 }
 
 .footer .all_footer {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .footer .all_footer .top {
@@ -79,4 +79,7 @@
     line-height: 37px;
     letter-spacing: 0.005em;
     color: $primary;
+}
+.top-mobile {
+    display: none;
 }

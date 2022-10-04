@@ -167,11 +167,11 @@
         justify-content: center;
   }
 
- .home7 .content-slider-item h2{
+ .home7 .content-slider-item h3{
         font-family: $font-text;
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: $font-size-text-h3;
         line-height: 23px;
         letter-spacing: -0.005em;
         color: $second-primary;
@@ -183,7 +183,7 @@
         font-family: $font-text;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: $font-size-text-m;
         line-height: 25px;
         letter-spacing: -0.005em;
         color: $second-primary;
