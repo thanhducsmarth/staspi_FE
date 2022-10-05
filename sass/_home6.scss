@@ -1,6 +1,6 @@
 .home6 {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     background: linear-gradient(180deg, $finner 0%, $third 100%);
@@ -10,27 +10,53 @@
 .home6 .all-home6 {
     text-align: center;
     width: 100%;
+    height: 100%;
 }
-
 .home6 .all-home6 .top-content {
+    margin: $space-margin-top-bottom-l 0;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    }
+
+.home6 .all-home6 .top-content h2 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 96px;
+    font-size: $font-size-text-h2;
+    line-height: $line-height-text-h2;
     color: $font-home5;
-    transform: translateY(-30%);
+    // transform: translateY(-30%);
 }
 
 .home6 .all-home6 .all-flexbox-home6 {
-    display: flex;
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: auto;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-home6{
+    width: 100%;
+    height: 400px;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    gap: 15px;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-home6 .container-sld-home6 {
+    width: calc(100% - 30px) ;
+    height: 100%;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    position: relative;
+    overflow: hidden;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-home6 .container-sld-home6 .slide-home6 {
+    width: 200%;
+height: 100%;
+position: absolute;
+transition: all 1s ease-in-out;
+display: flex;
+align-items: center;
+gap: 15px;
 }
 
 .home6 .flex-item .top-item {
@@ -67,18 +93,18 @@
     color: $font-auto;
 }
 
-.home6 #item1 {
+.home6  #item1 {
     background: url(../images/item1-home6.png) center center/cover;
 }
 
-.home6 #item2 {
+.home6  #item2 {
     background: url(../images/item2-home6.png) center center/cover;
 }
 
-.home6 #item3 {
+.home6  #item3 {
     background: url(../images/item3-home6.png) center center/cover;
 }
 
-.home6 #item4 {
+.home6  #item4 {
     background: url(../images/item4-home6.png) center center/cover;
 }

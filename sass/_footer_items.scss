@@ -27,38 +27,38 @@ $animationSpeed: 20s;
     overflow: hidden;
     position: relative;
 
-    &::before,
-    &::after {
-        @include white-gradient;
-        content: "";
-        height: 100px;
-        position: absolute;
-        width: 200px;
-        z-index: 2;
-    }
+    // &::before,
+    // &::after {
+    //     @include white-gradient;
+    //     content: "";
+    //     height: 100%;
+    //     position: absolute;
+    //     width: 200px;
+    //     z-index: 2;
+    // }
 
-    &::after {
-        right: 0;
-        top: 0;
-        transform: rotateZ(180deg);
-    }
+    // &::after {
+    //     right: 0;
+    //     top: 0;
+    //     transform: rotateZ(180deg);
+    // }
 
-    &::before {
-        left: 0;
-        top: 0;
-    }
+    // &::before {
+    //     left: 0;
+    //     top: 0;
+    // }
 
     .footer_item-track {
-        animation: scroll $animationSpeed linear infinite;
+        // animation: scroll $animationSpeed linear infinite;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: calc(250px * 5);
+        width: 100%;
         height: 100%;
     }
 
     .footer_item {
-        height: 100px;
-        width: 312.5px;
+        height: 100%;
+        width: 25%;
     }
 }
