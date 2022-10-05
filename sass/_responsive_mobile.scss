@@ -1214,6 +1214,16 @@
     );
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e8f5',GradientType=0 );
   }
+
+  .top-mobile .logo-mobile{
+    margin-top:20px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .top-mobile .logo-mobile img{
+    max-width: 50%;
+    background-color: #fff;
+  }
   
   .top-mobile  .dropdown-info-block {
     display: flex;

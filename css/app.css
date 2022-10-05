@@ -869,13 +869,36 @@ html {
 }
 
 .home6 .all-home6 .all-flexbox-home6 .sld-home6 .container-sld-home6 .slide-home6 {
-  width: 200%;
+  width: calc(200% + 15px);
   height: 100%;
   position: absolute;
   transition: all 1s ease-in-out;
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination {
+  display: flex;
+  margin: 25px 0;
+  padding-left: calc((100% - 1200px) / 2);
+  padding-right: calc((100% - 1200px) / 2);
+  align-items: center;
+  justify-content: center;
+}
+
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination .cur-page {
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.1);
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #fff;
+  margin: 0 5px;
+}
+
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination .cur-page-active {
+  background-color: black !important;
 }
 
 .home6 .flex-item .top-item {
@@ -1606,6 +1629,7 @@ html {
   justify-content: space-between;
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
+  margin: 10px 0;
 }
 
 .footer .all_footer .bottom {
@@ -5796,6 +5820,10 @@ html {
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
   }
+  .home6 .flex-item .top-item {
+    width: 200px;
+    height: 190px;
+  }
   .home6 .all-home6 .top-content {
     font-size: 40px;
     line-height: 96px;
@@ -5807,11 +5835,11 @@ html {
     padding-right: calc((100% - 940px) / 2);
   }
   .home6 .flex-item .top-item {
-    width: 220px;
+    width: 186px;
     height: 180px;
   }
   .home6 .flex-item .bottom-item {
-    width: 220px;
+    width: 186px;
     height: 80px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -7377,6 +7405,15 @@ html {
     background: -webkit-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(224, 232, 245) 100%);
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(224, 232, 245) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#e0e8f5",GradientType=0 );
+  }
+  .top-mobile .logo-mobile {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .top-mobile .logo-mobile img {
+    max-width: 50%;
+    background-color: #fff;
   }
   .top-mobile .dropdown-info-block {
     display: flex;

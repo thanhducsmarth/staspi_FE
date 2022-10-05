@@ -1156,7 +1156,10 @@ padding-right: calc((100% - 940px) / 2);
         padding-left: calc(calc(100% - 940px)/2);
         padding-right: calc(calc(100% - 940px)/2);
     }
-
+    .home6 .flex-item .top-item{
+        width: 200px;
+        height: 190px;
+    }
     .home6 .all-home6 .top-content {
         font-size: 40px;
         line-height: 96px;
@@ -1170,12 +1173,12 @@ padding-right: calc((100% - 940px) / 2);
     }
     
     .home6 .flex-item .top-item {
-        width: 220px;
+        width: 186px;
         height: 180px;
     }
     
     .home6 .flex-item .bottom-item {
-        width: 220px;
+        width: 186px;
         height: 80px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;

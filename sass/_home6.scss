@@ -50,13 +50,33 @@
     overflow: hidden;
 }
 .home6 .all-home6 .all-flexbox-home6 .sld-home6 .container-sld-home6 .slide-home6 {
-    width: 200%;
+    width: calc(200% + 15px);
 height: 100%;
 position: absolute;
 transition: all 1s ease-in-out;
 display: flex;
 align-items: center;
 gap: 15px;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination {
+    display: flex;
+    margin: $space-margin-top-bottom-l 0;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    align-items: center;
+    justify-content: center;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination .cur-page{
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.1);
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 0 5px;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination .cur-page-active {
+    background-color: black !important;
 }
 
 .home6 .flex-item .top-item {
