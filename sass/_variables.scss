@@ -64,28 +64,81 @@ $blue_bg:#1E57EA;
 
 //font-text
 $font-text: 'Inter', sans-serif;
-//font-for pc and laptop
-$font-size-text-title: 56px;
-$font-size-text-h1: 48px;
-$font-size-text-h2:40px;
-$font-size-text-h3:32px;
-$font-size-text-h4:24px;
-$font-size-text-h5:20px;
-$font-size-text-h6:18px;
+//font-for pc
+$font-size-text-title: 58px;
+$font-size-text-h1: 56px;
+$font-size-text-h2:48px;
+$font-size-text-h3:40px;
+$font-size-text-h4:32px;
+$font-size-text-h5:24px;
+$font-size-text-h6:20px;
 
 $font-size-text-l:20px;
 $font-size-text-m:18px;
 $font-size-text-n:16px;
 $font-size-text-nr:14px;
+
 //line-height-text
-$line-height-text-tittle: 61.6px;
-$line-height-text-h1: 52.8px;
-$line-height-text-h2:44px;
-$line-height-text-h3:35.2px;
-$line-height-text-h4:26.4px;
-$line-height-text-h5:22px;
-$line-height-text-h6:19.5px;
+$line-height-text-tittle: 63.6px;
+$line-height-text-h1: 61.6px;
+$line-height-text-h2:52.8px;
+$line-height-text-h3:44px;
+$line-height-text-h4:35.2px;
+$line-height-text-h5:26.4px;
+$line-height-text-h6:22px;
 $line-height-text-l:34px;
+$line-height-text-m:160%;
+$line-height-text-n: 156%;
+$line-height-text-nr:155%;
+
+//font-for laptop
+$lt-font-size-text-title: 50px;
+$lt-font-size-text-h1: 46px;
+$lt-font-size-text-h2: 40px;
+$lt-font-size-text-h3: 30px;
+$lt-font-size-text-h4: 22px;
+$lt-font-size-text-h5: 18px;
+$lt-font-size-text-h6: 16px;
+
+$lt-font-size-text-l:18px;
+$lt-font-size-text-m:16px;
+$lt-font-size-text-n:14px;
+$lt-font-size-text-nr:12px;
+
+//line-height-text
+$lt-line-height-text-tittle: 55px;
+$lt-line-height-text-h1: 50.2px;
+$lt-line-height-text-h2:44px;
+$lt-line-height-text-h3:34px;
+$lt-line-height-text-h4:24.2px;
+$lt-line-height-text-h5:20px;
+$lt-line-height-text-h6:17px;
+$lt-line-height-text-l:19.1px;
+$lt-line-height-text-m:160%;
+$lt-lt-line-height-text-n: 156%;
+$lt-line-height-text-nr:155%;
+
+
+//font for mobile
+$mb-font-size-text-title: 36px;
+$mb-font-size-text-h1: 33px;
+$mb-font-size-text-h2:30px;
+$mb-font-size-text-h3:25px;
+$mb-font-size-text-h4:20px;
+
+$mb-font-size-text-l:18px;
+$mb-font-size-text-m:16px;
+$mb-font-size-text-n:14px;
+$mb-font-size-text-nr:12px;
+
+//line-height-text
+$line-height-text-tittle: 40.5px;
+$line-height-text-h1: 36.2px;
+$line-height-text-h2:34.1px;
+$line-height-text-h3:30.4px;
+$line-height-text-h4:23.2px;
+
+$line-height-text-l:21.6px;
 $line-height-text-m:160%;
 $line-height-text-n: 156%;
 $line-height-text-nr:155%;
@@ -96,5 +149,3 @@ $space-margin-top-bottom-l: 25px;
 $space-margin-top-bottom-m: 20px;
 $space-margin-top-bottom-n: 14px;
 $space-margin-top-bottom-nr: 10px;
-
-//font for mobile
