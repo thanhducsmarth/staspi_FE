@@ -39,8 +39,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    // line-height: 45px;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-font-size-text-m;
     color: $font-back;
     padding-top: 30px;
 }

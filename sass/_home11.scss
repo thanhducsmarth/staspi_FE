@@ -29,12 +29,12 @@
     flex: 33.33%;
 }
 
-.home11 .all-home11 h2 {
+.home11 .all-home11 h1 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 96px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     text-align: center;
     color: $second-primary;
     transform: translateY(-30%);
@@ -53,7 +53,7 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: $lt-font-size-text-l;
     line-height: 22px;
     text-align: center;
     color: $font-service2;

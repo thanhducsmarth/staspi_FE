@@ -48,26 +48,26 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-font-size-text-h3;
     color: $white-contact;
 }
 
 .Service2-Items .left-Service2-Items .center-content {
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 50px;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-line-height-text-h2;
     color: $white-contact;
     font-family: $font-text;
-    margin-top: 40px;
+    margin-top: $space-margin-top-bottom-l;
 }
 
 .Service2-Items .left-Service2-Items .bottom-content {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-font-size-text-l;
     color: $white-contact;
     font-family: $font-text;
     margin-top: 40px;
@@ -81,15 +81,17 @@
     height: 50px;
     border: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $primary;
-    margin-top: 50px;
+    margin-top: $space-margin-top-bottom-l;
     font-family: $font-text;
 }
 
 .Service2-Items .right-Service2-Items p {
     font-weight: 600;
-    font-size: 16px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $font-black;
     font-family: $font-text;
     padding-top: 30px;

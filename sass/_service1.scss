@@ -15,8 +15,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 55px;
-    line-height: 96px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     text-align: center;
     color: $white-contact;
 }
@@ -25,8 +25,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: $mb-font-size-text-l;
+    line-height: $mb-line-height-text-l;
     text-align: center;
     padding-top: 40px;
     color: $white-contact;

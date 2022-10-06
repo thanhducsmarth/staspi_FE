@@ -29,8 +29,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
-    line-height: 75px;
+    font-size: $lt-line-height-text-h3;
+    line-height: $lt-font-size-text-h3;
     color: $font-home5;
 }
 
@@ -103,6 +103,7 @@
     line-height: $lt-line-height-text-l;
     color: $font-home5;
     text-align: justify;
+    margin-top: $space-margin-top-bottom-nr;
 }
 
 .aboutus_2 .third .content-right {
@@ -150,6 +151,7 @@
 
 .aboutus_2 .content-item {
     padding-right: calc(calc(100% - 500px)/2);
+    margin-top: $space-margin-top-bottom-nr;
 }
 
 .aboutus_2 .footer-items-about {
@@ -160,8 +162,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: $lt-font-size-text-h6;
-    line-height: $lt-line-height-text-h6;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
     color: $font-home5;
     text-align: justify;
 }

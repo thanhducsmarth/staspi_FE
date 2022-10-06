@@ -17,7 +17,7 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     color: $font-done;
 }

@@ -64,7 +64,7 @@
 }
 
 .home2 .flexbox-item .flex-content {
-    margin: $space-margin-top-bottom-l 0;
+    margin: $space-margin-top-bottom-m 0;
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
@@ -73,10 +73,11 @@
     color: $font-done;
 }
 
-.home2 .flexbox-item .flex-item {
+.home2 .flexbox-item .flex-item p {
     font-family: $font-text;
     font-weight: 300;
-    font-size: 16px;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-font-size-text-m;
 }
 
 .home2 .flexbox-service .flexbox-item {

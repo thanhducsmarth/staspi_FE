@@ -36,8 +36,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 55px;
-    line-height: 79px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     color: $white-contact;
 }
 
@@ -45,8 +45,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $white-contact;
     margin: 40px 0;
     padding-right: calc((100% - 100px) / 2);
@@ -61,7 +61,7 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: $lt-font-size-text-l;
     line-height: 30px;
     color: $font-home5;
     cursor: pointer;
@@ -103,8 +103,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     text-align: center;
     color: $white-contact;
 }

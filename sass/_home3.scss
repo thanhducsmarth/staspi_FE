@@ -31,13 +31,14 @@
     display: block;
 }
 
-.home3-all .home3-left .title-home3 {
+.home3-all .home3-left .title-home3 h3 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 120px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     color: $second-primary;
+    margin-bottom: $space-margin-top-bottom-nr;
 }
 
 .home3 .home3-left .btn-home3 {
@@ -58,7 +59,7 @@
     font-family:$font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
     color: $white-contact;
 }
 
@@ -71,8 +72,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $second-primary;
     text-align: justify;
 }
@@ -88,14 +89,14 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $primary;
     cursor: pointer;
 }
 
 .home3-all .bottom-span span:hover {
-    font-size: 19px;
+    font-size: 20px;
     transition: all 0.5s ease;
 }
 

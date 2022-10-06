@@ -22,8 +22,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: $font-size-text-h2;
-    line-height: $line-height-text-h2;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-line-height-text-h2;
     color: $font-home5;
     // transform: translateY(-30%);
 }
@@ -99,8 +99,8 @@ gap: 15px;
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 48px;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
     color: $font-home5;
 }
 
@@ -108,8 +108,8 @@ gap: 15px;
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
+    font-size: $lt-font-size-text-m;
+    line-height: $line-height-text-m;
     color: $font-auto;
 }
 

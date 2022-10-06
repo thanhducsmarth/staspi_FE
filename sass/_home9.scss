@@ -15,14 +15,15 @@
     // background-color: $primary;
 }
 
-.home9  .all-home9 .title-home9 h3{
+.home9  .all-home9 .title-home9 h1{
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 120px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     color: $white-contact;
     z-index: 999;
+    margin-bottom: $space-margin-top-bottom-m;
 }
 
 
@@ -53,7 +54,7 @@
     user-select: none;
     color: $font-team;
     pointer-events: none;
-    font-size: 20px;
+    font-size: $lt-font-size-text-l;
     transition: 0.25s ease;
 }
 
@@ -67,7 +68,7 @@
 }
 
 .home9 .form-input::placeholder {
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
 }
 
 .home9 .button-home9 .btn-home9 {

@@ -34,8 +34,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 30px;
+    font-size: $lt-font-size-text-n;
+    line-height: $lt-font-size-text-n;
     color: $white-contact;
 }
 
@@ -43,8 +43,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 50px;
+    font-size: $lt-font-size-text-h4;
+    line-height: $lt-line-height-text-h4;
     color: $second-primary;
 }
 

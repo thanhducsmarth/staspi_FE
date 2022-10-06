@@ -31,22 +31,22 @@
     background-clip: text;
     text-fill-color: transparent;
     font-weight: 700;
-    font-size: 110px;
-    line-height: 110px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-font-size-text-h1;
     letter-spacing: -0.06em;
 }
 
 .Service1-Items .content-items h1 {
-    font-size:110px;;
+    font-size:$lt-font-size-text-h1;
 }
 
 .Service1-Items .content-Service1-Items p {
     font-family: $font-text;
     font-style: normal;
-    font-size: 16px;
+    font-size: $lt-font-size-text-l;
     color: $font-black;
     font-weight: 400;
-    line-height: 25px;
+    line-height: $lt-line-height-text-l;
     margin-top: 30px;
 }
 
@@ -80,7 +80,7 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: $lt-font-size-text-m;
     color: $font-black;
 }
 
@@ -92,7 +92,7 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: $lt-font-size-text-l;
     cursor: pointer;
     color: $white-contact;
 }
