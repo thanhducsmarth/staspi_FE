@@ -297,7 +297,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 46px;
+  line-height: 50.2px;
   color: #FFFFFF;
 }
 
@@ -323,12 +324,14 @@ html {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 160%;
   color: #F07E2A;
 }
 
 .banner .button-banner .alo {
   position: absolute;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 16px;
   color: #F07E2A;
   margin-left: 30px;
   margin-top: -16px;
@@ -379,6 +382,7 @@ html {
 
 .hiring1 .left-hiring1 .square-hiring {
   animation: slideRight 1.5s ease;
+  margin-left: 20%;
 }
 
 @keyframes slideCenter {
@@ -1722,8 +1726,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 22px;
+  line-height: 24.2px;
   color: #3E5AFE;
 }
 
@@ -1731,8 +1735,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 55px;
-  line-height: 96px;
+  font-size: 46px;
+  line-height: 50.2px;
   color: #151A3C;
 }
 
@@ -1741,7 +1745,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 19.1px;
   color: #151A3C;
   padding-top: 40px;
   text-align: justify;
@@ -1789,8 +1793,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 20px;
+  line-height: 22.2px;
   color: #3E5AFE;
 }
 
@@ -1808,7 +1812,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 18px;
   color: #202857;
 }
 
@@ -1849,8 +1853,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 20px;
+  line-height: 22.2px;
   color: #3E5AFE;
 }
 
@@ -1858,8 +1862,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 35px;
-  line-height: 75px;
+  font-size: 34px;
+  line-height: 34px;
   color: #202857;
 }
 
@@ -1868,7 +1872,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 19.1px;
   color: #202857;
   text-align: justify;
 }
@@ -1928,8 +1932,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 17px;
   color: #202857;
   text-align: justify;
 }
@@ -1975,8 +1979,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 20px;
+  line-height: 22.2px;
   color: #3E5AFE;
 }
 
@@ -1994,7 +1998,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 18px;
   color: #202857;
 }
 
@@ -2035,8 +2039,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 20px;
+  line-height: 22.2px;
   color: #3E5AFE;
 }
 
@@ -2044,8 +2048,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 35px;
-  line-height: 75px;
+  font-size: 34px;
+  line-height: 34px;
   color: #202857;
 }
 
@@ -2054,7 +2058,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 19.1px;
   color: #202857;
   text-align: justify;
 }
@@ -2114,8 +2118,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 17px;
   color: #202857;
   text-align: justify;
 }
@@ -2398,8 +2402,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 80px;
-  line-height: 135px;
+  font-size: 46px;
+  line-height: 50.2px;
   letter-spacing: -0.02em;
   color: #FF9500;
 }
@@ -2408,8 +2412,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 80px;
-  line-height: 135px;
+  font-size: 46px;
+  line-height: 50.2px;
   letter-spacing: -0.02em;
   color: #3A57B6;
   margin-left: 20px;
@@ -2438,14 +2442,15 @@ html {
   background: #3A57B6;
   border-radius: 50%;
   position: absolute;
+  transform: translateX(20%);
 }
 
 .hiring1 .left-hiring1 .content-hiring h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 140px;
-  line-height: 150px;
+  font-size: 46px;
+  line-height: 46px;
   letter-spacing: -0.01em;
   color: #3A57B6;
 }
@@ -2488,8 +2493,9 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 96px;
+  font-size: 46px;
+  line-height: 36.2px;
+  margin-bottom: 25px;
   color: #202857;
   margin-left: 50px;
 }
@@ -2499,7 +2505,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 19.1px;
   color: #151A3C;
   margin-left: 50px;
   text-align: justify;
@@ -2521,12 +2527,12 @@ html {
   width: 100%;
 }
 
-.hiring3 .fa-hiring > h3 {
+.hiring3 .fa-hiring > h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 64px;
-  line-height: 96px;
+  font-size: 46px;
+  line-height: 50.2px;
   color: #202857;
   text-align: center;
 }
@@ -2574,7 +2580,8 @@ html {
 
 .img-slider .slide .info h2 {
   color: #fff;
-  font-size: 45px;
+  font-size: 40px;
+  line-height: 34.1px;
   text-transform: uppercase;
   font-weight: 800px;
   letter-spacing: 2px;
@@ -2616,12 +2623,12 @@ html {
   width: 100%;
 }
 
-.hiring4 .all-hiring4 > h3 {
+.hiring4 .all-hiring4 > h1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
-  line-height: 96px;
+  font-size: 46px;
+  line-height: 50.2px;
   color: #202857;
   text-align: center;
   padding-top: 50px;
@@ -2704,9 +2711,10 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 16px;
+  line-height: 16px;
   color: #3E5AFE;
+  margin-bottom: 10px;
 }
 
 .hiring4 .right-content h5 {
@@ -2714,17 +2722,18 @@ html {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 20px;
   letter-spacing: -0.03em;
   color: #000000;
+  margin-bottom: 10px;
 }
 
 .hiring4 .right-content p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 156%;
   letter-spacing: -0.005em;
   color: #151A3C;
 }
@@ -3678,8 +3687,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 47px;
-  line-height: 23px;
+  font-size: 46px;
+  line-height: 19.1px;
   letter-spacing: -0.005em;
   color: #fff;
 }
@@ -3715,8 +3724,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 44px;
   color: #151A3C;
   margin: 10px 0;
 }
@@ -3726,7 +3735,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 19.1px;
   color: #151A3C;
   text-align: justify;
 }
@@ -3782,7 +3791,6 @@ html {
   height: auto;
   position: relative;
   padding: 2em;
-  font-size: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3793,7 +3801,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
+  line-height: 34px;
   padding: 20px 0;
 }
 
@@ -3828,19 +3837,20 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .contact-block .infomation .item-right p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 22px;
+  line-height: 24.2px;
 }
 
-.item-left .icon {
+.contact-block .infomation .item-left .icon {
   width: 100%;
-  font-size: 100px;
+  font-size: 90px;
   color: black;
   display: flex;
   justify-content: center;
@@ -3875,7 +3885,8 @@ html {
 .contact-block .frm-contact h2 {
   padding: 40px 0;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .contact-block .frm-contact input, select, option {
@@ -3886,7 +3897,8 @@ html {
   margin: 20px;
   border-radius: 15px;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 18px;
   resize: none;
   padding: 10px;
 }
@@ -3900,7 +3912,8 @@ html {
   margin: 20px;
   border-radius: 15px;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 19.1px;
   resize: none;
   padding: 10px;
 }
@@ -3913,7 +3926,7 @@ html {
   margin: 20px 0;
   border-radius: 10px;
   box-sizing: border-box;
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
   font-style: normal;
   font-weight: 600;
@@ -3953,8 +3966,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 23px;
+  font-size: 46px;
+  line-height: 50.2px;
   letter-spacing: -0.005em;
   color: #fff;
 }
@@ -4041,14 +4054,17 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
+  line-height: 24.2px;
   padding: 10px 10px 0;
+  color: #fff;
 }
 
 .topics .topic-container .item-topic .overlay-item .content-item {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 19.1px;
   color: #fff;
   margin: 5px 10px;
 }
@@ -4057,7 +4073,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 24.2px;
   padding: 20px 0;
   color: #151A3C;
   display: none;
@@ -4071,6 +4088,7 @@ html {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 160%;
   color: #797979;
   display: none;
 }
@@ -4114,8 +4132,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 18px;
+  line-height: 18px;
   color: #fff;
 }
 
@@ -4169,8 +4187,8 @@ html {
 
 .banner-child-blog h1 {
   font-weight: 700;
-  font-size: 30px;
-  line-height: 32px;
+  font-size: 46px;
+  line-height: 50.2px;
   letter-spacing: -0.005em;
   color: #fff;
 }
@@ -4178,8 +4196,8 @@ html {
 .banner-child-blog a {
   color: #3E5AFE;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 18px;
   text-decoration: none;
   cursor: pointer;
   margin-top: 40px;
@@ -4217,18 +4235,18 @@ html {
 
 .component-post .main-post .main-post-container a {
   font-weight: 400;
-  line-height: 30px;
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 19.1px;
   color: #3E5AFE;
-  margin-top: 20px;
+  margin: 14px;
   margin-left: 30px;
   text-decoration: none;
 }
 
-.component-post .main-post .main-post-container h2 {
+.component-post .main-post .main-post-container h3 {
   font-weight: 500;
-  line-height: 35px;
-  font-size: 25px;
+  font-size: 30px;
+  line-height: 34px;
   color: #202857;
   margin-left: 30px;
   margin-bottom: 25px;
@@ -4237,16 +4255,16 @@ html {
 .component-post .main-post .main-post-container .content p {
   margin: 20px 0;
   font-weight: 500;
-  line-height: 25px;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 19.1px;
   color: #484848;
   text-align: justify;
 }
 
 .component-post .main-post .main-post-container .content a {
   font-weight: 500;
-  line-height: 25px;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 19.1px;
   color: #484848;
   text-align: justify;
   margin: 0 !important;
@@ -4268,20 +4286,21 @@ html {
   font-weight: 700;
   line-height: 27px;
   font-size: 18px;
+  line-height: 18px;
 }
 
 .component-post .main-post .main-post-container .content h4 {
   font-weight: 700;
-  line-height: 27px;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 22.2px;
   font-style: italic;
 }
 
 .component-post .main-post .main-post-container .content .decription {
   display: flex;
   font-weight: 300;
-  line-height: 23px;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 19.1px;
   font-style: italic;
   align-self: center;
   margin: 10px 0;
@@ -4289,8 +4308,8 @@ html {
 
 .component-post .main-post .main-post-container .content ul > li {
   font-weight: 400;
-  line-height: 25px;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 19.1px;
   text-align: justify;
 }
 
@@ -4333,6 +4352,7 @@ html {
 
 .component-post .main-post .main-post-container .interactive .item-views p {
   font-size: 18px;
+  line-height: 19.1px;
   margin-left: 10px;
 }
 
@@ -4349,7 +4369,7 @@ html {
 }
 
 .component-post .main-post .main-post-container .interactive .item-contact span {
-  font-size: 38px;
+  font-size: 34px;
   margin-left: 20px;
 }
 
@@ -4363,6 +4383,7 @@ html {
 
 .component-post .main-post .main-post-container .interactive .item-tag p {
   font-size: 18px;
+  line-height: 19.1px;
 }
 
 .component-post .main-post .main-post-container .block-owner {
@@ -4404,17 +4425,17 @@ html {
 }
 
 .component-post .main-post .main-post-container .block-owner .right-block > h2 {
-  margin: 40px 0 5px;
-  font-size: 25px;
-  line-height: 45px;
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 34px;
   font-weight: 700;
 }
 
 .component-post .main-post .main-post-container .block-owner .right-block p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 19.1px;
   font-weight: 400;
-  margin: 15px 0;
+  margin: 20px 0;
   margin-right: 20px;
   text-align: justify;
 }
@@ -4443,13 +4464,13 @@ html {
 }
 
 .component-post .main-post .main-post-container .info .c-date span {
-  font-size: 27px;
+  font-size: 18px;
   color: #3E5AFE;
 }
 
 .component-post .main-post .main-post-container .info .c-date p {
   font-size: 14px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .component-post .main-post .main-post-container .info .owner {
@@ -4460,13 +4481,13 @@ html {
 }
 
 .component-post .main-post .main-post-container .info .owner span {
-  font-size: 27px;
+  font-size: 18px;
   color: #3E5AFE;
 }
 
 .component-post .main-post .main-post-container .info .owner p {
   font-size: 14px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .component-post .main-post .main-post-container .info .sign {
@@ -4477,13 +4498,13 @@ html {
 }
 
 .component-post .main-post .main-post-container .info .sign span {
-  font-size: 27px;
+  font-size: 20px;
   color: #3E5AFE;
 }
 
 .component-post .main-post .main-post-container .info .sign p {
-  font-size: 14px;
-  margin-left: 5px;
+  font-size: 14px !important;
+  margin-left: 10px;
 }
 
 .component-post .highlight-post {
@@ -4493,12 +4514,12 @@ html {
   height: auto;
 }
 
-.component-post .highlight-post h2 {
+.component-post .highlight-post h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 25px;
-  font-size: 23px;
+  font-size: 30px;
+  line-height: 34px;
 }
 
 .component-post .highlight-post .search-bar {
@@ -4523,16 +4544,16 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 45px;
+  font-size: 16px;
+  line-height: 160%;
 }
 
 .component-post .highlight-post .search-bar input::placeholder {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 45px;
+  font-size: 16px;
+  line-height: 160%;
   color: #8F8F8F;
 }
 
@@ -4544,7 +4565,8 @@ html {
   margin-left: -20px;
   cursor: pointer;
   border: none;
-  font-size: 14px;
+  transform: translatey(1px);
+  font-size: 18px;
 }
 
 .component-post .highlight-post .highlight-post-container {
@@ -4591,17 +4613,18 @@ html {
 
 .component-post .highlight-post .highlight-post-container .item-post .item-right h2 {
   margin-left: 10px;
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 30px;
+  line-height: 34px;
   color: #202857;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
   margin-left: 10px;
   font-weight: 150;
-  font-size: 14px;
+  font-size: 16px;
   color: #B8B8B8;
 }
 
@@ -4612,8 +4635,9 @@ html {
 
 .component-post .highlight-post .categortires-container h2 {
   margin: 40px 0;
-  font-weight: 700;
-  font-size: 23px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
   color: #151A3C;
 }
 
@@ -4628,7 +4652,8 @@ html {
 
 .component-post .highlight-post .categortires-container .item-category h6 {
   font-weight: 450;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 22.2px;
   color: #151A3C;
   margin: 20px;
 }
@@ -4650,7 +4675,8 @@ html {
 
 .component-post .highlight-post .tags-block h1 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 30px;
+  line-height: 34px;
   color: #151A3C;
   margin-bottom: 20px;
 }
@@ -4815,11 +4841,12 @@ html {
   transform: translateY(0);
 }
 
-.title-item {
+.posts .overlay-item .title-item {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 22px;
+  line-height: 24.2px;
   color: #fff;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4829,10 +4856,11 @@ html {
   -webkit-box-orient: vertical;
 }
 
-.content-item {
+.posts .overlay-item .content-item {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 18px;
   color: #fff;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4860,7 +4888,8 @@ html {
 
 .pagination li a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .pagination .cur-page, .pagination .dots {
@@ -4875,8 +4904,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 18px;
+  line-height: 50px;
   color: #fff;
 }
 
@@ -4884,13 +4913,13 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: 18px;
+  line-height: 50px;
   color: #fff;
 }
 
 .pagination .pre-page, .pagination .nxt-page {
-  font-size: 70px;
+  font-size: 60px;
   background-color: #fff;
   box-shadow: none;
   color: #FA7716;

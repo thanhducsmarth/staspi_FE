@@ -10,12 +10,12 @@
     width: 100%;
 }
 
-.hiring3 .fa-hiring>h3 {
+.hiring3 .fa-hiring>h1 {
     font-family:$font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 96px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     color: $font-home5;
     text-align: center;
 }
@@ -63,7 +63,8 @@
 
 .img-slider .slide .info h2 {
     color: $color-white-none;
-    font-size: 45px;
+    font-size: $lt-font-size-text-h2;
+    line-height: $line-height-text-h2;
     text-transform: uppercase;
     font-weight: 800px;
     letter-spacing: 2px;

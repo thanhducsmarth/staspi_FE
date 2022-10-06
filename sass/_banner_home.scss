@@ -43,7 +43,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     color: $white-contact;
 }
 
@@ -68,13 +69,15 @@
     margin-left: -50px;
     font-family: $font-text;
     font-weight: 400;
-    font-size: 16px;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-line-height-text-m ;
     color: $third;
 }
 
 .banner .button-banner .alo{
     position: absolute;
-    font-size: 15px;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-font-size-text-m;
     color: $third;
     margin-left: 30px;
     margin-top: -16px;
@@ -126,7 +129,8 @@
 }
 
 .hiring1 .left-hiring1 .square-hiring {
-    animation: slideRight 1.5s ease;    
+    animation: slideRight 1.5s ease;
+    margin-left: 20%;
 }
 
 

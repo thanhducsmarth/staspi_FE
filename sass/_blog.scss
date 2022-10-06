@@ -24,8 +24,8 @@ margin-top: 70px;
 font-family: $font-text;
 font-style: normal;
 font-weight: 700;
-font-size: 30px;
-line-height: 23px;
+font-size: $lt-font-size-text-h1;
+line-height: $lt-line-height-text-h1;
 letter-spacing: -0.005em;
 color: #fff;
 }
@@ -109,13 +109,16 @@ font-family: $font-text;;
 font-family: $font-text;;
  font-style: normal;
  font-weight: 700;
- font-size: 18px;
+ font-size: $lt-font-size-text-h4;
+ line-height: $lt-line-height-text-h4;
  padding: 10px 10px 0;
+ color:#fff;
 }
 .topics .topic-container .item-topic .overlay-item .content-item {
 font-family: $font-text;;
 font-weight: 400;
-font-size: 16px;
+font-size: $lt-font-size-text-l;
+line-height: $lt-line-height-text-l;
 color: #fff;
 margin: 5px 10px;
 }
@@ -124,7 +127,8 @@ margin: 5px 10px;
 font-family: $font-text;;
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
+font-size: $lt-font-size-text-h4;
+line-height: $lt-line-height-text-h4;
 padding: 20px 0;
 color:$second-primary;
 display: none;
@@ -135,7 +139,8 @@ display: none;
 .topics .topic-container .item-topic .content-mobile {
 font-family: $font-text;;
 font-weight: 400;
-font-size: 16px;
+font-size:  $lt-font-size-text-m ;
+line-height: $lt-line-height-text-m;
 color: #797979;
 display: none;
 }
@@ -158,7 +163,7 @@ margin: 5px;
 
 .topics .pagination li a {
 text-decoration: none;
-font-size: 20px;
+font-size: $lt-font-size-text-h5;
 }
 .topics .pagination .page-number .cur-page, .topics .pagination .dots {
 background-color: #ccc;
@@ -171,7 +176,8 @@ cursor: pointer;
 font-family: $font-text;
 font-style: normal;
 // font-weight: 500;
-font-size: 16px;
+font-size: $lt-font-size-text-m;
+// line-height:$lt-line-height-text-l;  
 // line-height: 52px;
 // color: red;
 }
@@ -179,8 +185,8 @@ font-size: 16px;
 font-family: $font-text;
 font-style: normal;
 font-weight: 500;
-font-size: 25px;
-line-height: 52px;
+font-size: $lt-font-size-text-l;
+line-height: $lt-font-size-text-l;
 color: #fff;
 }
 

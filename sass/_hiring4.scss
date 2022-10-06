@@ -11,12 +11,12 @@
     width: 100%;
 }
 
-.hiring4 .all-hiring4>h3 {
+.hiring4 .all-hiring4>h1 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 96px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     color: $font-home5;
     text-align: center;
     padding-top: 50px;
@@ -57,7 +57,7 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
     line-height: 45px;
     color: $font-input-hiring4;
 }
@@ -100,27 +100,29 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-font-size-text-m;
     color: $color-text;
+    margin-bottom: $space-margin-top-bottom-nr;
 }
 
 .hiring4 .right-content h5 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-font-size-text-h5;
     letter-spacing: -0.03em;
     color: $font-black;
+    margin-bottom: $space-margin-top-bottom-nr;
 }
 
 .hiring4 .right-content p {
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: $lt-font-size-text-n;
+    line-height: $lt-line-height-text-n;
     letter-spacing: -0.005em;
     color: $second-primary;
 }

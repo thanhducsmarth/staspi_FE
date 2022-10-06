@@ -13,16 +13,16 @@
 }
 .banner-child-blog h1 {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 32px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     letter-spacing: -0.005em;
     color: #fff;
 }
 .banner-child-blog a {
     color: $color-text;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-font-size-text-l;
     text-decoration: none;
     cursor: pointer;
     margin-top: 40px;
@@ -60,18 +60,18 @@
 }
 .component-post .main-post .main-post-container a{
     font-weight: 400;
-    line-height: 30px;
-    font-size: 25px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $color-text;
-    margin-top: 20px;
+    margin: $space-margin-top-bottom-n;
     margin-left: 30px;
     text-decoration: none;
     // order: -1;
 }
-.component-post .main-post .main-post-container h2{
+.component-post .main-post .main-post-container h3{
     font-weight: 500;
-    line-height: 35px;
-    font-size: 25px;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
     color: #202857;
     margin-left: 30px;
     margin-bottom: 25px;
@@ -80,15 +80,15 @@
 .component-post .main-post .main-post-container .content p {
     margin: 20px 0;
     font-weight: 500;
-    line-height: 25px;
-    font-size: 16px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: #484848;
     text-align: justify;
 }
 .component-post .main-post .main-post-container .content a {
     font-weight: 500;
-    line-height: 25px;
-    font-size: 20px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: #484848;
     text-align: justify;
     margin: 0 !important;
@@ -107,20 +107,22 @@
 .component-post .main-post .main-post-container .content ol > li{
     font-weight: 700;
     line-height: 27px;
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-font-size-text-l;
 }
+//fix h4
 .component-post .main-post .main-post-container .content h4 {
     // color: red;
     font-weight: 700;
-    line-height: 27px;
-    font-size: 16px;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
     font-style: italic;
 }
 .component-post .main-post .main-post-container .content .decription {
     display: flex;
     font-weight: 300;
-    line-height: 23px;
-    font-size: 14px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     font-style: italic;
     align-self: center;
     margin: 10px 0;
@@ -128,8 +130,8 @@
 
 .component-post .main-post .main-post-container .content ul > li{
     font-weight: 400;
-    line-height: 25px;
-    font-size: 16px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     text-align: justify;
 }
 .component-post .main-post .main-post-container .content ul + .component-post .main-post .main-post-container .content ul {
@@ -164,7 +166,8 @@
     font-size: 38px;
 }
 .component-post .main-post .main-post-container .interactive .item-views p {
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     margin-left: 10px;
 }
 .component-post .main-post .main-post-container .interactive .item-contact {
@@ -175,10 +178,10 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .interactive .item-contact p {
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
 }
 .component-post .main-post .main-post-container .interactive .item-contact span {
-    font-size: 38px;
+    font-size: 34px;
     margin-left: 20px;
 }
 .component-post .main-post .main-post-container .interactive .item-tag {
@@ -189,7 +192,8 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .interactive .item-tag p {
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
 }
 .component-post .main-post .main-post-container .block-owner {
     width: 90%;
@@ -225,17 +229,18 @@
     font-family: $font-text;
     font-style: normal;
 }
+//fix h2
 .component-post .main-post .main-post-container .block-owner .right-block > h2 {
-    margin: 40px 0 5px;
-    font-size: 25px;
-    line-height: 45px;
+    margin-top: $space-margin-top-bottom-m;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
     font-weight: 700;
 }
 .component-post .main-post .main-post-container .block-owner .right-block p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     font-weight: 400;
-    margin: 15px 0;
+    margin: $space-margin-top-bottom-m 0;
     margin-right: 20px;
     text-align: justify;
 }
@@ -263,12 +268,12 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .info .c-date span{
-    font-size: 27px;
+    font-size: $lt-font-size-text-l;
     color: $color-text;
 }
 .component-post .main-post .main-post-container .info .c-date p {
-    font-size: 14px;
-    margin-left: 20px;
+    font-size: $lt-font-size-text-n;
+    margin-left: 10px;
 }
 .component-post .main-post .main-post-container .info .owner {
     width: auto;
@@ -277,12 +282,12 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .info .owner span {
-    font-size: 27px;
+    font-size: $lt-font-size-text-l;
     color: $color-text;
 }
 .component-post .main-post .main-post-container .info .owner p {
-    font-size: 14px;
-    margin-left: 5px;
+    font-size: $lt-font-size-text-n;
+    margin-left: 10px;
 }
 .component-post .main-post .main-post-container .info .sign {
     width: auto;
@@ -291,12 +296,12 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .info .sign span {
-    font-size: 27px;
+    font-size: 20px;
     color: $color-text;
 }
 .component-post .main-post .main-post-container .info .sign p {
-    font-size: 14px;
-    margin-left: 5px;
+    font-size: $lt-font-size-text-n !important;
+    margin-left: 10px;
 }
 
 .component-post .highlight-post {
@@ -305,12 +310,14 @@
     flex-direction: column;
     height: auto;
 }
-.component-post .highlight-post h2 {
+
+//fix h2
+.component-post .highlight-post h3 {
     font-family: $font-text;;
     font-style: normal;
     font-weight: 500;
-    line-height: 25px;
-    font-size: 23px;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
 }
 .component-post .highlight-post .search-bar {
     margin: 50px 0;
@@ -333,15 +340,15 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 45px;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-line-height-text-m;
 }
 .component-post .highlight-post .search-bar input::placeholder{
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 45px;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-line-height-text-m;
     color: #8F8F8F;
 }
 .component-post .highlight-post .search-bar button {
@@ -352,7 +359,8 @@
     margin-left: -20px;
     cursor: pointer;
     border: none;
-    font-size: 14px;
+    transform: translatey(1px);
+    font-size: $lt-font-size-text-l;
 }
 
 .component-post .highlight-post .highlight-post-container {
@@ -393,28 +401,32 @@
     font-style: normal;
     margin-left: 5px;
 }
+//fix h3
 .component-post .highlight-post .highlight-post-container .item-post .item-right h2{
     margin-left: 10px;
-    margin-bottom: 16px;
-    margin-top: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     font-weight: 500;
-    font-size: 21px;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
     color:#202857;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
     margin-left: 10px;
     font-weight: 150;
-    font-size: 14px;
+    font-size: $lt-font-size-text-m;
     color:#B8B8B8;
 }
 .component-post .highlight-post .categortires-container {
     font-family: $font-text;;
     font-style: normal;
 }
+//fix h2
 .component-post .highlight-post .categortires-container h2 {
     margin: 40px 0;
-    font-weight: 700;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
     color: #151A3C;
 }
 .component-post .highlight-post .categortires-container .item-category {
@@ -425,15 +437,17 @@
     display: flex;
     justify-content: space-between;
 }
+//fix h5
 .component-post .highlight-post .categortires-container .item-category h6 {
     font-weight: 450;
-    font-size: 18px;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
     color: #151A3C;
     margin: 20px;
 }
 .component-post .highlight-post .categortires-container .item-category p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: $lt-font-size-text-l;
     color: #151A3C;
     margin: 15px 0 15px;
 }
@@ -444,9 +458,11 @@
     font-family: $font-text;
     font-style: normal;
 }
+//fix to h3
 .component-post .highlight-post .tags-block h1 {
     font-weight: 700;
-    font-size: 26px;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
     color: #151A3C;
     margin-bottom: 20px;
 }
@@ -470,7 +486,7 @@
 	border-top-left-radius: 5px;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	color: #fff;
-	font-size:16px;
+	font-size:$lt-font-size-text-m;
 	font-family: $font-text;
 	text-decoration: none;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
@@ -590,11 +606,12 @@
 .overlay-item:hover > * {
   transform: translateY(0);
 }
-.title-item {
+.posts .overlay-item .title-item {
   font-family: $font-text;;
    font-style: normal;
    font-weight: 700;
-   font-size: 25px;
+   font-size: $lt-font-size-text-h4;
+   line-height: $lt-line-height-text-h4;
 //    text-align: justify;
    color:#fff;
    overflow: hidden;
@@ -604,10 +621,11 @@
            line-clamp: 3; 
    -webkit-box-orient: vertical;
 }
-.content-item {
+.posts .overlay-item .content-item {
   font-family: $font-text;;
   font-weight: 400;
-  font-size: 16px;
+  font-size: $lt-font-size-text-l;
+  line-height: $lt-font-size-text-l;
   color: #fff;
 //   margin: 0 10px;
   overflow: hidden;
@@ -637,7 +655,8 @@
 
 .pagination li a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: $lt-font-size-text-m;
+  line-height: $lt-font-size-text-m;
 }
 .pagination .cur-page, .pagination .dots {
   background-color: #ccc;
@@ -650,21 +669,21 @@
   font-family: $font-text;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: $font-size-text-m;
+  line-height: 50px;
   color: #fff;
 }
 .pagination .dots a {
   font-family: $font-text;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 52px;
+  font-size: $lt-font-size-text-l;
+  line-height: 50px;
   color: #fff;
 }
 
 .pagination .pre-page , .pagination .nxt-page  {
-  font-size: 70px;
+  font-size: 60px;
   background-color: #fff;
   box-shadow: none;
   color: $primary;

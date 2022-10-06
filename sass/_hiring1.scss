@@ -26,8 +26,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 80px;
-    line-height: 135px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     letter-spacing: -0.02em;
     color: $font-hiring;
 }
@@ -36,8 +36,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: 80px;
-    line-height: 135px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     letter-spacing: -0.02em;
     color: $font-space1;
     margin-left: 20px;
@@ -66,14 +66,15 @@
     background: $font-space1;
     border-radius: 50%;
     position: absolute;
+    transform: translateX(20%);
 }
 
 .hiring1 .left-hiring1 .content-hiring h1{
     font-family: $font-text;
     font-style: normal;
     font-weight: 700;
-    font-size: 140px;
-    line-height: 150px;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-font-size-text-h1;
     letter-spacing: -0.01em;
     color: $font-space1;
 }

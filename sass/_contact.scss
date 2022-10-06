@@ -23,12 +23,13 @@
   margin: 30px 0;
   height:auto;
 }
+//fix h2
 .cooperate .cooperate-content h1{
   font-family: $font-text;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: $lt-font-size-text-h2;
+  line-height: $lt-line-height-text-h2;
   color: $second-primary;
   margin: 10px 0;
 }
@@ -36,8 +37,8 @@
   font-family: $font-text;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: $lt-font-size-text-l;
+  line-height: $lt-line-height-text-l;
   color: $second-primary;
   text-align: justify;
   // margin: ;
@@ -92,17 +93,19 @@ width: 100%;
   height: auto;
   position: relative;
   padding: 2em;
-  font-size:32px;
+  // font-size:25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 align-items: center;
 }
+//fix h3
 .contact-block .infomation h2 {
  font-family: $font-text;;
  font-style: normal;
  font-weight: 700;
- font-size: 35px;
+ font-size: $lt-font-size-text-h3;
+ line-height: $lt-line-height-text-h3;
  padding: 20px 0;
 }
 .contact-block .infomation .item-contact {
@@ -136,23 +139,25 @@ min-height: 200px;
 //    justify-content: center;
 //    flex-direction: column;
 //  }
+//fix h3
 .contact-block .infomation .item-right  h2 {
  font-family: $font-text;;
  font-style: normal;
  font-weight: 700;
- font-size: 25px;
+ font-size: $lt-font-size-text-h3;
 }
 .contact-block .infomation .item-right  p {
- font-family: $font-text;;
+ font-family: $font-text;
  font-style: normal;
  font-weight: 400;
- font-size: 25px;
+ font-size: $lt-font-size-text-h4;
+ line-height: $lt-line-height-text-h4;
 //  max-width: 300px ;
 }
-.item-left .icon {
+.contact-block .infomation .item-left .icon {
  width: 100%;
 //  height: 50%;
- font-size: 100px;
+ font-size: 90px;
 //  font-size: 50px;//for mibile
  color: black;
  display: flex;
@@ -185,10 +190,12 @@ margin: 20px;
  font-family: $font-text;;
  font-style: normal;
 }
+// fix to h3
 .contact-block .frm-contact h2 {
  padding: 40px 0 ;
  font-weight: 700;
- font-size: 40px;
+ font-size: $lt-font-size-text-h3;
+ line-height: $lt-font-size-text-h3;
 }
 .contact-block .frm-contact input,select,option {
  background-color:$home-air;
@@ -198,7 +205,8 @@ margin: 20px;
  margin: 20px;
  border-radius: 15px;
  box-sizing: border-box;
- font-size: 25px;
+ font-size: $lt-font-size-text-l;
+ line-height: $lt-font-size-text-l;
  resize: none;
  padding: 10px;
 }
@@ -211,7 +219,8 @@ background-color:$home-air;
  margin: 20px;
  border-radius: 15px;
  box-sizing: border-box;
- font-size: 25px;
+ font-size: $lt-font-size-text-l;
+ line-height: $lt-line-height-text-l;
  resize: none;
  padding: 10px;
 } 
@@ -223,7 +232,7 @@ background-color:$home-air;
  margin: 20px 0;
  border-radius: 10px;
  box-sizing: border-box;
- font-size: 40px;
+ font-size: $lt-font-size-text-h3;
  color: #fff;
  font-style: normal;
  font-weight: 600;
