@@ -1,6 +1,6 @@
 .home9 {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     background-color: $primary;
@@ -44,6 +44,10 @@
 .home9 .all-home9 .form-field {
     position: relative;
     margin-top: 20px;
+}
+.home9 .all-home9 .form-field h1 {
+    font-size: $mb-font-size-text-h2;
+    line-height: $mb-line-height-text-h2;
 }
 
 .home9 .form-field .form-label {
@@ -99,7 +103,7 @@
 .home9 .left-top {
     position: absolute;
     width: 60vh;
-    height: 40vh;
+    height: 30vh;
     top: 0; 
     left: -100px;
     background: $square;
@@ -110,7 +114,7 @@
 .home9 .right-top {
     position: absolute;
     width: 55vh;
-    height: 70vh;
+    height: 50vh;
     top: 0; 
     right: 0;
     background: $square;

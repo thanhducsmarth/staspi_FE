@@ -324,7 +324,7 @@ html {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 190%;
   color: #F07E2A;
 }
 
@@ -420,7 +420,6 @@ html {
   height: auto;
   background-color: #FAFAFA;
   position: relative;
-  padding: 50px 0;
 }
 
 .home2 .home2-item {
@@ -454,12 +453,12 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   text-align: center;
   color: #FFFFFF;
 }
 
-.home2-all .home2-content h3 {
+.home2-all .home2-content h2 {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -538,7 +537,7 @@ html {
 
 .home3 .home3-all .home3-right {
   flex: 1;
-  padding: 50px 0 50px 50px;
+  padding: 50px 0 0 50px;
 }
 
 .home3-all .home3-right img {
@@ -546,12 +545,12 @@ html {
   display: block;
 }
 
-.home3-all .home3-left .title-home3 h3 {
+.home3-all .home3-left .title-home3 h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 46px;
-  line-height: 50.2px;
+  font-size: 40px;
+  line-height: 44px;
   color: #151A3C;
   margin-bottom: 10px;
 }
@@ -588,7 +587,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #151A3C;
   text-align: justify;
 }
@@ -606,7 +605,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #FA7716;
   cursor: pointer;
 }
@@ -628,7 +627,7 @@ html {
 
 .home4 {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   background-color: #FFFFFF;
@@ -637,15 +636,17 @@ html {
 .home4 .all-home4 {
   width: 100%;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .home4 .image-home4 {
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
+  margin-bottom: 20px;
 }
 
 .home4 .title-home4 {
-  transform: translateY(-30%);
+  margin: 25px 0;
 }
 
 .home4 .image-home4 img {
@@ -667,7 +668,6 @@ html {
   line-height: 18px;
   text-align: center;
   color: #444444;
-  transform: translateY(60%);
 }
 
 .home4 .all-home4 .btn-home4:hover {
@@ -675,12 +675,12 @@ html {
   transition: all 0.5s ease;
 }
 
-.home4 .title-home4 h3 {
+.home4 .title-home4 h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 46px;
-  line-height: 50.2px;
+  font-size: 40px;
+  line-height: 44px;
   color: #151A3C;
   margin-bottom: 20px;
 }
@@ -722,7 +722,7 @@ html {
   flex: 1;
 }
 
-.home5 .left-home5 h3 {
+.home5 .left-home5 h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -737,7 +737,7 @@ html {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 190%;
   letter-spacing: -0.005em;
   color: #FFFFFF;
   text-align: justify;
@@ -809,13 +809,14 @@ html {
 .home5 .all-home5-item .footer-items {
   height: 20%;
   background-color: #FFFFFF;
+  margin: 25px 0;
 }
 
-.home5 .all-home5-item h2 {
+.home5 .all-home5-item > h2 {
   display: flex;
   align-self: center;
   text-align: center;
-  margin: 25px 0;
+  margin: 50px 0;
   font-family: "Inter", sans-serif;
   font-size: 40px;
   line-height: 44px;
@@ -840,7 +841,7 @@ html {
 }
 
 .home6 .all-home6 .top-content {
-  margin: 25px 0;
+  margin: 50px 0;
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
 }
@@ -996,7 +997,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #FFFFFF;
 }
 
@@ -1160,7 +1161,7 @@ html {
 
 .feedback {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   background: #FFFFFF;
@@ -1179,6 +1180,7 @@ html {
   line-height: 44px;
   color: #151A3C;
   text-align: center;
+  margin: 50px 0;
 }
 
 .feedback-container {
@@ -1335,7 +1337,7 @@ html {
 
 .home9 {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   background-color: #FA7716;
@@ -1377,6 +1379,11 @@ html {
 .home9 .all-home9 .form-field {
   position: relative;
   margin-top: 20px;
+}
+
+.home9 .all-home9 .form-field h1 {
+  font-size: 30px;
+  line-height: 162%;
 }
 
 .home9 .form-field .form-label {
@@ -1432,7 +1439,7 @@ html {
 .home9 .left-top {
   position: absolute;
   width: 60vh;
-  height: 40vh;
+  height: 30vh;
   top: 0;
   left: -100px;
   background: #FC8833;
@@ -1443,7 +1450,7 @@ html {
 .home9 .right-top {
   position: absolute;
   width: 55vh;
-  height: 70vh;
+  height: 50vh;
   top: 0;
   right: 0;
   background: #FC8833;
@@ -1471,7 +1478,7 @@ html {
 
 .home10 {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   background-color: #FAFAFA;
@@ -1480,6 +1487,7 @@ html {
 
 .home10 .alls-home10 {
   width: 100%;
+  margin-bottom: 25px;
 }
 
 .home10 .all-home10 {
@@ -1489,6 +1497,7 @@ html {
 
 .home10 .top-home10 {
   text-align: center;
+  margin: 20px;
 }
 
 .home10 .top-home10 .btn-home4 {
@@ -1514,8 +1523,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 24.2px;
+  font-size: 30px;
+  line-height: 162%;
   color: #151A3C;
 }
 
@@ -1548,7 +1557,7 @@ html {
 .home10 .cubes-home10 p {
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 125%;
   color: #FFFFFF;
 }
@@ -1563,7 +1572,7 @@ html {
 
 .home11 {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #FAFAFA;
 }
 
@@ -1572,6 +1581,7 @@ html {
   height: 100%;
   display: flex;
   align-items: center;
+  margin: 50px 0;
 }
 
 .home11 .all-home11 {
@@ -1592,15 +1602,15 @@ html {
   flex: 33.33%;
 }
 
-.home11 .all-home11 h1 {
+.home11 .all-home11 h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 46px;
-  line-height: 50.2px;
+  font-size: 40px;
+  line-height: 44px;
   text-align: center;
   color: #151A3C;
-  transform: translateY(-30%);
+  margin: 25px 0;
 }
 
 .home11 .img-home11 img {
@@ -1755,7 +1765,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #151A3C;
   padding-top: 40px;
   text-align: justify;
@@ -1882,7 +1892,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #202857;
   text-align: justify;
   margin-top: 10px;
@@ -2070,7 +2080,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #202857;
   text-align: justify;
   margin-top: 10px;
@@ -2519,7 +2529,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #151A3C;
   margin-left: 50px;
   text-align: justify;
@@ -2747,7 +2757,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 156%;
+  line-height: 186%;
   letter-spacing: -0.005em;
   color: #151A3C;
 }
@@ -2836,7 +2846,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #FFFFFF;
   margin: 40px 0;
   padding-right: calc((100% - 100px) / 2);
@@ -2894,7 +2904,7 @@ html {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -2944,7 +2954,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21.6px;
   text-align: center;
   padding-top: 40px;
@@ -3081,8 +3091,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 33px;
-  line-height: 33px;
+  font-size: 36px;
+  line-height: 36px;
   color: #FFFFFF;
 }
 
@@ -3090,7 +3100,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21.6px;
   color: #FFFFFF;
   text-align: justify;
@@ -3106,7 +3116,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21.6px;
   margin: 30px 0;
   color: #202857;
@@ -3132,7 +3142,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21.6px;
   color: #FA7716;
 }
@@ -3189,7 +3199,7 @@ html {
   font-size: 18px;
   color: #000000;
   font-weight: 400;
-  line-height: 19.1px;
+  line-height: 29.1px;
   margin-top: 30px;
 }
 
@@ -3324,7 +3334,7 @@ html {
   border: none;
   font-weight: 500;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #FA7716;
   margin-top: 25px;
   font-family: "Inter", sans-serif;
@@ -3333,7 +3343,7 @@ html {
 .Service2-Items .right-Service2-Items p {
   font-weight: 600;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #000000;
   font-family: "Inter", sans-serif;
   padding-top: 30px;
@@ -3504,7 +3514,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #FFFFFF;
 }
 
@@ -3536,7 +3546,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   border: none;
   border-radius: 10px;
   color: #202857;
@@ -3551,7 +3561,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   border: none;
 }
 
@@ -3624,7 +3634,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #000000;
   padding: 0 20px;
   transform: translateY(0%);
@@ -3642,7 +3652,7 @@ html {
 }
 
 .fix-h1 h1 {
-  font-size: 25px !important;
+  font-size: 26px !important;
 }
 
 .service1-items-none form {
@@ -3673,7 +3683,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000;
 }
 
@@ -3706,7 +3716,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 46px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   letter-spacing: -0.005em;
   color: #fff;
 }
@@ -3753,7 +3763,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #151A3C;
   text-align: justify;
 }
@@ -3931,7 +3941,7 @@ html {
   border-radius: 15px;
   box-sizing: border-box;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   resize: none;
   padding: 10px;
 }
@@ -4082,7 +4092,7 @@ html {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #fff;
   margin: 5px 10px;
 }
@@ -4106,7 +4116,7 @@ html {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 190%;
   color: #797979;
   display: none;
 }
@@ -4254,7 +4264,7 @@ html {
 .component-post .main-post .main-post-container a {
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #3E5AFE;
   margin: 14px;
   margin-left: 30px;
@@ -4274,7 +4284,7 @@ html {
   margin: 20px 0;
   font-weight: 500;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #484848;
   text-align: justify;
 }
@@ -4282,7 +4292,7 @@ html {
 .component-post .main-post .main-post-container .content a {
   font-weight: 500;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   color: #484848;
   text-align: justify;
   margin: 0 !important;
@@ -4318,7 +4328,7 @@ html {
   display: flex;
   font-weight: 300;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   font-style: italic;
   align-self: center;
   margin: 10px 0;
@@ -4327,7 +4337,7 @@ html {
 .component-post .main-post .main-post-container .content ul > li {
   font-weight: 400;
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   text-align: justify;
 }
 
@@ -4370,7 +4380,7 @@ html {
 
 .component-post .main-post .main-post-container .interactive .item-views p {
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   margin-left: 10px;
 }
 
@@ -4401,7 +4411,7 @@ html {
 
 .component-post .main-post .main-post-container .interactive .item-tag p {
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
 }
 
 .component-post .main-post .main-post-container .block-owner {
@@ -4451,7 +4461,7 @@ html {
 
 .component-post .main-post .main-post-container .block-owner .right-block p {
   font-size: 18px;
-  line-height: 19.1px;
+  line-height: 29.1px;
   font-weight: 400;
   margin: 20px 0;
   margin-right: 20px;
@@ -4563,7 +4573,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 190%;
 }
 
 .component-post .highlight-post .search-bar input::placeholder {
@@ -4571,7 +4581,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 190%;
   color: #8F8F8F;
 }
 
@@ -5045,7 +5055,7 @@ html {
   .home2-button .btn-top-home2 p {
     font-size: 20px;
   }
-  .home2-all .home2-content h3 {
+  .home2-all .home2-content h2 {
     font-size: 45px;
   }
   .home2 .flexbox-service {
@@ -5087,7 +5097,7 @@ html {
     padding-left: calc((100% - 1700px) / 2);
     padding-right: calc((100% - 1700px) / 2);
   }
-  .home5 .left-home5 h3 {
+  .home5 .left-home5 h2 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -5771,7 +5781,7 @@ html {
   .home2-button .btn-top-home2 p {
     font-size: 16px;
   }
-  .home2-all .home2-content h3 {
+  .home2-all .home2-content h2 {
     font-size: 34px;
     line-height: 55px;
     transform: translateY(20%);
@@ -5832,7 +5842,7 @@ html {
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
   }
-  .home5 .left-home5 h3 {
+  .home5 .left-home5 h2 {
     font-size: 35px;
     line-height: 70%;
   }
@@ -6586,6 +6596,7 @@ html {
     font-size: 12px;
     margin-left: 20px;
     margin-top: -14px;
+    transform: translateY(-5px);
   }
   .home3 .home3-alls {
     transform: translateY(3%);
@@ -6603,8 +6614,8 @@ html {
     padding: 0 20px;
   }
   .home3-left .content-home3 {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 21.6px;
     text-align: justify;
     padding: 0px;
   }
@@ -6623,10 +6634,14 @@ html {
   }
   .home3-all .bottom-span span {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
   }
   .home3-all .bottom-span .contact {
     display: none;
+  }
+  .home3-all .home3-left .title-home3 h2 {
+    font-size: 30px;
+    line-height: 162%;
   }
   .home2-all .home2-button .btn-top-home2 {
     width: 140px;
@@ -6637,10 +6652,10 @@ html {
   .home2-button .btn-top-home2 p {
     font-size: 13px;
   }
-  .home2-all .home2-content h3 {
+  .home2-all .home2-content h2 {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 162%;
     padding-top: 20px;
   }
   .home2 .flexbox-service .flexbox-item {
@@ -6649,7 +6664,7 @@ html {
     box-shadow: 0px 4px 4px rgba(187, 184, 184, 0.25);
     border-radius: 23px;
     margin: 5px;
-    min-height: 250px;
+    height: 370px;
     padding: 10px;
   }
   .home2 .flexbox-item .flex-content {
@@ -6668,6 +6683,12 @@ html {
   }
   .fix3 h5 {
     transform: translateY(0) !important;
+    font-size: 18px;
+    line-height: 151%;
+  }
+  .home2 .flexbox-item .flex-item p {
+    font-size: 16px;
+    line-height: 21.6px;
   }
   .home2 .flexbox-service {
     padding-top: 0px;
@@ -6716,6 +6737,15 @@ html {
   .footer .first .content-img h5 {
     display: none;
   }
+  .home5 .left-home5 h2 {
+    font-size: 30px;
+    line-height: 162%;
+  }
+  .home5 .all-home5-item > h2 {
+    font-size: 30px;
+    line-height: 162%;
+    padding: 0 10px;
+  }
   .home6 .flex-item .top-item {
     width: 160px;
     height: 141px;
@@ -6732,6 +6762,13 @@ html {
   .flexbox-home6 .bottom-item span {
     font-size: 12px;
     line-height: 0px;
+  }
+  .home6 .all-home6 .top-content h2 {
+    font-size: 30px;
+    line-height: 162%;
+  }
+  .home6 .all-home6 .top-content {
+    margin-bottom: 0;
   }
   .home7 .button-home7 {
     display: none;
@@ -6787,6 +6824,10 @@ html {
   .home7 .img-item-slider img {
     display: inline;
   }
+  .home2 .flexbox-item .flex-content h5 {
+    font-size: 18px;
+    line-height: 151%;
+  }
   .feedback {
     display: none;
   }
@@ -6812,6 +6853,9 @@ html {
   .feedback .pre {
     margin: 0 10px;
   }
+  .home9 {
+    height: auto;
+  }
   .home9 .all-home9 .title-home9 h3 {
     font-size: 40px;
     line-height: 100px;
@@ -6819,6 +6863,7 @@ html {
   .home9 .all-home9 {
     padding-left: calc((100% - 330px) / 2);
     padding-right: calc((100% - 330px) / 2);
+    margin: 28px 0;
   }
   .home9 .all-home9 .form-input {
     height: 40px;
@@ -6838,7 +6883,7 @@ html {
   .home9 .right-top {
     position: absolute;
     width: 35vh;
-    height: 50vh;
+    height: 30vh;
     border-top-left-radius: 60%;
     border-bottom-left-radius: 200%;
     border-bottom-right-radius: 3%;
@@ -7049,8 +7094,8 @@ html {
     flex-direction: column;
   }
   .home11 .all-home11 h2 {
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 30px;
+    line-height: 162%;
     transform: translateY(-30%);
   }
   .home11 .all-flex-home11 .square-home11 {
@@ -7487,7 +7532,8 @@ html {
     color: #202857;
   }
   .top-mobile .dropdown-info h5 {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 151%;
   }
   .top-mobile .cont_dropdown_info {
     position: relative;
@@ -7580,7 +7626,8 @@ html {
     color: #202857;
   }
   .top-mobile .dropdown-service h5 {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 151%;
   }
   .top-mobile .cont_dropdown_service {
     position: relative;
@@ -7653,7 +7700,8 @@ html {
     color: #202857;
   }
   .top-mobile .dropdown-train h5 {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 151%;
   }
   .top-mobile .cont_dropdown_train {
     position: relative;

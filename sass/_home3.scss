@@ -23,7 +23,7 @@
 
 .home3 .home3-all .home3-right{
     flex: 1;
-    padding:50px 0 50px 50px;
+    padding:50px 0 0 50px;
 }
 
 .home3-all .home3-right img{
@@ -31,12 +31,12 @@
     display: block;
 }
 
-.home3-all .home3-left .title-home3 h3 {
+.home3-all .home3-left .title-home3 h2 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: $lt-font-size-text-h1;
-    line-height: $lt-line-height-text-h1;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-line-height-text-h2;
     color: $second-primary;
     margin-bottom: $space-margin-top-bottom-nr;
 }

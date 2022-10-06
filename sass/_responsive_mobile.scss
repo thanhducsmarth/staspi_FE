@@ -144,6 +144,7 @@
         font-size: 12px;
         margin-left: 20px;
         margin-top: -14px;
+        transform: translateY(-5px);
     }
 
     //HOME3
@@ -167,8 +168,8 @@
     }
 
     .home3-left .content-home3 {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: $mb-font-size-text-l;
+        line-height: $mb-line-height-text-l;
         text-align: justify;
         padding: 0px;
     }
@@ -192,11 +193,15 @@
 
     .home3-all .bottom-span span{
         font-weight: 700;
-        font-size: 13px;
+        font-size: $mb-font-size-text-m;
     }
 
     .home3-all .bottom-span .contact{
         display: none;
+    }
+    .home3-all .home3-left .title-home3 h2 {
+        font-size: $mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
     }
 
     //HOME 2
@@ -212,10 +217,10 @@
         font-size: 13px;
     }
 
-    .home2-all .home2-content h3 {
+    .home2-all .home2-content h2 {
         font-weight: 700;
-        font-size: 20px;
-        line-height: 50px;
+        font-size: $mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
         padding-top: 20px;
     }
 
@@ -225,7 +230,7 @@
         box-shadow: 0px 4px 4px $color-flex-items;
         border-radius: 23px;
         margin: 5px;
-        min-height: 250px;
+        height: 370px;
         padding: 10px;
     }
 
@@ -249,6 +254,12 @@
 
     .fix3 h5 {
         transform: translateY(0) !important;
+        font-size: $mb-font-size-text-h5;
+        line-height: $mb-line-height-text-h5;
+    }
+    .home2 .flexbox-item .flex-item p {
+        font-size: $mb-font-size-text-l;
+        line-height: $mb-line-height-text-l;
     }
 
     .home2 .flexbox-service {
@@ -315,6 +326,15 @@
     {
         display:none;
     }
+    .home5 .left-home5 h2 {
+        font-size: $mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
+    }
+    .home5 .all-home5-item > h2 {
+        font-size: $mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
+        padding: 0 10px;
+    }
     // .home5 .all-home5-item .footer-items .footer_items {
     //     border: 1px red solid;
     // }
@@ -347,6 +367,14 @@
         font-size: 12px;
         line-height: 0px;
     }
+    .home6 .all-home6 .top-content h2 {
+        font-size:$mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
+    }
+    .home6 .all-home6 .top-content {
+        margin-bottom: 0;
+    }
+    
 
     //HOME7
 
@@ -415,6 +443,10 @@
     .home7 .img-item-slider img {
         display: inline;
     }
+    .home2 .flexbox-item .flex-content h5 {
+        font-size: $mb-font-size-text-h5;
+        line-height: $mb-line-height-text-h5;
+    }
 
     //HOME 8
 
@@ -450,6 +482,9 @@
     }
 
     //HOME9
+    .home9{
+        height:auto;
+    }
 
     .home9  .all-home9 .title-home9 h3{
         font-size: 40px;
@@ -459,6 +494,7 @@
     .home9 .all-home9 {
         padding-left: calc(calc(100% - 330px)/2);
         padding-right: calc(calc(100% - 330px)/2);
+        margin: calc($space-margin-top-bottom-n * 2) 0;
     }
 
     .home9 .all-home9 .form-input {
@@ -483,7 +519,7 @@
     .home9 .right-top {
         position: absolute;
         width: 35vh;
-        height: 50vh;
+        height: 30vh;
         border-top-left-radius: 60%;
         border-bottom-left-radius:200%;
         border-bottom-right-radius:3%;
@@ -757,8 +793,8 @@
     }
 
     .home11 .all-home11 h2 {
-        font-size: 40px;
-        line-height: 56px;
+        font-size: $mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
         transform: translateY(-30%);
     }
 
@@ -1269,7 +1305,8 @@
     color: #202857;
   }
   .top-mobile .dropdown-info h5{
-    font-size: $font-size-text-h5;
+    font-size: $mb-font-size-text-h5;
+    line-height: $mb-line-height-text-h5;
   }
   
   .top-mobile .cont_dropdown_info {
@@ -1389,7 +1426,8 @@
     color: #202857;
   }
   .top-mobile .dropdown-service h5{
-    font-size: $font-size-text-h5;
+    font-size: $mb-font-size-text-h5;
+    line-height: $mb-line-height-text-h5;
   }
   
   .top-mobile .cont_dropdown_service {
@@ -1467,7 +1505,8 @@
     color: #202857;
   }
   .top-mobile .dropdown-train h5{
-    font-size: $font-size-text-h5;
+    font-size: $mb-font-size-text-h5;
+    line-height: $mb-line-height-text-h5;
   }
   
   .top-mobile .cont_dropdown_train {

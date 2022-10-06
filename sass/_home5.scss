@@ -25,7 +25,7 @@
 }
 
 //fix to h2
-.home5 .left-home5 h3 {
+.home5 .left-home5 h2 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 700;
@@ -113,12 +113,13 @@
 .home5 .all-home5-item .footer-items {
     height: 20%;
     background-color: $white-contact;
+    margin:$space-margin-top-bottom-l 0;
 }
-.home5 .all-home5-item h2{
+.home5 .all-home5-item > h2{
     display: flex;
     align-self: center;
     text-align: center;
-    margin:$space-margin-top-bottom-l 0;
+    margin:calc($space-margin-top-bottom-l * 2) 0;
     font-family: $font-text;
     font-size: $lt-font-size-text-h2;
     line-height: $lt-line-height-text-h2;
