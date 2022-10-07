@@ -1,5 +1,4 @@
 var showed_box = 0;
-
 nextPartner = () => {
     showed_box += -33.3;
 
