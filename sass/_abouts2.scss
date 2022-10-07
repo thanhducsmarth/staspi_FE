@@ -41,14 +41,18 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     color: $font-home5;
+    text-align: justify;
 }
 
 .aboutus_2 .first .content-left {
-    flex: 1;
+    flex: 50%;
 }
 
 .aboutus_2 .first .right-ovals {
-    flex: 1;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+justify-content: center;
 }
 
 .aboutus_2 .first .right-oval {
@@ -66,12 +70,17 @@
 }
 
 .aboutus_2 .second .content-right {
-    flex: 1;
+    flex: 50%;
     //fix padding
-    max-width: 650px;
+}
+.aboutus_2 .second .left-image {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.aboutus_2 .second .image-oval {
+.aboutus_2 .second .left-image .image-oval {
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -107,7 +116,7 @@
 }
 
 .aboutus_2 .third .content-right {
-    flex: 1;
+    flex: 50%;
 }
 
 .aboutus_2 .all-aboutus_2 .third {
@@ -115,8 +124,13 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.aboutus_2 .third .image-oval {
+.aboutus_2 .third .image-left {
+    flex:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus_2 .third .image-left .image-oval {
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -126,15 +140,24 @@
 .aboutus_2 .all-aboutus_2 .four {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.aboutus_2 .four .left-image {
+.aboutus_2 .four .block-img{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus_2 .four .block-img .left-image {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     background: url(../images/oval4-aboutus.png) center center/cover;
 }
+.aboutus_2 .four .content-right {
+    flex: 50%;
+} 
 
 .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
     padding-left: calc(calc(100% - 1200px)/2);
@@ -150,7 +173,7 @@
 }
 
 .aboutus_2 .content-item {
-    padding-right: calc(calc(100% - 500px)/2);
+    // padding-right: calc(calc(100% - 500px)/2);
     margin-top: $space-margin-top-bottom-nr;
 }
 

@@ -198,6 +198,25 @@
 }
 
 .footer-items-home7 {
-  transform: translateY(-20%);
-  height: 18vh;
+  // transform: translateY(-20%);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+.footer-items-home7 > h2{
+  display: flex;
+  align-self: center;
+  text-align: center;
+  margin:calc($space-margin-top-bottom-l * 2) 0;
+  font-family: $font-text;
+  font-size: $lt-font-size-text-h2;
+  line-height: $lt-line-height-text-h2;
+  padding-left: calc((100% - 1200px) / 2);
+  padding-right: calc((100% - 1200px) / 2);
+  color: $font-home5;
+}
+.footer_items .footer_item > img {
+  width: 100%;
+  height: 100%;
 }
