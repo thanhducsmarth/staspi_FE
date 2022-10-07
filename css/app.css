@@ -335,6 +335,7 @@ html {
   color: #F07E2A;
   margin-left: 30px;
   margin-top: -16px;
+  transform: translateY(-7px);
 }
 
 .banner .square-right {
@@ -1765,8 +1766,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 46px;
-  line-height: 50.2px;
+  font-size: 40px;
+  line-height: 44px;
   color: #151A3C;
 }
 
@@ -1828,12 +1829,12 @@ html {
   color: #3E5AFE;
 }
 
-.aboutus_2 .first .content-left h3 {
+.aboutus_2 .first .content-left h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 34px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 44px;
   color: #202857;
 }
 
@@ -1842,7 +1843,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 29.1px;
   color: #202857;
 }
 
@@ -1905,7 +1906,6 @@ html {
   line-height: 29.1px;
   color: #202857;
   text-align: justify;
-  margin-top: 10px;
 }
 
 .aboutus_2 .third .content-right {
@@ -2016,12 +2016,12 @@ html {
   color: #3E5AFE;
 }
 
-.aboutus_2 .first .content-left h3 {
+.aboutus_2 .first .content-left h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 34px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 44px;
   color: #202857;
 }
 
@@ -2030,7 +2030,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 29.1px;
   color: #202857;
 }
 
@@ -2093,7 +2093,6 @@ html {
   line-height: 29.1px;
   color: #202857;
   text-align: justify;
-  margin-top: 10px;
 }
 
 .aboutus_2 .third .content-right {
