@@ -1,6 +1,6 @@
 .home9 {
     width: 100%;
-    height: 70vh;
+    height: auto;
     display: flex;
     align-items: center;
     background-color: $primary;
@@ -78,7 +78,7 @@
 .home9 .button-home9 .btn-home9 {
     width: 240px;
     height: 60px;
-    margin-top: 50px;
+    margin: $space-margin-top-bottom-l 0;
     background: $primary;
     border: 3px solid $white-contact;
     border-radius: 10px;
@@ -114,7 +114,7 @@
 .home9 .right-top {
     position: absolute;
     width: 55vh;
-    height: 50vh;
+    height: 30vh;
     top: 0; 
     right: 0;
     background: $square;

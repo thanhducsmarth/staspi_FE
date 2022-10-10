@@ -1,9 +1,7 @@
 .Service2-Items {
     width: 100%;
-    height: 100vh;
+    height: auto;
     position: relative;
-    padding-left: calc(calc(100% - 1300px)/2);
-    padding-right: calc(calc(100% - 1300px)/2);
 }
 
 .Service2-Items .all-Service2-Items {
@@ -11,8 +9,10 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 10px 0 10px 50px;
+    padding: $space-margin-top-bottom-l 0;
     background-color: $primary;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
 }
 
 .Service2-Items .all-Service2-Items .left-Service2-Items {
@@ -67,7 +67,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: $lt-font-size-text-l;
-    line-height: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $white-contact;
     font-family: $font-text;
     margin-top: 40px;

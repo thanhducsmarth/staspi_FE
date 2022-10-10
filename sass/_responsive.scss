@@ -47,6 +47,7 @@
         font-style: normal;
         font-weight: 600;
         font-size: 64px;
+        line-height: 90px;
         color: $white-contact;
     }
 
@@ -212,10 +213,10 @@
         padding-top: 30px;
     }
 
-    .flexbox-home6 .bottom-item h5{
-        font-size: 30px;
-        line-height: 48px;
-    }
+    // .flexbox-home6 .bottom-item h5{
+    //     font-size: $font-size-tex;
+    //     line-height: 48px;
+    // }
 
     .flexbox-home6 .bottom-item span{
         font-size: 20px;
@@ -260,18 +261,22 @@ padding-right: calc((100% - 940px) / 2);
       }
 
       .feedback .container-slider .slide .item-slider {
-        width: calc(calc(100% / 6) - 40px);
-        width: 690px;
+        width: calc(calc(100% / 4) - 40px);
+        // width: 690px;
         height: 450px;
       }
-
-      .feedback .item-slider .comment {
-        padding-top: 80px;
+      .feedback .img-item-slider img {
+        width: 250px;
+        height: 250px;
       }
 
-      .feedback .block_customer .infomation {
-        padding-top: 100px;
-      }
+    //   .feedback .item-slider .comment {
+    //     padding-top: 80px;
+    //   }
+
+    //   .feedback .block_customer .infomation {
+    //      padding-top: 100px;
+    //   }
 
       .feedback .comment p {
         margin: 0 20px ;
@@ -349,6 +354,7 @@ padding-right: calc((100% - 940px) / 2);
     .aboutus .all_aboutus {
         padding-left: calc(calc(100% - 1700px)/2);
         padding-right: calc(calc(100% - 1700px)/2);
+        margin-top:150px;
     }
 
     .aboutus .content-aboutus h4 {
@@ -358,13 +364,13 @@ padding-right: calc((100% - 940px) / 2);
     
     .aboutus .content-aboutus h1 {
         font-size: 64px;
-        line-height: 96px;
+        line-height: 80px;
     }
     
     .aboutus .content-aboutus p {
         font-size: 20px;
         line-height: 35px;
-        padding-right: calc(calc(100% - 600px)/2);
+        // padding-right: calc(calc(100% - 600px)/2);
     }
 
     .aboutus .right .img-about {
@@ -427,6 +433,10 @@ padding-right: calc((100% - 940px) / 2);
     .aboutus_2 .four .left-image {
         width: 400px;
         height: 400px;
+    }
+    .aboutus_2 .first .content-left h2{
+        font-size: 50px;
+        line-height: 80px;
     }
 
     //HIRING1
@@ -537,6 +547,10 @@ padding-right: calc((100% - 940px) / 2);
         width: 300px;
     }
     //SERVICE0
+    .service0 {
+        margin-top: 150px;
+        height: 85vh;
+    }
 
     .service0 .right-service {
         padding-right: calc((100% - 1700px) / 2);
@@ -569,6 +583,7 @@ padding-right: calc((100% - 940px) / 2);
         position: absolute;
         width: 45%;
         padding-right: calc((100% - 1750px) / 2);
+        height: 100%;
     }
 
     .service0 .bottom-service .square-bottom {
@@ -812,7 +827,7 @@ padding-right: calc((100% - 940px) / 2);
         margin-top: 10px;
         padding: 10px;
         font-size: 20px;
-        width: 99%;
+        width: 100%;
     }
 
     .Service5-Items .input-Service5 input {
@@ -1275,6 +1290,9 @@ padding-right: calc((100% - 940px) / 2);
         height: 100%;
         padding :10px;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+align-items: center; 
     }
     .feedback .img-item-slider {
         transform: translateY(5%);
@@ -1391,7 +1409,7 @@ padding-right: calc((100% - 940px) / 2);
     .aboutus .content-aboutus p {
         font-size: 13px;
         line-height: 23px;
-        padding-top: 10px;
+        // padding-top: 10px;
     }
 
     .aboutus .right .img-about {
@@ -1832,23 +1850,26 @@ padding-right: calc((100% - 940px) / 2);
         margin-top: 10px;
         padding: 10px;
         font-size: 20px;
-        width: 99%;
+        width: 95%;
         height: 150px;
     }
-
+    .Service5-Items .input-Service5 {
+        width: 95%;
+    }
     .Service5-Items .input-Service5 input {
         font-size: 14px;
         line-height: 20px;
     }
 
     .Service5-Items .form-Service5 .input-second {
+        width: 95%;
         font-size: 14px;
         line-height: 20px;
     }
 
     .Service5-Items .all-form button {
         font-size: 14px;
-        width: 30%;
+        width: 35%;
     }
 
     .service1-items-none {

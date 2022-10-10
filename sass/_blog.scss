@@ -113,6 +113,12 @@ font-family: $font-text;;
  line-height: $lt-line-height-text-h4;
  padding: 10px 10px 0;
  color:#fff;
+ overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+line-clamp: 3;
+-webkit-box-orient: vertical;
 }
 .topics .topic-container .item-topic .overlay-item .content-item {
 font-family: $font-text;;
@@ -121,6 +127,13 @@ font-size: $lt-font-size-text-l;
 line-height: $lt-line-height-text-l;
 color: #fff;
 margin: 5px 10px;
+
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 8;
+line-clamp: 8;
+-webkit-box-orient: vertical;
 }
 .topics .topic-container .item-topic .title-mobile {
 // display: none;
